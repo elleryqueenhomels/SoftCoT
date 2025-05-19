@@ -64,8 +64,8 @@ assistant_model_name="${assistant_model_id#*/}"
 mkdir -p "${log_dir}"
 
 # Check if the Python script exists
-if [[ ! -f "evaluate.py" ]]; then
-    echo "Error: evaluate.py not found!"
+if [[ ! -f "evaluate_softcot.py" ]]; then
+    echo "Error: evaluate_softcot.py not found!"
     exit 1
 fi
 
