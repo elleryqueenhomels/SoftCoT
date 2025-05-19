@@ -1,8 +1,21 @@
 
 
 from typing import List, Dict, Any
+import random
 
 import torch
+import re
+
+
+def extract_computational_steps(reasoning_path: str):
+    if reasoning_path.startswith('####'):
+        return reasoning_path[4:].strip()
+
+    pattern = r'<<(.*?)>>'
+    match = re.findall(pattern, reasoning_path)
+    if len(match) == 0:
+        return None
+    return f'<<{match[0]}>>'
 
 
 def pre_process_strategy_qa(
@@ -36,11 +49,16 @@ def pre_process_strategy_qa(
         input_content += f'Here are something useful for your reasoning: {soft_thoughts}\n\n'
     input_content += f'Therefore, the final answer is `Yes` or `No`?'
 
-    if split in ['train', 'dev']:
-        target_content = (f'OK. The question is {instance["question"]}\n\n'
-                          f'Now let\'s start reasoning according to the following facts:\n')
+    if base_backbone in ['qwen3']:
+        target_content = '<think>\n\n</think>'
     else:
         target_content = ''
+
+    if split in ['train', 'dev']:
+        target_content += (f'OK. The question is {instance["question"]}\n\n'
+                           f'Now let\'s start reasoning according to the following facts:\n')
+    else:
+        target_content += ''
 
     cot_template = ''
     if split in ['train', 'dev']:
@@ -67,12 +85,41 @@ def pre_process_strategy_qa(
         },
     ]
 
-    if split in ['train', 'dev']:
-        input_ids = tokenizer.apply_chat_template(target_messages)
-        pure_input_length = len(tokenizer.apply_chat_template(input_messages))
+    if base_backbone in ['llama', 'qwen']:
+        if split in ['train', 'dev']:
+            input_ids = tokenizer.apply_chat_template(target_messages)
+            pure_input_length = len(tokenizer.apply_chat_template(input_messages))
+        else:
+            input_ids = tokenizer.apply_chat_template(input_messages)
+            pure_input_length = len(input_ids)
+    elif base_backbone in ['qwen3']:
+        if split in ['train', 'dev']:
+            input_ids = tokenizer.apply_chat_template(
+                target_messages,
+                add_generation_prompt=False,
+                enable_thinking=False
+            )
+            pure_input_ids = tokenizer.apply_chat_template(
+                input_messages,
+                add_generation_prompt=False,
+                enable_thinking=False
+            )
+            pure_input_length = len(pure_input_ids)
+        else:
+            input_ids = tokenizer.apply_chat_template(
+                input_messages,
+                add_generation_prompt=True,
+                enable_thinking=False,
+            )
+            pure_input_ids = tokenizer.apply_chat_template(
+                input_messages,
+                add_generation_prompt=False,
+                enable_thinking=False
+            )
+            pure_input_length = len(pure_input_ids)
     else:
-        input_ids = tokenizer.apply_chat_template(input_messages)
-        pure_input_length = len(input_ids)
+        raise NotImplementedError
+
     attention_mask = [1] * len(input_ids)
 
     assistant_template = (f'You are required to generate {num_thought_tokens} tokens to help another language model '
@@ -101,17 +148,17 @@ def pre_process_strategy_qa(
     assistant_ids = assistant_tokenizer.apply_chat_template(assistant_messages)
     assistant_attention_mask = [1] * len(assistant_ids)
 
-    if base_backbone in ['llama', 'qwen']:
+    if base_backbone in ['llama', 'qwen', 'qwen3']:
         input_thought_start_idx = pure_input_length - 16 - num_thought_tokens
         if add_bot_eot:
             input_thought_start_idx -= 1
-        if base_backbone in ['qwen']:
+        if base_backbone in ['qwen', 'qwen3']:
             input_thought_start_idx -= 1
     else:
         raise NotImplementedError
-    if assistant_backbone in ['llama', 'qwen']:
+    if assistant_backbone in ['llama', 'qwen', 'qwen3']:
         assistant_thought_start_idx = len(assistant_ids) - 1 - num_thought_tokens
-        if assistant_backbone in ['qwen']:
+        if assistant_backbone in ['qwen', 'qwen3']:
             assistant_thought_start_idx -= 1
     else:
         raise NotImplementedError
@@ -158,6 +205,7 @@ def pre_process_gsm8k(
     base_special_token=['<|end_of_text|>', '<|reserved_special_token_0|>', '<|reserved_special_token_1|>'],
     assistant_backbone='llama',
     assistant_special_token=['<|end_of_text|>', '<|reserved_special_token_0|>', '<|reserved_special_token_1|>'],
+    max_len=-1,
     **kwargs,
 ):
     base_unk_token, base_bot_token, base_eot_token = base_special_token
@@ -191,20 +239,38 @@ def pre_process_gsm8k(
                       f'Where [answer] is just the final number or expression that solves the problem.\n\n'
                       f'Problem: {question}')
 
+    if base_backbone in ['qwen3'] and split in ['train', 'dev']:
+        input_template = f'Problem: {question}'
+
     input_content = f'{input_template}\n\n'
     if num_thought_tokens > 0:
-        input_content += (f'There are some prompts generated by a weaker assistant model. Some prompts maybe useful '
-                          f'while others maybe unuseful for your reasoning. '
-                          f'If the prompts are correct, you can use it as reference. If the prompts are not correct, '
-                          f'you can ignore them and focus back to solving the problem.\n'
-                          f'Here are prompts: {soft_thoughts}')
+        if base_backbone not in ['qwen3'] or split not in ['train', 'dev']:
+            added_content = (f'There are some prompts generated by a weaker assistant model. Some prompts maybe useful '
+                             f'while others maybe unuseful for your reasoning. '
+                             f'If the prompts are correct, you can use it as reference. '
+                             f'If the prompts are not correct, '
+                             f'you can ignore them and focus back to solving the problem.\n'
+                             f'Here are prompts: {soft_thoughts}')
+        else:
+            added_content = (f''
+                             f'Here are prompts from assistant model for reference: {soft_thoughts}')
+        input_content += added_content
 
     target_content = ''
+    if base_backbone in ['qwen3']:
+        target_content = '<think>\n\n</think>'
 
     cot_template = ''
     if split in ['train', 'dev']:
         for idx in range(len(reasoning_list)):
-            cot_template += f'## Step {idx + 1}: {reasoning_list[idx]}\n'
+            if base_backbone in ['qwen3']:
+                text = re.sub(r" <<.*?>>", "", reasoning_list[idx])
+                text = text.replace("** ", "")
+                text = text.replace("#### ", "")
+                cot_template += f'## Step {idx + 1}: {text}\n'
+            else:
+                cot_template += f'## Step {idx + 1}: {reasoning_list[idx]}\n'
+
         cot_template += f'Therefore, the final answer is: $\\boxed{{{answer}}}$.'
 
     target_content += cot_template
@@ -226,12 +292,43 @@ def pre_process_gsm8k(
         },
     ]
 
-    if split in ['train', 'dev']:
-        input_ids = tokenizer.apply_chat_template(target_messages)
-        pure_input_length = len(tokenizer.apply_chat_template(input_messages))
+    if base_backbone in ['llama', 'qwen']:
+        if split in ['train', 'dev']:
+            input_ids = tokenizer.apply_chat_template(target_messages)[: max_len]
+            pure_input_length = len(tokenizer.apply_chat_template(input_messages))
+        else:
+            input_ids = tokenizer.apply_chat_template(input_messages)
+            pure_input_length = len(input_ids)
+    elif base_backbone in ['qwen3']:
+        if split in ['train', 'dev']:
+            input_ids = tokenizer.apply_chat_template(
+                target_messages,
+                add_generation_prompt=False,
+                enable_thinking=False
+            )
+            if max_len > 0:
+                input_ids = input_ids[: max_len]
+            pure_input_ids = tokenizer.apply_chat_template(
+                input_messages,
+                add_generation_prompt=False,
+                enable_thinking=False
+            )
+            pure_input_length = len(pure_input_ids)
+        else:
+            input_ids = tokenizer.apply_chat_template(
+                input_messages,
+                add_generation_prompt=True,
+                enable_thinking=False
+            )
+            pure_input_ids = tokenizer.apply_chat_template(
+                input_messages,
+                add_generation_prompt=False,
+                enable_thinking=False
+            )
+            pure_input_length = len(pure_input_ids)
     else:
-        input_ids = tokenizer.apply_chat_template(input_messages)
-        pure_input_length = len(input_ids)
+        raise NotImplementedError
+
     attention_mask = [1] * len(input_ids)
 
     if assistant_backbone in ['llama']:
@@ -248,7 +345,7 @@ def pre_process_gsm8k(
             f'...\n\n'
             f'Here is the problem: {instance["question"]}.'
         )
-    elif assistant_backbone in ['qwen']:
+    elif assistant_backbone in ['qwen', 'qwen3']:
         assistant_template = (
             f'You are required to generate {num_thought_tokens} tokens to help another language model '
             f'to solve the following math reasoning task efficiently and clearly. '
@@ -281,17 +378,17 @@ def pre_process_gsm8k(
     assistant_ids = assistant_tokenizer.apply_chat_template(assistant_messages)
     assistant_attention_mask = [1] * len(assistant_ids)
 
-    if base_backbone in ['llama', 'qwen']:
+    if base_backbone in ['llama', 'qwen', 'qwen3']:
         input_thought_start_idx = pure_input_length - 1 - num_thought_tokens
         if add_bot_eot:
             input_thought_start_idx -= 1
-        if base_backbone in ['qwen']:
+        if base_backbone in ['qwen', 'qwen3']:
             input_thought_start_idx -= 1
     else:
         raise NotImplementedError
-    if assistant_backbone in ['llama', 'qwen']:
+    if assistant_backbone in ['llama', 'qwen', 'qwen3']:
         assistant_thought_start_idx = len(assistant_ids) - 1 - num_thought_tokens
-        if assistant_backbone in ['qwen']:
+        if assistant_backbone in ['qwen', 'qwen3']:
             assistant_thought_start_idx -= 1
     else:
         raise NotImplementedError
@@ -339,6 +436,7 @@ def pre_process_aqua(
     base_special_token=['<|end_of_text|>', '<|reserved_special_token_0|>', '<|reserved_special_token_1|>'],
     assistant_backbone='llama',
     assistant_special_token=['<|end_of_text|>', '<|reserved_special_token_0|>', '<|reserved_special_token_1|>'],
+    max_len=-1,
     **kwargs,
 ):
     base_unk_token, base_bot_token, base_eot_token = base_special_token
@@ -375,6 +473,9 @@ def pre_process_aqua(
                       f'Only one letter from A to E is accepted in the answer span.\n\n'
                       f'Problem: {question}')
 
+    if base_backbone in ['qwen3'] and split in ['train', 'dev']:
+        input_template = f'Problem: {question}'
+
     input_content = f'{input_template}\n\n'
     if num_thought_tokens > 0:
         input_content += (f'There are some prompts generated by a weaker assistant model. Some prompts maybe useful '
@@ -383,7 +484,10 @@ def pre_process_aqua(
                           f'you can ignore them and focus back to solving the problem.\n'
                           f'Here are prompts: {soft_thoughts}')
 
-    target_content = ''
+    if base_backbone in ['qwen3']:
+        target_content = '<think>\n\n</think>'
+    else:
+        target_content = ''
 
     cot_template = ''
     if split in ['train', 'dev']:
@@ -410,12 +514,42 @@ def pre_process_aqua(
         },
     ]
 
-    if split in ['train', 'dev']:
-        input_ids = tokenizer.apply_chat_template(target_messages)
-        pure_input_length = len(tokenizer.apply_chat_template(input_messages))
+    if base_backbone in ['llama', 'qwen']:
+        if split in ['train', 'dev']:
+            input_ids = tokenizer.apply_chat_template(target_messages)
+            if max_len > 0:
+                input_ids = input_ids[: max_len]
+            pure_input_length = len(tokenizer.apply_chat_template(input_messages))
+        else:
+            input_ids = tokenizer.apply_chat_template(input_messages)
+            pure_input_length = len(input_ids)
+    elif base_backbone in ['qwen3']:
+        if split in ['train', 'dev']:
+            input_ids = tokenizer.apply_chat_template(
+                target_messages,
+                add_generation_prompt=False,
+                enable_thinking=False
+            )[: max_len]
+            pure_input_ids = tokenizer.apply_chat_template(
+                input_messages,
+                add_generation_prompt=False,
+                enable_thinking=False
+            )
+            pure_input_length = len(pure_input_ids)
+        else:
+            input_ids = tokenizer.apply_chat_template(
+                input_messages,
+                add_generation_prompt=True,
+                enable_thinking=False,
+            )
+            pure_input_ids = tokenizer.apply_chat_template(
+                input_messages,
+                add_generation_prompt=False,
+                enable_thinking=False
+            )
+            pure_input_length = len(pure_input_ids)
     else:
-        input_ids = tokenizer.apply_chat_template(input_messages)
-        pure_input_length = len(input_ids)
+        raise NotImplementedError
     attention_mask = [1] * len(input_ids)
 
     if assistant_backbone in ['llama']:
@@ -432,7 +566,7 @@ def pre_process_aqua(
             f'...\n\n'
             f'Here is the problem: {instance["question"]}.'
         )
-    elif assistant_backbone in ['qwen']:
+    elif assistant_backbone in ['qwen', 'qwen3']:
         assistant_template = (
             f'You are required to generate {num_thought_tokens} tokens to help another language model '
             f'to solve the following math reasoning task efficiently and clearly. '
@@ -465,17 +599,17 @@ def pre_process_aqua(
     assistant_ids = assistant_tokenizer.apply_chat_template(assistant_messages)
     assistant_attention_mask = [1] * len(assistant_ids)
 
-    if base_backbone in ['llama', 'qwen']:
+    if base_backbone in ['llama', 'qwen', 'qwen3']:
         input_thought_start_idx = pure_input_length - 1 - num_thought_tokens
         if add_bot_eot:
             input_thought_start_idx -= 1
-        if base_backbone in ['qwen']:
+        if base_backbone in ['qwen', 'qwen3']:
             input_thought_start_idx -= 1
     else:
         raise NotImplementedError
-    if assistant_backbone in ['llama', 'qwen']:
+    if assistant_backbone in ['llama', 'qwen', 'qwen3']:
         assistant_thought_start_idx = len(assistant_ids) - 1 - num_thought_tokens
-        if assistant_backbone in ['qwen']:
+        if assistant_backbone in ['qwen', 'qwen3']:
             assistant_thought_start_idx -= 1
     else:
         raise NotImplementedError
@@ -557,6 +691,9 @@ def pre_process_du(
                       f'Only one letter from A to F is accepted in the answer span.\n\n'
                       f'Problem: {question}')
 
+    if base_backbone in ['qwen3'] and split in ['train', 'dev']:
+        input_template = f'Problem: {question}'
+
     input_content = f'{input_template}\n\n'
     if num_thought_tokens > 0:
         input_content += (f'There are some prompts generated by a weaker assistant model. Some prompts maybe useful '
@@ -565,7 +702,10 @@ def pre_process_du(
                           f'you can ignore them and focus back to solving the problem.\n'
                           f'Here are prompts: {soft_thoughts}')
 
-    target_content = ''
+    if base_backbone in ['qwen3']:
+        target_content = '<think>\n\n</think>'
+    else:
+        target_content = ''
 
     cot_template = ''
     if split in ['train', 'dev']:
@@ -592,12 +732,40 @@ def pre_process_du(
         },
     ]
 
-    if split in ['train', 'dev']:
-        input_ids = tokenizer.apply_chat_template(target_messages)
-        pure_input_length = len(tokenizer.apply_chat_template(input_messages))
+    if base_backbone in ['llama', 'qwen']:
+        if split in ['train', 'dev']:
+            input_ids = tokenizer.apply_chat_template(target_messages)
+            pure_input_length = len(tokenizer.apply_chat_template(input_messages))
+        else:
+            input_ids = tokenizer.apply_chat_template(input_messages)
+            pure_input_length = len(input_ids)
+    elif base_backbone in ['qwen3']:
+        if split in ['train', 'dev']:
+            input_ids = tokenizer.apply_chat_template(
+                target_messages,
+                add_generation_prompt=False,
+                enable_thinking=False
+            )
+            pure_input_ids = tokenizer.apply_chat_template(
+                input_messages,
+                add_generation_prompt=False,
+                enable_thinking=False
+            )
+            pure_input_length = len(pure_input_ids)
+        else:
+            input_ids = tokenizer.apply_chat_template(
+                input_messages,
+                add_generation_prompt=True,
+                enable_thinking=False,
+            )
+            pure_input_ids = tokenizer.apply_chat_template(
+                input_messages,
+                add_generation_prompt=False,
+                enable_thinking=False
+            )
+            pure_input_length = len(pure_input_ids)
     else:
-        input_ids = tokenizer.apply_chat_template(input_messages)
-        pure_input_length = len(input_ids)
+        raise NotImplementedError
     attention_mask = [1] * len(input_ids)
 
     if assistant_backbone in ['llama']:
@@ -614,7 +782,7 @@ def pre_process_du(
             f'...\n\n'
             f'Here is the problem: {instance["question"]}.'
         )
-    elif assistant_backbone in ['qwen']:
+    elif assistant_backbone in ['qwen', 'qwen3']:
         assistant_template = (
             f'You are required to generate {num_thought_tokens} tokens to help another language model '
             f'to solve the following math reasoning task efficiently and clearly. '
@@ -647,17 +815,17 @@ def pre_process_du(
     assistant_ids = assistant_tokenizer.apply_chat_template(assistant_messages)
     assistant_attention_mask = [1] * len(assistant_ids)
 
-    if base_backbone in ['llama', 'qwen']:
+    if base_backbone in ['llama', 'qwen', 'qwen3']:
         input_thought_start_idx = pure_input_length - 1 - num_thought_tokens
         if add_bot_eot:
             input_thought_start_idx -= 1
-        if base_backbone in ['qwen']:
+        if base_backbone in ['qwen', 'qwen3']:
             input_thought_start_idx -= 1
     else:
         raise NotImplementedError
-    if assistant_backbone in ['llama', 'qwen']:
+    if assistant_backbone in ['llama', 'qwen', 'qwen3']:
         assistant_thought_start_idx = len(assistant_ids) - 1 - num_thought_tokens
-        if assistant_backbone in ['qwen']:
+        if assistant_backbone in ['qwen', 'qwen3']:
             assistant_thought_start_idx -= 1
     else:
         raise NotImplementedError
@@ -691,7 +859,6 @@ def pre_process_du(
         }
 
     return inputs
-
 
 
 class CustomDataCollator:

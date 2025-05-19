@@ -76,7 +76,7 @@ for ((seed=seed_from; seed<=seed_to; seed++)); do
 
     log_file_name="${log_dir}/${run_name}${task_name}-${model_name}-seed_${seed}-ntt_${num_thought_tokens}-nrs_${num_return_sequences}-${base_model_name}-${assistant_model_name}.log"
 
-    cmd="python evaluate.py \
+    cmd="python evaluate_softcot.py \
 --base_model_id \"${base_model_id}\" \
 --assistant_model_id \"${assistant_model_id}\" \
 --params_file_name \"${params_file_name}\" \
