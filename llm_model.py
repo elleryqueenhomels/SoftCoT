@@ -283,6 +283,8 @@ class ScalingEfficientSoftCoTFromSmallModel(SoftCoTAbstractClass):
             tune_base_model=tune_base_model,
         )
 
+        self.num_scaling_times = num_scaling_times
+
         embedding_device = self.base_model.model.embed_tokens.weight.data.device
         if 'Llama' in small_language_model_id:
             start_idx = 128011

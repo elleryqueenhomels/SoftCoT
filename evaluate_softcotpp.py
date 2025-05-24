@@ -53,7 +53,6 @@ test_k = arg.test_k
 seed = arg.seed
 tune_base_model = arg.tune_base_model
 tune_assistant_model = arg.tune_assistant_model
-llama_start_idx = arg.llama_start_idx
 
 large_model_name = base_model_id.split('/')[-1]
 small_model_name = assistant_model_id.split('/')[-1]
@@ -102,7 +101,6 @@ if model_name in ['scaling']:
         path_to_projection_module=params_file_name,
         path_to_small_language_model=assistant_model_ckpt,
         num_scaling_times=num_scaling_times,
-        llama_start_id=llama_start_idx,
     )
 else:
     raise NotImplementedError
