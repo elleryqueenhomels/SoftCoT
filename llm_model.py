@@ -326,6 +326,15 @@ class ScalingEfficientSoftCoTFromSmallModel(SoftCoTAbstractClass):
             self.base_model.to(device)
 
         self.add_cl_loss = add_cl_loss
+
+        # You can manually define the LLM Size by passing the keyword args ```llm_size``` here.
+        reasoning_llm_size = kwargs.get('llm_size', '8B')
+        llm_size = float(reasoning_llm_size[: -1])
+        if llm_size < 4:
+            self.batch_step = 2
+        else:
+            self.batch_step = 1
+        logger.info(f'Set Batch Step = {self.batch_step}')
         self.dropout = nn.Dropout(p=0.5)
 
     def save_pretrained(self, save_model_dir_root: str, **kwargs):
