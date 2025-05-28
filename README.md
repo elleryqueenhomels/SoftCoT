@@ -17,12 +17,13 @@
 
 ## Updates
 
+- 27-May-2025: We release the camera-ready version of SoftCoT [[Paper]](https://arxiv.org/abs/2502.12134v2).
 - 19-May-2025: We release the official implementation of SoftCoT++.
-- 17-May-2025: To help reproducing, we release some useful data as well as an official reproduce of SoftCoT, check the data [here](https://drive.google.com/drive/folders/1FE1q3x9x_22P7WYpwmHflHC55sUfL3w9?usp=drive_link), check the logs and checkpoints [here](https://drive.google.com/file/d/1rC8x0dFv2oCEg_dCBOqd0lzGUwoNdLCY/view?usp=drive_link).
+- 17-May-2025: To help reproducing, we release some useful data as well as an official reproduce of SoftCoT, check the data [here](https://huggingface.co/datasets/xuyige/ASDiv-Aug), check the logs and checkpoints [here](https://drive.google.com/file/d/1rC8x0dFv2oCEg_dCBOqd0lzGUwoNdLCY/view?usp=drive_link).
 - 16-May-2025: We release the paper of SoftCoT++ [[Paper]](https://arxiv.org/abs/2505.11484). 
 - 15-May-2025: Our SoftCoT is accepted by ACL'2025 (main conference).
 - 26-Mar-2025: We release the official implementation of SoftCoT.
-- 17-Feb-2025: We release the preprint version of our first SoftCoT [[Paper]](https://arxiv.org/abs/2502.12134).
+- 17-Feb-2025: We release the preprint version of our first SoftCoT [[Paper]](https://arxiv.org/abs/2502.12134v1).
 
 
 ## Overview
