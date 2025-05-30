@@ -337,6 +337,8 @@ class ScalingEfficientSoftCoTFromSmallModel(SoftCoTAbstractClass):
         logger.info(f'Set Batch Step = {self.batch_step}')
         self.dropout = nn.Dropout(p=0.5)
 
+        self.ce_loss_func = nn.CrossEntropyLoss()
+
     def save_pretrained(self, save_model_dir_root: str, **kwargs):
         save_detail = []
         os.makedirs(save_model_dir_root, exist_ok=True)
