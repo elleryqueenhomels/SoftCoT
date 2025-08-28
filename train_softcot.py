@@ -1,3 +1,4 @@
+import os
 import argparse
 from tqdm import tqdm
 
@@ -58,8 +59,8 @@ logger.info(f'Save Model Dir: {save_model_dir}')
 model_dtype = torch.bfloat16
 param_dtype = str(model_dtype)
 
-base_tokenizer = AutoTokenizer.from_pretrained(large_model_id, token='your-huggingface-token')
-assistant_tokenizer = AutoTokenizer.from_pretrained(small_model_id, token='your-huggingface-token')
+base_tokenizer = AutoTokenizer.from_pretrained(large_model_id, token=os.environ['HUGGING_FACE_TOKEN'])
+assistant_tokenizer = AutoTokenizer.from_pretrained(small_model_id, token=os.environ['HUGGING_FACE_TOKEN'])
 
 if 'Llama' in large_model_id:
     base_special_token = ['<|end_of_text|>', '<|reserved_special_token_0|>', '<|reserved_special_token_1|>']
