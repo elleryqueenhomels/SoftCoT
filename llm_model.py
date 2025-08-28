@@ -27,27 +27,27 @@ class SoftCoTAbstractClass(nn.Module):
             torch_dtype=torch.bfloat16,
             device_map='auto',
             _fast_init=False,
-            token='your-huggingface-token',
+            token=os.environ['HUGGING_FACE_TOKEN'],
         )
         self.base_model = AutoModelForCausalLM.from_pretrained(
             large_language_model_id,
             torch_dtype=torch.bfloat16,
             device_map='auto',
             _fast_init=False,
-            token='your-huggingface-token',
+            token=os.environ['HUGGING_FACE_TOKEN'],
         )
         self.config = AutoConfig.from_pretrained(
             large_language_model_id,
-            token='your-huggingface-token',
+            token=os.environ['HUGGING_FACE_TOKEN'],
         )
 
         self.base_tokenizer = AutoTokenizer.from_pretrained(
             large_language_model_id,
-            token='your-huggingface-token',
+            token=os.environ['HUGGING_FACE_TOKEN'],
         )
         self.assistant_tokenizer = AutoTokenizer.from_pretrained(
             small_language_model_id,
-            token='your-huggingface-token',
+            token=os.environ['HUGGING_FACE_TOKEN'],
         )
 
         self.num_thought_tokens = num_thought_tokens
