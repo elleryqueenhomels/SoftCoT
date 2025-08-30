@@ -144,7 +144,7 @@ for idx, ins in enumerate(tqdm(ds)):
     torch.manual_seed(seed)
     torch.cuda.manual_seed(seed)
 
-    if task_name in ['gsm8k', 'asdiv-aug', 'aqua']:
+    if task_name in ['gsm8k', 'asdiv-aug', 'aqua', 'aime-2024', 'aime-2025']:
         answer = ins['answer'].split('\n')[-1]
         assert answer.startswith('####')
         answer = answer.replace(',', '')
@@ -222,7 +222,7 @@ for idx, ins in enumerate(tqdm(ds)):
         if print_response:
             logger.info(f'Answer ({idx + 1}-{i + 1}/{len(ds)}): {base_tokenizer.decode(response)}<|end-of-response|>')
 
-        if task_name in ['gsm8k', 'asdiv-aug']:
+        if task_name in ['gsm8k', 'asdiv-aug', 'aime-2024', 'aime-2025']:
             cleaned_model_answer = raw_model_answer.replace(',', '')
             cleaned_model_answer = cleaned_model_answer.replace('%', '')
             cleaned_model_answer = cleaned_model_answer.replace('$', '')
@@ -231,7 +231,7 @@ for idx, ins in enumerate(tqdm(ds)):
 
         match = re.findall(r'\s*([\d,]+(?:\.\d+)?)\s*', cleaned_model_answer)
 
-        if task_name in ['gsm8k', 'asdiv-aug']:
+        if task_name in ['gsm8k', 'asdiv-aug', 'aime-2024', 'aime-2025']:
             try:
                 if match:
                     last_match = match[-1]
