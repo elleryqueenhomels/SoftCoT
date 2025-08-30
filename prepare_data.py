@@ -16,6 +16,7 @@ if "ASDiv-Aug" in args.dataset:
   with open(os.path.join(args.output_dir, 'aug-dev.jsonl'), 'a') as f:
     for enrty in dataset:
       question, answer = enrty['question'], enrty['answer']
+      question = question.replace('\\', '\\\\').replace('\n', '\\n')
       f.write(f'{{"question": "{question}", "answer": "{answer}"}}\n')
 
 elif "AIME_2024" in args.dataset:
