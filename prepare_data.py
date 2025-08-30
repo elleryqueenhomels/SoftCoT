@@ -35,7 +35,7 @@ elif "aime2025" in args.dataset.lower():
   ])
   with open(os.path.join(args.output_dir, 'aime-2025-test.jsonl'), 'a') as f:
     for enrty in dataset:
-      question, answer = enrty['problem'], enrty['answer']
+      question, answer = enrty['question'], enrty['answer']
       answer = answer.replace('^\circ', '')
       json_string = json.dumps({"question": f"{question}", "answer": f"####{answer}"})
       f.write(json_string + '\n')
