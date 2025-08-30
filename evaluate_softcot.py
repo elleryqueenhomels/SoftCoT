@@ -159,7 +159,7 @@ for idx, ins in enumerate(tqdm(ds)):
                 answer = int(answer[4:])
         else:
             answer = answer[4:].strip()
-    elif task_name in ['strategyqa', 'du']:
+    elif task_name in ['strategyqa', 'du', 'math-500']:
         answer = ins['answer']
     else:
         raise NotImplementedError
