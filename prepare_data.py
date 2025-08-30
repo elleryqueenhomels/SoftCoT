@@ -12,7 +12,7 @@ args = parser.parse_args()
 if not os.path.exists(args.output_dir):
   os.makedirs(args.output_dir)
 
-if "ASDiv-Aug" in args.dataset:
+if "asdiv-aug" in args.dataset.lower():
   dataset = load_dataset("xuyige/ASDiv-Aug")["test"]
   with open(os.path.join(args.output_dir, 'aug-dev.jsonl'), 'a') as f:
     for enrty in dataset:
@@ -20,7 +20,7 @@ if "ASDiv-Aug" in args.dataset:
       json_string = json.dumps({"question": f"{question}", "answer": f"{answer}"})
       f.write(json_string + '\n')
 
-elif "AIME_2024" in args.dataset:
+elif "aime_2024" in args.dataset.lower():
   dataset = load_dataset("Maxwell-Jia/AIME_2024")['train']
   with open(os.path.join(args.output_dir, 'aime-2024-train.jsonl'), 'a') as f:
     for enrty in dataset:
@@ -28,7 +28,7 @@ elif "AIME_2024" in args.dataset:
       json_string = json.dumps({"question": f"{question}", "answer": f"####{answer}"})
       f.write(json_string + '\n')
 
-elif "AIME2025" in args.dataset:
+elif "aime_2025" in args.dataset.lower():
   dataset = load_dataset("MathArena/aime_2025")['train']
   with open(os.path.join(args.output_dir, 'aime-2025-test.jsonl'), 'a') as f:
     for enrty in dataset:
@@ -36,7 +36,7 @@ elif "AIME2025" in args.dataset:
       json_string = json.dumps({"question": f"{question}", "answer": f"####{answer}"})
       f.write(json_string + '\n')
 
-elif "MATH-500" in args.dataset:
+elif "math-500" in args.dataset.lower():
   dataset = load_dataset("HuggingFaceH4/MATH-500")["test"]
   with open(os.path.join(args.output_dir, 'math-500-test.jsonl'), 'a') as f:
     for enrty in dataset:
