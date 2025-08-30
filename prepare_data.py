@@ -22,7 +22,7 @@ elif "AIME_2024" in args.dataset:
   dataset = load_dataset("Maxwell-Jia/AIME_2024")['train']
   with open(os.path.join(args.output_dir, 'aime-2024-train.jsonl'), 'a') as f:
     for enrty in dataset:
-      question, answer = enrty['Problem'], enrty['Answer']
+      question, answer = enrty['Problem'].replace('\n', '\\n'), enrty['Answer']
       f.write(f'{{"question": "{question}", "answer": "####{answer}"}}\n')
 
 elif "AIME2025" in args.dataset:
@@ -32,14 +32,14 @@ elif "AIME2025" in args.dataset:
   ])
   with open(os.path.join(args.output_dir, 'aime-2025-test.jsonl'), 'a') as f:
     for enrty in dataset:
-      question, answer = enrty['question'], enrty['answer']
+      question, answer = enrty['question'].replace('\n', '\\n'), enrty['answer']
       f.write(f'{{"question": "{question}", "answer": "####{answer}"}}\n')
 
 elif "MATH-500" in args.dataset:
   dataset = load_dataset("HuggingFaceH4/MATH-500")["test"]
   with open(os.path.join(args.output_dir, 'math-500-test.jsonl'), 'a') as f:
     for enrty in dataset:
-      question, answer = enrty['problem'], enrty['answer']
+      question, answer = enrty['problem'].replace('\n', '\\n'), enrty['answer']
       f.write(f'{{"question": "{question}", "answer": "{answer}"}}\n')
 
 else:
