@@ -2,7 +2,7 @@ import argparse
 import json
 import os
 
-from datasets import load_dataset, concatenate_datasets
+from datasets import load_dataset
 
 parser = argparse.ArgumentParser(description="Prepare Evaluation Datasets")
 parser.add_argument("--dataset", type=str, default="xuyige/ASDiv-Aug", help="Dataset to prepare")
@@ -29,10 +29,7 @@ elif "AIME_2024" in args.dataset:
       f.write(json_string + '\n')
 
 elif "AIME2025" in args.dataset:
-  dataset = concatenate_datasets([
-    load_dataset("opencompass/AIME2025", "AIME2025-I")['test'],
-    load_dataset("opencompass/AIME2025", "AIME2025-II")['test'],
-  ])
+  dataset = load_dataset("MathArena/aime_2025")['train']
   with open(os.path.join(args.output_dir, 'aime-2025-test.jsonl'), 'a') as f:
     for enrty in dataset:
       question, answer = enrty['question'], enrty['answer']
