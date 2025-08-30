@@ -36,7 +36,7 @@ elif "aime_2025" in args.dataset.lower():
       json_string = json.dumps({"question": f"{question}", "answer": f"####{answer}"})
       f.write(json_string + '\n')
 
-elif "math-500" in args.dataset:
+elif "math-500" in args.dataset.lower():
   dataset = load_dataset("HuggingFaceH4/MATH-500")["test"]
   with open(os.path.join(args.output_dir, 'math-500-test.jsonl'), 'a') as f:
     for enrty in dataset:
