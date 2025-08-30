@@ -116,7 +116,7 @@ class AugASDivLoader(GSM8KLoader):
     def load(self, paths: Union[str, Dict[str, str]] = './data/asdiv-aug') -> DataBundle:
         if isinstance(paths, str):
             paths = {
-                'train': os.path.join(paths, 'aug-train.jsonl'),
+                'train': os.path.join(paths, 'aug-dev.jsonl'),
                 'dev': os.path.join(paths, 'aug-dev.jsonl'),
                 'test': os.path.join(paths, 'aug-dev.jsonl')
             }
