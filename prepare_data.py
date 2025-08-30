@@ -1,4 +1,5 @@
 import argparse
+import json
 import os
 
 from datasets import load_dataset, concatenate_datasets
@@ -16,16 +17,16 @@ if "ASDiv-Aug" in args.dataset:
   with open(os.path.join(args.output_dir, 'aug-dev.jsonl'), 'a') as f:
     for enrty in dataset:
       question, answer = enrty['question'], enrty['answer']
-      answer = answer.replace('\\', '\\\\').replace('\n', '\\n')
-      f.write(f'{{"question": "{question}", "answer": "{answer}"}}\n')
+      json_string = json.dumps({"question": f"{question}", "answer": f"{answer}"})
+      f.write(json_string + '\n')
 
 elif "AIME_2024" in args.dataset:
   dataset = load_dataset("Maxwell-Jia/AIME_2024")['train']
   with open(os.path.join(args.output_dir, 'aime-2024-train.jsonl'), 'a') as f:
     for enrty in dataset:
       question, answer = enrty['Problem'], enrty['Answer']
-      question = question.replace('\\', '\\\\').replace('\n', '\\n')
-      f.write(f'{{"question": "{question}", "answer": "####{answer}"}}\n')
+      json_string = json.dumps({"question": f"{question}", "answer": f"####{answer}"})
+      f.write(json_string + '\n')
 
 elif "AIME2025" in args.dataset:
   dataset = concatenate_datasets([
@@ -35,16 +36,16 @@ elif "AIME2025" in args.dataset:
   with open(os.path.join(args.output_dir, 'aime-2025-test.jsonl'), 'a') as f:
     for enrty in dataset:
       question, answer = enrty['question'], enrty['answer']
-      question = question.replace('\\', '\\\\').replace('\n', '\\n')
-      f.write(f'{{"question": "{question}", "answer": "####{answer}"}}\n')
+      json_string = json.dumps({"question": f"{question}", "answer": f"####{answer}"})
+      f.write(json_string + '\n')
 
 elif "MATH-500" in args.dataset:
   dataset = load_dataset("HuggingFaceH4/MATH-500")["test"]
   with open(os.path.join(args.output_dir, 'math-500-test.jsonl'), 'a') as f:
     for enrty in dataset:
       question, answer = enrty['problem'], enrty['answer']
-      question = question.replace('\\', '\\\\').replace('\n', '\\n')
-      f.write(f'{{"question": "{question}", "answer": "{answer}"}}\n')
+      json_string = json.dumps({"question": f"{question}", "answer": f"{answer}"})
+      f.write(json_string + '\n')
 
 else:
   raise ValueError(f"Unsupported dataset: {args.dataset}")
