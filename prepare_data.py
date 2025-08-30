@@ -40,7 +40,7 @@ elif "MATH-500" in args.dataset:
   with open(os.path.join(args.output_dir, 'math-500-test.jsonl'), 'a') as f:
     for enrty in dataset:
       question, answer = enrty['problem'], enrty['answer']
-      f.write(f'{{"question": "{question}", "answer": "####{answer}"}}\n')
+      f.write(f'{{"question": "{question}", "answer": "{answer}"}}\n')
 
 else:
   raise ValueError(f"Unsupported dataset: {args.dataset}")

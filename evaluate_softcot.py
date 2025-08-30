@@ -14,7 +14,8 @@ from data_loader import (
     GSM8KLoader, StrategyQALoader, AugASDivLoader, AQuALoader, DULoader,
     Math500Loader, AIME2024Loader, AIME2025Loader
 )
-from utils import pre_process_gsm8k, pre_process_strategy_qa, pre_process_aqua, pre_process_du
+from utils import pre_process_gsm8k, pre_process_strategy_qa, pre_process_aqua, pre_process_du, pre_process_math500
+from extract_judge_answer import extract_answer, judge_answer
 
 
 args = argparse.ArgumentParser()
@@ -120,6 +121,9 @@ elif task_name in ['aime-2024']:
 elif task_name in ['aime-2025']:
     db = AIME2025Loader().load()
     preprocess_method = pre_process_gsm8k
+elif task_name in ['math-500']:
+    db = Math500Loader().load()
+    preprocess_method = pre_process_math500
 else:
     raise NotImplementedError
 
@@ -270,6 +274,8 @@ for idx, ins in enumerate(tqdm(ds)):
                 model_answer = m_answer.group(0).upper()
             else:
                 model_answer = None
+        elif task_name in ['math-500']:
+            model_answer = extract_answer(cleaned_model_answer, data_name='math-500', model_name=base_model_id)
         else:
             raise NotImplementedError
 
@@ -289,7 +295,10 @@ for idx, ins in enumerate(tqdm(ds)):
 
     logger.info(f'Ground Truth Answer: {answer}')
     logger.info(f'Model Answer: {final_model_answer}')
-    is_correct = (final_model_answer == answer)
+    if task_name in ['math-500']:
+        is_correct = judge_answer(cleaned_model_answer, answer, data_name='math-500', model_name=base_model_id)
+    else:
+        is_correct = (final_model_answer == answer)
     logger.info(f'Is Correct: {is_correct}')
     if is_correct:
         correct_count += 1
