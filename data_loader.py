@@ -122,5 +122,37 @@ class AugASDivLoader(GSM8KLoader):
             }
 
         return DataBundle(datasets={k: self._load(v) for k, v in paths.items()})
+    
+class Math500Loader(GSM8KLoader):
+    def load(self, paths: Union[str, Dict[str, str]] = './data/math-500') -> DataBundle:
+        if isinstance(paths, str):
+            paths = {
+                'train': os.path.join(paths, 'math-500-test.jsonl'),
+                'dev': os.path.join(paths, 'math-500-test.jsonl'),
+                'test': os.path.join(paths, 'math-500-test.jsonl')
+            }
 
+        return DataBundle(datasets={k: self._load(v) for k, v in paths.items()})
+
+class AIME2024Loader(GSM8KLoader):
+    def load(self, paths: Union[str, Dict[str, str]] = './data/aime-2024') -> DataBundle:
+        if isinstance(paths, str):
+            paths = {
+                'train': os.path.join(paths, 'aime-2024-train.jsonl'),
+                'dev': os.path.join(paths, 'aime-2024-train.jsonl'),
+                'test': os.path.join(paths, 'aime-2024-train.jsonl')
+            }
+
+        return DataBundle(datasets={k: self._load(v) for k, v in paths.items()})
+
+class AIME2025Loader(GSM8KLoader):
+    def load(self, paths: Union[str, Dict[str, str]] = './data/aime-2025') -> DataBundle:
+        if isinstance(paths, str):
+            paths = {
+                'train': os.path.join(paths, 'aime-2025-test.jsonl'),
+                'dev': os.path.join(paths, 'aime-2025-test.jsonl'),
+                'test': os.path.join(paths, 'aime-2025-test.jsonl')
+            }
+
+        return DataBundle(datasets={k: self._load(v) for k, v in paths.items()})
 

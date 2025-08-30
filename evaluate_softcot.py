@@ -10,7 +10,10 @@ from transformers import AutoTokenizer, GenerationConfig
 from fastNLP import logger
 
 from llm_model import EfficientSoftCoTFromSmallModel
-from data_loader import GSM8KLoader, StrategyQALoader, AugASDivLoader, AQuALoader, DULoader
+from data_loader import (
+    GSM8KLoader, StrategyQALoader, AugASDivLoader, AQuALoader, DULoader,
+    Math500Loader, AIME2024Loader, AIME2025Loader
+)
 from utils import pre_process_gsm8k, pre_process_strategy_qa, pre_process_aqua, pre_process_du
 
 
@@ -23,7 +26,8 @@ args.add_argument('--assistant_model_ckpt', type=str, default=None)
 args.add_argument('--num_thought_tokens', type=int, default=2)
 args.add_argument('--num_return_sequences', type=int, default=1)
 args.add_argument('--task_name', type=str, choices=[
-    'gsm8k', 'strategyqa', 'asdiv-aug', 'aqua', 'du'
+    'gsm8k', 'strategyqa', 'asdiv-aug', 'aqua', 'du',
+    'aime-2024', 'aime-2025', 'math-500',
 ])
 args.add_argument('--print_input', action='store_true', default=False)
 args.add_argument('--print_response', action='store_true', default=False)
@@ -110,6 +114,12 @@ elif task_name in ['aqua']:
 elif task_name in ['du']:
     db = DULoader().load()
     preprocess_method = pre_process_du
+elif task_name in ['aime-2024']:
+    db = AIME2024Loader().load()
+    preprocess_method = pre_process_gsm8k
+elif task_name in ['aime-2025']:
+    db = AIME2025Loader().load()
+    preprocess_method = pre_process_gsm8k
 else:
     raise NotImplementedError
 
