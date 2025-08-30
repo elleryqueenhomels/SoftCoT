@@ -22,7 +22,7 @@ elif "AIME_2024" in args.dataset:
   dataset = load_dataset("Maxwell-Jia/AIME_2024")['train']
   with open(os.path.join(args.output_dir, 'aime-2024-train.jsonl'), 'a') as f:
     for enrty in dataset:
-      question, answer = enrty['problem'], enrty['answer']
+      question, answer = enrty['Problem'], enrty['Answer']
       f.write(f'{{"question": "{question}", "answer": "####{answer}"}}\n')
 
 elif "AIME2025" in args.dataset:
