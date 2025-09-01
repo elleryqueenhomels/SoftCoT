@@ -77,7 +77,7 @@ cmd="python evaluate_softcot.py \
 --seed ${seed} \
 --test_k ${test_k}"
 
-log_file_name="${log_dir}/Baseline-AIME2024-${model_name}-tokens${num_thought_tokens}-seed${seed}.log"
+log_file_name="${log_dir}/Baseline-AIME2024-${base_model_name}-tokens${num_thought_tokens}-seed${seed}.log"
 
 # Run the command and redirect output
 echo "${cmd} > \"${log_file_name}\""
@@ -108,7 +108,7 @@ cmd="python evaluate_softcot.py \
 --seed ${seed} \
 --test_k ${test_k}"
 
-log_file_name="${log_dir}/Baseline-AIME2025-${model_name}-tokens${num_thought_tokens}-seed${seed}.log"
+log_file_name="${log_dir}/Baseline-AIME2025-${base_model_name}-tokens${num_thought_tokens}-seed${seed}.log"
 
 # Run the command and redirect output
 echo "${cmd} > \"${log_file_name}\""
@@ -139,7 +139,7 @@ cmd="python evaluate_softcot.py \
 --seed ${seed} \
 --test_k ${test_k}"
 
-log_file_name="${log_dir}/Baseline-GSM8K-${model_name}-tokens${num_thought_tokens}-seed${seed}.log"
+log_file_name="${log_dir}/Baseline-GSM8K-${base_model_name}-tokens${num_thought_tokens}-seed${seed}.log"
 
 # Run the command and redirect output
 echo "${cmd} > \"${log_file_name}\""
@@ -170,7 +170,7 @@ cmd="python evaluate_softcot.py \
 --seed ${seed} \
 --test_k ${test_k}"
 
-log_file_name="${log_dir}/Baseline-MATH500-${model_name}-tokens${num_thought_tokens}-seed${seed}.log"
+log_file_name="${log_dir}/Baseline-MATH500-${base_model_name}-tokens${num_thought_tokens}-seed${seed}.log"
 
 # Run the command and redirect output
 echo "${cmd} > \"${log_file_name}\""
@@ -201,7 +201,7 @@ cmd="python evaluate_softcot.py \
 --seed ${seed} \
 --test_k ${test_k}"
 
-log_file_name="${log_dir}/Baseline-ASDivAug-${model_name}-tokens${num_thought_tokens}-seed${seed}.log"
+log_file_name="${log_dir}/Baseline-ASDivAug-${base_model_name}-tokens${num_thought_tokens}-seed${seed}.log"
 
 # Run the command and redirect output
 echo "${cmd} > \"${log_file_name}\""
