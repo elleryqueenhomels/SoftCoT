@@ -82,41 +82,23 @@ class DULoader(Loader):
         return DataBundle(datasets={k: self._load(v) for k, v in paths.items()})
 
 
-class StrategyQALoader(Loader):
-
-    def __init__(self, train_split=0.8):
-        super().__init__()
-        self.train_split = train_split
-
-    def _load(self, path: str, is_train=True) -> DataSet:
-        ds = DataSet()
-        with open(path, 'r', encoding='utf-8') as file:
-            dataset = json.load(file)
-        num_train = int(len(dataset) * self.train_split)
-        if is_train:
-            for ins in dataset[:num_train]:
-                ds.append(Instance(**ins))
-        else:
-            for ins in dataset[num_train:]:
-                ds.append(Instance(**ins))
-        return ds
-
-    def load(self, paths: Union[str, Dict[str, str]] = './data/gsm8k/strategy-qa') -> DataBundle:
+class StrategyQALoader(GSM8KLoader):
+    def load(self, paths: Union[str, Dict[str, str]] = './data/strategy-qa') -> DataBundle:
         if isinstance(paths, str):
             paths = {
-                'train': os.path.join(paths, 'strategyqa_train.json'),
-                'dev': os.path.join(paths, 'strategyqa_train.json'),
-                'test': os.path.join(paths, 'strategyqa_train.json')
+                'train': os.path.join(paths, 'strategyqa_train.jsonl'),
+                'dev': os.path.join(paths, 'strategyqa_test.jsonl'),
+                'test': os.path.join(paths, 'strategyqa_test.jsonl')
             }
 
-        return DataBundle(datasets={k: self._load(v, is_train=('train' in [k])) for k, v in paths.items()})
+        return DataBundle(datasets={k: self._load(v) for k, v in paths.items()})
 
 
 class AugASDivLoader(GSM8KLoader):
     def load(self, paths: Union[str, Dict[str, str]] = './data/asdiv-aug') -> DataBundle:
         if isinstance(paths, str):
             paths = {
-                'train': os.path.join(paths, 'aug-dev.jsonl'),
+                'train': os.path.join(paths, 'aug-train.jsonl'),
                 'dev': os.path.join(paths, 'aug-dev.jsonl'),
                 'test': os.path.join(paths, 'aug-dev.jsonl')
             }
