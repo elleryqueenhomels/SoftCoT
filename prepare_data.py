@@ -84,7 +84,6 @@ elif "strategyqa" in args.dataset.lower():
   with open(file_path, 'a') as f:
     for entry in dataset:
       question, answer, facts = entry['question'], entry['answer'], entry['facts']
-      answer = answer.lower() == 'true'
       json_string = json.dumps({"question": f"{question}", "answer": answer, "facts": f"{facts}"})
       f.write(json_string + '\n')
   
