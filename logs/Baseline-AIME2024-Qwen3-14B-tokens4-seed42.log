@@ -1,0 +1,183 @@
+Args: {'base_model_id': 'Qwen/Qwen3-14B', 'assistant_model_id': 'Qwen/Qwen3-1.7B', 'params_file_name': 'ckpt/qwen_3_14b_gsm8k_proj.bin', 'base_model_ckpt': 'None', 'assistant_model_ckpt': 'None', 'num_thought_tokens': 4, 'num_return_sequences': 1, 'task_name': 'aime-2024', 'print_input': False, 'print_response': False, 'test_k': 0, 'seed': 42, 'tune_base_model': False, 'tune_assistant_model': False}
+Load weights from file `ckpt/qwen_3_14b_gsm8k_proj.bin` for projection module.
+Successfully Init Model `EfficientSoftCoTFromSmallModel`
+Ground Truth Answer: 33
+Ground Truth Answer: 33
+Model Answer: 1
+Is Correct: False
+Correct Count: 0/1
+--------------------
+Ground Truth Answer: 23
+Ground Truth Answer: 23
+Model Answer: 2
+Is Correct: False
+Correct Count: 0/2
+--------------------
+Ground Truth Answer: 116
+Ground Truth Answer: 116
+Model Answer: 116
+Is Correct: False
+Correct Count: 0/3
+--------------------
+Ground Truth Answer: 809
+Ground Truth Answer: 809
+Model Answer: 505
+Is Correct: False
+Correct Count: 0/4
+--------------------
+Ground Truth Answer: 197
+Ground Truth Answer: 197
+Model Answer: 2
+Is Correct: False
+Correct Count: 0/5
+--------------------
+Ground Truth Answer: 385
+Ground Truth Answer: 385
+Model Answer: 4
+Is Correct: False
+Correct Count: 0/6
+--------------------
+Ground Truth Answer: 371
+Ground Truth Answer: 371
+Model Answer: 8
+Is Correct: False
+Correct Count: 0/7
+--------------------
+Ground Truth Answer: 601
+Ground Truth Answer: 601
+Model Answer: 6000000
+Is Correct: False
+Correct Count: 0/8
+--------------------
+Ground Truth Answer: 25
+Ground Truth Answer: 25
+Model Answer: 25
+Is Correct: False
+Correct Count: 0/9
+--------------------
+Ground Truth Answer: 55
+Ground Truth Answer: 55
+Model Answer: 127
+Is Correct: False
+Correct Count: 0/10
+--------------------
+Ground Truth Answer: 540
+Ground Truth Answer: 540
+Model Answer: 540
+Is Correct: False
+Correct Count: 0/11
+--------------------
+Ground Truth Answer: 45
+Ground Truth Answer: 45
+Model Answer: 1
+Is Correct: False
+Correct Count: 0/12
+--------------------
+Ground Truth Answer: 204
+Ground Truth Answer: 204
+Model Answer: 3.4
+Is Correct: False
+Correct Count: 0/13
+--------------------
+Ground Truth Answer: 699
+Ground Truth Answer: 699
+Model Answer: 6
+Is Correct: False
+Correct Count: 0/14
+--------------------
+Ground Truth Answer: 294
+Ground Truth Answer: 294
+Model Answer: 294
+Is Correct: False
+Correct Count: 0/15
+--------------------
+Ground Truth Answer: 110
+Ground Truth Answer: 110
+Model Answer: 4
+Is Correct: False
+Correct Count: 0/16
+--------------------
+Ground Truth Answer: 721
+Ground Truth Answer: 721
+Model Answer: 0
+Is Correct: False
+Correct Count: 0/17
+--------------------
+Ground Truth Answer: 315
+Ground Truth Answer: 315
+Model Answer: 15
+Is Correct: False
+Correct Count: 0/18
+--------------------
+Ground Truth Answer: 468
+Ground Truth Answer: 468
+Model Answer: 156
+Is Correct: False
+Correct Count: 0/19
+--------------------
+Ground Truth Answer: 902
+Ground Truth Answer: 902
+Model Answer: 59048
+Is Correct: False
+Correct Count: 0/20
+--------------------
+Ground Truth Answer: 211
+Ground Truth Answer: 211
+Model Answer: 6.71
+Is Correct: False
+Correct Count: 0/21
+--------------------
+Ground Truth Answer: 80
+Ground Truth Answer: 80
+Model Answer: 370
+Is Correct: False
+Correct Count: 0/22
+--------------------
+Ground Truth Answer: 480
+Ground Truth Answer: 480
+Model Answer: 6
+Is Correct: False
+Correct Count: 0/23
+--------------------
+Ground Truth Answer: 236
+Ground Truth Answer: 236
+Model Answer: 30
+Is Correct: False
+Correct Count: 0/24
+--------------------
+Ground Truth Answer: 73
+Ground Truth Answer: 73
+Model Answer: 874
+Is Correct: False
+Correct Count: 0/25
+--------------------
+Ground Truth Answer: 113
+Ground Truth Answer: 113
+Model Answer: 13
+Is Correct: False
+Correct Count: 0/26
+--------------------
+Ground Truth Answer: 127
+Ground Truth Answer: 127
+Model Answer: 13
+Is Correct: False
+Correct Count: 0/27
+--------------------
+Ground Truth Answer: 104
+Ground Truth Answer: 104
+Model Answer: 41
+Is Correct: False
+Correct Count: 0/28
+--------------------
+Ground Truth Answer: 104
+Ground Truth Answer: 104
+Model Answer: 0
+Is Correct: False
+Correct Count: 0/29
+--------------------
+Ground Truth Answer: 321
+Ground Truth Answer: 321
+Model Answer: 1
+Is Correct: False
+Correct Count: 0/30
+--------------------
