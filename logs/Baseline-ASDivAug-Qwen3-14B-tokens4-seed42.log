@@ -1,0 +1,6231 @@
+Args: {'base_model_id': 'Qwen/Qwen3-14B', 'assistant_model_id': 'Qwen/Qwen3-1.7B', 'params_file_name': 'ckpt/qwen_3_14b_gsm8k_proj.bin', 'base_model_ckpt': 'None', 'assistant_model_ckpt': 'None', 'num_thought_tokens': 4, 'num_return_sequences': 1, 'task_name': 'asdiv-aug', 'print_input': False, 'print_response': False, 'test_k': 0, 'seed': 42, 'tune_base_model': False, 'tune_assistant_model': False}
+Load weights from file `ckpt/qwen_3_14b_gsm8k_proj.bin` for projection module.
+Successfully Init Model `EfficientSoftCoTFromSmallModel`
+Ground Truth Answer: 10
+Ground Truth Answer: 10
+Model Answer: 10
+Is Correct: True
+Correct Count: 1/1
+--------------------
+Ground Truth Answer: 30
+Ground Truth Answer: 30
+Model Answer: 30
+Is Correct: True
+Correct Count: 2/2
+--------------------
+Ground Truth Answer: 18
+Ground Truth Answer: 18
+Model Answer: 18
+Is Correct: True
+Correct Count: 3/3
+--------------------
+Ground Truth Answer: 16
+Ground Truth Answer: 16
+Model Answer: 16
+Is Correct: True
+Correct Count: 4/4
+--------------------
+Ground Truth Answer: 15
+Ground Truth Answer: 15
+Model Answer: 15
+Is Correct: True
+Correct Count: 5/5
+--------------------
+Ground Truth Answer: 16
+Ground Truth Answer: 16
+Model Answer: 16
+Is Correct: True
+Correct Count: 6/6
+--------------------
+Ground Truth Answer: 10
+Ground Truth Answer: 10
+Model Answer: 10
+Is Correct: True
+Correct Count: 7/7
+--------------------
+Ground Truth Answer: 4
+Ground Truth Answer: 4
+Model Answer: 4
+Is Correct: True
+Correct Count: 8/8
+--------------------
+Ground Truth Answer: 33
+Ground Truth Answer: 33
+Model Answer: 33
+Is Correct: True
+Correct Count: 9/9
+--------------------
+Ground Truth Answer: 13
+Ground Truth Answer: 13
+Model Answer: 13
+Is Correct: True
+Correct Count: 10/10
+--------------------
+Ground Truth Answer: 25
+Ground Truth Answer: 25
+Model Answer: 25
+Is Correct: True
+Correct Count: 11/11
+--------------------
+Ground Truth Answer: 38
+Ground Truth Answer: 38
+Model Answer: 38
+Is Correct: True
+Correct Count: 12/12
+--------------------
+Ground Truth Answer: 72
+Ground Truth Answer: 72
+Model Answer: 72
+Is Correct: True
+Correct Count: 13/13
+--------------------
+Ground Truth Answer: 6
+Ground Truth Answer: 6
+Model Answer: 6
+Is Correct: True
+Correct Count: 14/14
+--------------------
+Ground Truth Answer: 11
+Ground Truth Answer: 11
+Model Answer: 11
+Is Correct: True
+Correct Count: 15/15
+--------------------
+Ground Truth Answer: 6
+Ground Truth Answer: 6
+Model Answer: 6
+Is Correct: True
+Correct Count: 16/16
+--------------------
+Ground Truth Answer: 4
+Ground Truth Answer: 4
+Model Answer: 4
+Is Correct: True
+Correct Count: 17/17
+--------------------
+Ground Truth Answer: 7
+Ground Truth Answer: 7
+Model Answer: 7
+Is Correct: True
+Correct Count: 18/18
+--------------------
+Ground Truth Answer: 11
+Ground Truth Answer: 11
+Model Answer: 11
+Is Correct: True
+Correct Count: 19/19
+--------------------
+Ground Truth Answer: 9
+Ground Truth Answer: 9
+Model Answer: 9
+Is Correct: True
+Correct Count: 20/20
+--------------------
+Ground Truth Answer: 6
+Ground Truth Answer: 6
+Model Answer: 6
+Is Correct: True
+Correct Count: 21/21
+--------------------
+Ground Truth Answer: 8
+Ground Truth Answer: 8
+Model Answer: 8
+Is Correct: True
+Correct Count: 22/22
+--------------------
+Ground Truth Answer: 10
+Ground Truth Answer: 10
+Model Answer: 10
+Is Correct: True
+Correct Count: 23/23
+--------------------
+Ground Truth Answer: 5
+Ground Truth Answer: 5
+Model Answer: 5
+Is Correct: True
+Correct Count: 24/24
+--------------------
+Ground Truth Answer: 7
+Ground Truth Answer: 7
+Model Answer: 7
+Is Correct: True
+Correct Count: 25/25
+--------------------
+Ground Truth Answer: 1
+Ground Truth Answer: 1
+Model Answer: 1
+Is Correct: True
+Correct Count: 26/26
+--------------------
+Ground Truth Answer: 7
+Ground Truth Answer: 7
+Model Answer: 7
+Is Correct: True
+Correct Count: 27/27
+--------------------
+Ground Truth Answer: 74
+Ground Truth Answer: 74
+Model Answer: 74
+Is Correct: True
+Correct Count: 28/28
+--------------------
+Ground Truth Answer: 53
+Ground Truth Answer: 53
+Model Answer: 53
+Is Correct: True
+Correct Count: 29/29
+--------------------
+Ground Truth Answer: 20
+Ground Truth Answer: 20
+Model Answer: 20
+Is Correct: True
+Correct Count: 30/30
+--------------------
+Ground Truth Answer: 11
+Ground Truth Answer: 11
+Model Answer: 11
+Is Correct: True
+Correct Count: 31/31
+--------------------
+Ground Truth Answer: 4
+Ground Truth Answer: 4
+Model Answer: 4
+Is Correct: True
+Correct Count: 32/32
+--------------------
+Ground Truth Answer: 14
+Ground Truth Answer: 14
+Model Answer: 14
+Is Correct: True
+Correct Count: 33/33
+--------------------
+Ground Truth Answer: 19
+Ground Truth Answer: 19
+Model Answer: 19
+Is Correct: True
+Correct Count: 34/34
+--------------------
+Ground Truth Answer: 22
+Ground Truth Answer: 22
+Model Answer: 22
+Is Correct: True
+Correct Count: 35/35
+--------------------
+Ground Truth Answer: 3
+Ground Truth Answer: 3
+Model Answer: 3
+Is Correct: True
+Correct Count: 36/36
+--------------------
+Ground Truth Answer: -2
+Ground Truth Answer: -2
+Model Answer: 16
+Is Correct: False
+Correct Count: 36/37
+--------------------
+Ground Truth Answer: 18
+Ground Truth Answer: 18
+Model Answer: 18
+Is Correct: True
+Correct Count: 37/38
+--------------------
+Ground Truth Answer: 12
+Ground Truth Answer: 12
+Model Answer: 12
+Is Correct: True
+Correct Count: 38/39
+--------------------
+Ground Truth Answer: 21
+Ground Truth Answer: 21
+Model Answer: 21
+Is Correct: True
+Correct Count: 39/40
+--------------------
+Ground Truth Answer: 14
+Ground Truth Answer: 14
+Model Answer: 14
+Is Correct: True
+Correct Count: 40/41
+--------------------
+Ground Truth Answer: 4
+Ground Truth Answer: 4
+Model Answer: 4
+Is Correct: True
+Correct Count: 41/42
+--------------------
+Ground Truth Answer: 1
+Ground Truth Answer: 1
+Model Answer: 1
+Is Correct: True
+Correct Count: 42/43
+--------------------
+Ground Truth Answer: 4
+Ground Truth Answer: 4
+Model Answer: 4
+Is Correct: True
+Correct Count: 43/44
+--------------------
+Ground Truth Answer: 61
+Ground Truth Answer: 61
+Model Answer: 61
+Is Correct: True
+Correct Count: 44/45
+--------------------
+Ground Truth Answer: 25
+Ground Truth Answer: 25
+Model Answer: 25
+Is Correct: True
+Correct Count: 45/46
+--------------------
+Ground Truth Answer: 41
+Ground Truth Answer: 41
+Model Answer: 41
+Is Correct: True
+Correct Count: 46/47
+--------------------
+Ground Truth Answer: 931
+Ground Truth Answer: 931
+Model Answer: 931
+Is Correct: True
+Correct Count: 47/48
+--------------------
+Ground Truth Answer: 64
+Ground Truth Answer: 64
+Model Answer: 64
+Is Correct: True
+Correct Count: 48/49
+--------------------
+Ground Truth Answer: 65
+Ground Truth Answer: 65
+Model Answer: 65
+Is Correct: True
+Correct Count: 49/50
+--------------------
+Ground Truth Answer: 69
+Ground Truth Answer: 69
+Model Answer: 69
+Is Correct: True
+Correct Count: 50/51
+--------------------
+Ground Truth Answer: 78
+Ground Truth Answer: 78
+Model Answer: 78
+Is Correct: True
+Correct Count: 51/52
+--------------------
+Ground Truth Answer: 78
+Ground Truth Answer: 78
+Model Answer: 78
+Is Correct: True
+Correct Count: 52/53
+--------------------
+Ground Truth Answer: 4
+Ground Truth Answer: 4
+Model Answer: 4
+Is Correct: True
+Correct Count: 53/54
+--------------------
+Ground Truth Answer: 9
+Ground Truth Answer: 9
+Model Answer: 9
+Is Correct: True
+Correct Count: 54/55
+--------------------
+Ground Truth Answer: -11
+Ground Truth Answer: -11
+Model Answer: 11
+Is Correct: False
+Correct Count: 54/56
+--------------------
+Ground Truth Answer: 50
+Ground Truth Answer: 50
+Model Answer: 50
+Is Correct: True
+Correct Count: 55/57
+--------------------
+Ground Truth Answer: 18
+Ground Truth Answer: 18
+Model Answer: 18
+Is Correct: True
+Correct Count: 56/58
+--------------------
+Ground Truth Answer: 31
+Ground Truth Answer: 31
+Model Answer: 31
+Is Correct: True
+Correct Count: 57/59
+--------------------
+Ground Truth Answer: 14
+Ground Truth Answer: 14
+Model Answer: 14
+Is Correct: True
+Correct Count: 58/60
+--------------------
+Ground Truth Answer: 40
+Ground Truth Answer: 40
+Model Answer: 40
+Is Correct: True
+Correct Count: 59/61
+--------------------
+Ground Truth Answer: 11
+Ground Truth Answer: 11
+Model Answer: 11
+Is Correct: True
+Correct Count: 60/62
+--------------------
+Ground Truth Answer: 211
+Ground Truth Answer: 211
+Model Answer: 211
+Is Correct: True
+Correct Count: 61/63
+--------------------
+Ground Truth Answer: 426
+Ground Truth Answer: 426
+Model Answer: 426
+Is Correct: True
+Correct Count: 62/64
+--------------------
+Ground Truth Answer: 87
+Ground Truth Answer: 87
+Model Answer: 87
+Is Correct: True
+Correct Count: 63/65
+--------------------
+Ground Truth Answer: 266
+Ground Truth Answer: 266
+Model Answer: 266
+Is Correct: True
+Correct Count: 64/66
+--------------------
+Ground Truth Answer: 84
+Ground Truth Answer: 84
+Model Answer: 84
+Is Correct: True
+Correct Count: 65/67
+--------------------
+Ground Truth Answer: 63
+Ground Truth Answer: 63
+Model Answer: 63
+Is Correct: True
+Correct Count: 66/68
+--------------------
+Ground Truth Answer: 1200
+Ground Truth Answer: 1200
+Model Answer: 1200
+Is Correct: True
+Correct Count: 67/69
+--------------------
+Ground Truth Answer: 30
+Ground Truth Answer: 30
+Model Answer: 30
+Is Correct: True
+Correct Count: 68/70
+--------------------
+Ground Truth Answer: 8
+Ground Truth Answer: 8
+Model Answer: 8
+Is Correct: True
+Correct Count: 69/71
+--------------------
+Ground Truth Answer: 6
+Ground Truth Answer: 6
+Model Answer: 6
+Is Correct: True
+Correct Count: 70/72
+--------------------
+Ground Truth Answer: 84
+Ground Truth Answer: 84
+Model Answer: 84
+Is Correct: True
+Correct Count: 71/73
+--------------------
+Ground Truth Answer: 18
+Ground Truth Answer: 18
+Model Answer: 18
+Is Correct: True
+Correct Count: 72/74
+--------------------
+Ground Truth Answer: 56
+Ground Truth Answer: 56
+Model Answer: 56
+Is Correct: True
+Correct Count: 73/75
+--------------------
+Ground Truth Answer: 63
+Ground Truth Answer: 63
+Model Answer: 63
+Is Correct: True
+Correct Count: 74/76
+--------------------
+Ground Truth Answer: 227
+Ground Truth Answer: 227
+Model Answer: 227
+Is Correct: True
+Correct Count: 75/77
+--------------------
+Ground Truth Answer: 71
+Ground Truth Answer: 71
+Model Answer: 30
+Is Correct: False
+Correct Count: 75/78
+--------------------
+Ground Truth Answer: -229
+Ground Truth Answer: -229
+Model Answer: 0
+Is Correct: False
+Correct Count: 75/79
+--------------------
+Ground Truth Answer: 119
+Ground Truth Answer: 119
+Model Answer: 119
+Is Correct: True
+Correct Count: 76/80
+--------------------
+Ground Truth Answer: -83
+Ground Truth Answer: -83
+Model Answer: 0
+Is Correct: False
+Correct Count: 76/81
+--------------------
+Ground Truth Answer: 304
+Ground Truth Answer: 304
+Model Answer: 304
+Is Correct: True
+Correct Count: 77/82
+--------------------
+Ground Truth Answer: 369
+Ground Truth Answer: 369
+Model Answer: 369
+Is Correct: True
+Correct Count: 78/83
+--------------------
+Ground Truth Answer: 464
+Ground Truth Answer: 464
+Model Answer: 464
+Is Correct: True
+Correct Count: 79/84
+--------------------
+Ground Truth Answer: 81
+Ground Truth Answer: 81
+Model Answer: 140
+Is Correct: False
+Correct Count: 79/85
+--------------------
+Ground Truth Answer: -175
+Ground Truth Answer: -175
+Model Answer: 175
+Is Correct: False
+Correct Count: 79/86
+--------------------
+Ground Truth Answer: 383
+Ground Truth Answer: 383
+Model Answer: 383
+Is Correct: True
+Correct Count: 80/87
+--------------------
+Ground Truth Answer: 287
+Ground Truth Answer: 287
+Model Answer: 287
+Is Correct: True
+Correct Count: 81/88
+--------------------
+Ground Truth Answer: -90
+Ground Truth Answer: -90
+Model Answer: 90
+Is Correct: False
+Correct Count: 81/89
+--------------------
+Ground Truth Answer: 15
+Ground Truth Answer: 15
+Model Answer: 15
+Is Correct: True
+Correct Count: 82/90
+--------------------
+Ground Truth Answer: 182
+Ground Truth Answer: 182
+Model Answer: 182
+Is Correct: True
+Correct Count: 83/91
+--------------------
+Ground Truth Answer: 174
+Ground Truth Answer: 174
+Model Answer: 174
+Is Correct: True
+Correct Count: 84/92
+--------------------
+Ground Truth Answer: 48
+Ground Truth Answer: 48
+Model Answer: 48
+Is Correct: True
+Correct Count: 85/93
+--------------------
+Ground Truth Answer: 28
+Ground Truth Answer: 28
+Model Answer: 28
+Is Correct: True
+Correct Count: 86/94
+--------------------
+Ground Truth Answer: 60
+Ground Truth Answer: 60
+Model Answer: 60
+Is Correct: True
+Correct Count: 87/95
+--------------------
+Ground Truth Answer: 135
+Ground Truth Answer: 135
+Model Answer: 135
+Is Correct: True
+Correct Count: 88/96
+--------------------
+Ground Truth Answer: 80
+Ground Truth Answer: 80
+Model Answer: 80
+Is Correct: True
+Correct Count: 89/97
+--------------------
+Ground Truth Answer: 144
+Ground Truth Answer: 144
+Model Answer: 144
+Is Correct: True
+Correct Count: 90/98
+--------------------
+Ground Truth Answer: 72
+Ground Truth Answer: 72
+Model Answer: 72
+Is Correct: True
+Correct Count: 91/99
+--------------------
+Ground Truth Answer: 50
+Ground Truth Answer: 50
+Model Answer: 50
+Is Correct: True
+Correct Count: 92/100
+--------------------
+Ground Truth Answer: 126
+Ground Truth Answer: 126
+Model Answer: 126
+Is Correct: True
+Correct Count: 93/101
+--------------------
+Ground Truth Answer: 162
+Ground Truth Answer: 162
+Model Answer: 162
+Is Correct: True
+Correct Count: 94/102
+--------------------
+Ground Truth Answer: 3660
+Ground Truth Answer: 3660
+Model Answer: 3660
+Is Correct: True
+Correct Count: 95/103
+--------------------
+Ground Truth Answer: 10
+Ground Truth Answer: 10
+Model Answer: 10
+Is Correct: True
+Correct Count: 96/104
+--------------------
+Ground Truth Answer: 4
+Ground Truth Answer: 4
+Model Answer: 4
+Is Correct: True
+Correct Count: 97/105
+--------------------
+Ground Truth Answer: 14
+Ground Truth Answer: 14
+Model Answer: 14
+Is Correct: True
+Correct Count: 98/106
+--------------------
+Ground Truth Answer: 4.5
+Ground Truth Answer: 4.5
+Model Answer: 4.5
+Is Correct: True
+Correct Count: 99/107
+--------------------
+Ground Truth Answer: 60
+Ground Truth Answer: 60
+Model Answer: 60
+Is Correct: True
+Correct Count: 100/108
+--------------------
+Ground Truth Answer: 3
+Ground Truth Answer: 3
+Model Answer: 3
+Is Correct: True
+Correct Count: 101/109
+--------------------
+Ground Truth Answer: 24
+Ground Truth Answer: 24
+Model Answer: 24
+Is Correct: True
+Correct Count: 102/110
+--------------------
+Ground Truth Answer: 120
+Ground Truth Answer: 120
+Model Answer: 120
+Is Correct: True
+Correct Count: 103/111
+--------------------
+Ground Truth Answer: 7
+Ground Truth Answer: 7
+Model Answer: 7
+Is Correct: True
+Correct Count: 104/112
+--------------------
+Ground Truth Answer: 5
+Ground Truth Answer: 5
+Model Answer: 5
+Is Correct: True
+Correct Count: 105/113
+--------------------
+Ground Truth Answer: 3
+Ground Truth Answer: 3
+Model Answer: 3
+Is Correct: True
+Correct Count: 106/114
+--------------------
+Ground Truth Answer: 972
+Ground Truth Answer: 972
+Model Answer: 972
+Is Correct: True
+Correct Count: 107/115
+--------------------
+Ground Truth Answer: 6288
+Ground Truth Answer: 6288
+Model Answer: 6288
+Is Correct: True
+Correct Count: 108/116
+--------------------
+Ground Truth Answer: 2432
+Ground Truth Answer: 2432
+Model Answer: 2432
+Is Correct: True
+Correct Count: 109/117
+--------------------
+Ground Truth Answer: 30
+Ground Truth Answer: 30
+Model Answer: 30
+Is Correct: True
+Correct Count: 110/118
+--------------------
+Ground Truth Answer: 84
+Ground Truth Answer: 84
+Model Answer: 42
+Is Correct: False
+Correct Count: 110/119
+--------------------
+Ground Truth Answer: 19845
+Ground Truth Answer: 19845
+Model Answer: 19845
+Is Correct: True
+Correct Count: 111/120
+--------------------
+Ground Truth Answer: 1539
+Ground Truth Answer: 1539
+Model Answer: 1539
+Is Correct: True
+Correct Count: 112/121
+--------------------
+Ground Truth Answer: 992
+Ground Truth Answer: 992
+Model Answer: 992
+Is Correct: True
+Correct Count: 113/122
+--------------------
+Ground Truth Answer: 54
+Ground Truth Answer: 54
+Model Answer: 54
+Is Correct: True
+Correct Count: 114/123
+--------------------
+Ground Truth Answer: 2160
+Ground Truth Answer: 2160
+Model Answer: 2160
+Is Correct: True
+Correct Count: 115/124
+--------------------
+Ground Truth Answer: 88
+Ground Truth Answer: 88
+Model Answer: 88
+Is Correct: True
+Correct Count: 116/125
+--------------------
+Ground Truth Answer: 94
+Ground Truth Answer: 94
+Model Answer: 94
+Is Correct: True
+Correct Count: 117/126
+--------------------
+Ground Truth Answer: 74
+Ground Truth Answer: 74
+Model Answer: 74
+Is Correct: True
+Correct Count: 118/127
+--------------------
+Ground Truth Answer: 7.14
+Ground Truth Answer: 7.14
+Model Answer: 8
+Is Correct: False
+Correct Count: 118/128
+--------------------
+Ground Truth Answer: 6.62
+Ground Truth Answer: 6.62
+Model Answer: 5
+Is Correct: False
+Correct Count: 118/129
+--------------------
+Ground Truth Answer: 3.17
+Ground Truth Answer: 3.17
+Model Answer: 9
+Is Correct: False
+Correct Count: 118/130
+--------------------
+Ground Truth Answer: 10.77
+Ground Truth Answer: 10.77
+Model Answer: 10
+Is Correct: False
+Correct Count: 118/131
+--------------------
+Ground Truth Answer: -63.09
+Ground Truth Answer: -63.09
+Model Answer: 63.09
+Is Correct: False
+Correct Count: 118/132
+--------------------
+Ground Truth Answer: -2
+Ground Truth Answer: -2
+Model Answer: 2
+Is Correct: False
+Correct Count: 118/133
+--------------------
+Ground Truth Answer: 7
+Ground Truth Answer: 7
+Model Answer: 7
+Is Correct: True
+Correct Count: 119/134
+--------------------
+Ground Truth Answer: 8
+Ground Truth Answer: 8
+Model Answer: 8
+Is Correct: True
+Correct Count: 120/135
+--------------------
+Ground Truth Answer: 113
+Ground Truth Answer: 113
+Model Answer: 113
+Is Correct: True
+Correct Count: 121/136
+--------------------
+Ground Truth Answer: 47
+Ground Truth Answer: 47
+Model Answer: 47
+Is Correct: True
+Correct Count: 122/137
+--------------------
+Ground Truth Answer: 107
+Ground Truth Answer: 107
+Model Answer: 107
+Is Correct: True
+Correct Count: 123/138
+--------------------
+Ground Truth Answer: 64
+Ground Truth Answer: 64
+Model Answer: 64
+Is Correct: True
+Correct Count: 124/139
+--------------------
+Ground Truth Answer: 35
+Ground Truth Answer: 35
+Model Answer: 35
+Is Correct: True
+Correct Count: 125/140
+--------------------
+Ground Truth Answer: 172
+Ground Truth Answer: 172
+Model Answer: 172
+Is Correct: True
+Correct Count: 126/141
+--------------------
+Ground Truth Answer: 9
+Ground Truth Answer: 9
+Model Answer: 9
+Is Correct: True
+Correct Count: 127/142
+--------------------
+Ground Truth Answer: 48
+Ground Truth Answer: 48
+Model Answer: 48
+Is Correct: True
+Correct Count: 128/143
+--------------------
+Ground Truth Answer: 59
+Ground Truth Answer: 59
+Model Answer: 59
+Is Correct: True
+Correct Count: 129/144
+--------------------
+Ground Truth Answer: 18
+Ground Truth Answer: 18
+Model Answer: 18
+Is Correct: True
+Correct Count: 130/145
+--------------------
+Ground Truth Answer: 71
+Ground Truth Answer: 71
+Model Answer: 71
+Is Correct: True
+Correct Count: 131/146
+--------------------
+Ground Truth Answer: 67
+Ground Truth Answer: 67
+Model Answer: 67
+Is Correct: True
+Correct Count: 132/147
+--------------------
+Ground Truth Answer: 48
+Ground Truth Answer: 48
+Model Answer: 48
+Is Correct: True
+Correct Count: 133/148
+--------------------
+Ground Truth Answer: 114
+Ground Truth Answer: 114
+Model Answer: 114
+Is Correct: True
+Correct Count: 134/149
+--------------------
+Ground Truth Answer: 102
+Ground Truth Answer: 102
+Model Answer: 102
+Is Correct: True
+Correct Count: 135/150
+--------------------
+Ground Truth Answer: 143
+Ground Truth Answer: 143
+Model Answer: 143
+Is Correct: True
+Correct Count: 136/151
+--------------------
+Ground Truth Answer: 58
+Ground Truth Answer: 58
+Model Answer: 58
+Is Correct: True
+Correct Count: 137/152
+--------------------
+Ground Truth Answer: 11763
+Ground Truth Answer: 11763
+Model Answer: 11763
+Is Correct: True
+Correct Count: 138/153
+--------------------
+Ground Truth Answer: 212
+Ground Truth Answer: 212
+Model Answer: 212
+Is Correct: True
+Correct Count: 139/154
+--------------------
+Ground Truth Answer: 11
+Ground Truth Answer: 11
+Model Answer: 15
+Is Correct: False
+Correct Count: 139/155
+--------------------
+Ground Truth Answer: 26
+Ground Truth Answer: 26
+Model Answer: 26
+Is Correct: True
+Correct Count: 140/156
+--------------------
+Ground Truth Answer: 10
+Ground Truth Answer: 10
+Model Answer: 10
+Is Correct: True
+Correct Count: 141/157
+--------------------
+Ground Truth Answer: 2
+Ground Truth Answer: 2
+Model Answer: 2
+Is Correct: True
+Correct Count: 142/158
+--------------------
+Ground Truth Answer: 67
+Ground Truth Answer: 67
+Model Answer: 67
+Is Correct: True
+Correct Count: 143/159
+--------------------
+Ground Truth Answer: 29
+Ground Truth Answer: 29
+Model Answer: 29
+Is Correct: True
+Correct Count: 144/160
+--------------------
+Ground Truth Answer: 50
+Ground Truth Answer: 50
+Model Answer: 50
+Is Correct: True
+Correct Count: 145/161
+--------------------
+Ground Truth Answer: 64
+Ground Truth Answer: 64
+Model Answer: 64
+Is Correct: True
+Correct Count: 146/162
+--------------------
+Ground Truth Answer: 56
+Ground Truth Answer: 56
+Model Answer: 112
+Is Correct: False
+Correct Count: 146/163
+--------------------
+Ground Truth Answer: 77.5
+Ground Truth Answer: 77.5
+Model Answer: 77
+Is Correct: False
+Correct Count: 146/164
+--------------------
+Ground Truth Answer: 65
+Ground Truth Answer: 65
+Model Answer: 65
+Is Correct: True
+Correct Count: 147/165
+--------------------
+Ground Truth Answer: 72
+Ground Truth Answer: 72
+Model Answer: 72
+Is Correct: True
+Correct Count: 148/166
+--------------------
+Ground Truth Answer: 45
+Ground Truth Answer: 45
+Model Answer: 45
+Is Correct: True
+Correct Count: 149/167
+--------------------
+Ground Truth Answer: 35
+Ground Truth Answer: 35
+Model Answer: 35
+Is Correct: True
+Correct Count: 150/168
+--------------------
+Ground Truth Answer: 4
+Ground Truth Answer: 4
+Model Answer: 4
+Is Correct: True
+Correct Count: 151/169
+--------------------
+Ground Truth Answer: 12
+Ground Truth Answer: 12
+Model Answer: 12
+Is Correct: True
+Correct Count: 152/170
+--------------------
+Ground Truth Answer: 4
+Ground Truth Answer: 4
+Model Answer: 4
+Is Correct: True
+Correct Count: 153/171
+--------------------
+Ground Truth Answer: 3
+Ground Truth Answer: 3
+Model Answer: 3
+Is Correct: True
+Correct Count: 154/172
+--------------------
+Ground Truth Answer: 8
+Ground Truth Answer: 8
+Model Answer: 8
+Is Correct: True
+Correct Count: 155/173
+--------------------
+Ground Truth Answer: 54
+Ground Truth Answer: 54
+Model Answer: 54
+Is Correct: True
+Correct Count: 156/174
+--------------------
+Ground Truth Answer: 6
+Ground Truth Answer: 6
+Model Answer: 6
+Is Correct: True
+Correct Count: 157/175
+--------------------
+Ground Truth Answer: 3
+Ground Truth Answer: 3
+Model Answer: 3
+Is Correct: True
+Correct Count: 158/176
+--------------------
+Ground Truth Answer: 27
+Ground Truth Answer: 27
+Model Answer: 27
+Is Correct: True
+Correct Count: 159/177
+--------------------
+Ground Truth Answer: 12
+Ground Truth Answer: 12
+Model Answer: 12
+Is Correct: True
+Correct Count: 160/178
+--------------------
+Ground Truth Answer: 126
+Ground Truth Answer: 126
+Model Answer: 126
+Is Correct: True
+Correct Count: 161/179
+--------------------
+Ground Truth Answer: 4
+Ground Truth Answer: 4
+Model Answer: 4
+Is Correct: True
+Correct Count: 162/180
+--------------------
+Ground Truth Answer: 10
+Ground Truth Answer: 10
+Model Answer: 10
+Is Correct: True
+Correct Count: 163/181
+--------------------
+Ground Truth Answer: 16
+Ground Truth Answer: 16
+Model Answer: 16
+Is Correct: True
+Correct Count: 164/182
+--------------------
+Ground Truth Answer: 3
+Ground Truth Answer: 3
+Model Answer: 3
+Is Correct: True
+Correct Count: 165/183
+--------------------
+Ground Truth Answer: 10
+Ground Truth Answer: 10
+Model Answer: 10
+Is Correct: True
+Correct Count: 166/184
+--------------------
+Ground Truth Answer: 5
+Ground Truth Answer: 5
+Model Answer: 5
+Is Correct: True
+Correct Count: 167/185
+--------------------
+Ground Truth Answer: 243
+Ground Truth Answer: 243
+Model Answer: 243
+Is Correct: True
+Correct Count: 168/186
+--------------------
+Ground Truth Answer: 13
+Ground Truth Answer: 13
+Model Answer: 13
+Is Correct: True
+Correct Count: 169/187
+--------------------
+Ground Truth Answer: 13
+Ground Truth Answer: 13
+Model Answer: 13
+Is Correct: True
+Correct Count: 170/188
+--------------------
+Ground Truth Answer: 10
+Ground Truth Answer: 10
+Model Answer: 10
+Is Correct: True
+Correct Count: 171/189
+--------------------
+Ground Truth Answer: 5
+Ground Truth Answer: 5
+Model Answer: 5
+Is Correct: True
+Correct Count: 172/190
+--------------------
+Ground Truth Answer: 15
+Ground Truth Answer: 15
+Model Answer: 15
+Is Correct: True
+Correct Count: 173/191
+--------------------
+Ground Truth Answer: 6
+Ground Truth Answer: 6
+Model Answer: 6
+Is Correct: True
+Correct Count: 174/192
+--------------------
+Ground Truth Answer: 21
+Ground Truth Answer: 21
+Model Answer: 21
+Is Correct: True
+Correct Count: 175/193
+--------------------
+Ground Truth Answer: 10
+Ground Truth Answer: 10
+Model Answer: 10
+Is Correct: True
+Correct Count: 176/194
+--------------------
+Ground Truth Answer: 5
+Ground Truth Answer: 5
+Model Answer: 5
+Is Correct: True
+Correct Count: 177/195
+--------------------
+Ground Truth Answer: 9
+Ground Truth Answer: 9
+Model Answer: 9
+Is Correct: True
+Correct Count: 178/196
+--------------------
+Ground Truth Answer: 9
+Ground Truth Answer: 9
+Model Answer: 9
+Is Correct: True
+Correct Count: 179/197
+--------------------
+Ground Truth Answer: 11
+Ground Truth Answer: 11
+Model Answer: 11
+Is Correct: True
+Correct Count: 180/198
+--------------------
+Ground Truth Answer: 15
+Ground Truth Answer: 15
+Model Answer: 15
+Is Correct: True
+Correct Count: 181/199
+--------------------
+Ground Truth Answer: 11
+Ground Truth Answer: 11
+Model Answer: 11
+Is Correct: True
+Correct Count: 182/200
+--------------------
+Ground Truth Answer: 7
+Ground Truth Answer: 7
+Model Answer: 7
+Is Correct: True
+Correct Count: 183/201
+--------------------
+Ground Truth Answer: 22
+Ground Truth Answer: 22
+Model Answer: 22
+Is Correct: True
+Correct Count: 184/202
+--------------------
+Ground Truth Answer: 24
+Ground Truth Answer: 24
+Model Answer: 24
+Is Correct: True
+Correct Count: 185/203
+--------------------
+Ground Truth Answer: 100
+Ground Truth Answer: 100
+Model Answer: 100
+Is Correct: True
+Correct Count: 186/204
+--------------------
+Ground Truth Answer: -77
+Ground Truth Answer: -77
+Model Answer: 77
+Is Correct: False
+Correct Count: 186/205
+--------------------
+Ground Truth Answer: 4
+Ground Truth Answer: 4
+Model Answer: 4
+Is Correct: True
+Correct Count: 187/206
+--------------------
+Ground Truth Answer: 98
+Ground Truth Answer: 98
+Model Answer: 98
+Is Correct: True
+Correct Count: 188/207
+--------------------
+Ground Truth Answer: 50
+Ground Truth Answer: 50
+Model Answer: 50
+Is Correct: True
+Correct Count: 189/208
+--------------------
+Ground Truth Answer: 102
+Ground Truth Answer: 102
+Model Answer: 102
+Is Correct: True
+Correct Count: 190/209
+--------------------
+Ground Truth Answer: 24
+Ground Truth Answer: 24
+Model Answer: 24
+Is Correct: True
+Correct Count: 191/210
+--------------------
+Ground Truth Answer: 23
+Ground Truth Answer: 23
+Model Answer: 23
+Is Correct: True
+Correct Count: 192/211
+--------------------
+Ground Truth Answer: 19
+Ground Truth Answer: 19
+Model Answer: 19
+Is Correct: True
+Correct Count: 193/212
+--------------------
+Ground Truth Answer: 22
+Ground Truth Answer: 22
+Model Answer: 22
+Is Correct: True
+Correct Count: 194/213
+--------------------
+Ground Truth Answer: 38
+Ground Truth Answer: 38
+Model Answer: 38
+Is Correct: True
+Correct Count: 195/214
+--------------------
+Ground Truth Answer: 37
+Ground Truth Answer: 37
+Model Answer: 37
+Is Correct: True
+Correct Count: 196/215
+--------------------
+Ground Truth Answer: 53
+Ground Truth Answer: 53
+Model Answer: 53
+Is Correct: True
+Correct Count: 197/216
+--------------------
+Ground Truth Answer: 77
+Ground Truth Answer: 77
+Model Answer: 77
+Is Correct: True
+Correct Count: 198/217
+--------------------
+Ground Truth Answer: 66
+Ground Truth Answer: 66
+Model Answer: 66
+Is Correct: True
+Correct Count: 199/218
+--------------------
+Ground Truth Answer: 106
+Ground Truth Answer: 106
+Model Answer: 106
+Is Correct: True
+Correct Count: 200/219
+--------------------
+Ground Truth Answer: 76
+Ground Truth Answer: 76
+Model Answer: 76
+Is Correct: True
+Correct Count: 201/220
+--------------------
+Ground Truth Answer: 88
+Ground Truth Answer: 88
+Model Answer: 88
+Is Correct: True
+Correct Count: 202/221
+--------------------
+Ground Truth Answer: 11
+Ground Truth Answer: 11
+Model Answer: 11
+Is Correct: True
+Correct Count: 203/222
+--------------------
+Ground Truth Answer: 10
+Ground Truth Answer: 10
+Model Answer: 10
+Is Correct: True
+Correct Count: 204/223
+--------------------
+Ground Truth Answer: 156
+Ground Truth Answer: 156
+Model Answer: 156
+Is Correct: True
+Correct Count: 205/224
+--------------------
+Ground Truth Answer: 22
+Ground Truth Answer: 22
+Model Answer: 22
+Is Correct: True
+Correct Count: 206/225
+--------------------
+Ground Truth Answer: 4.64
+Ground Truth Answer: 4.64
+Model Answer: 5
+Is Correct: False
+Correct Count: 206/226
+--------------------
+Ground Truth Answer: 1
+Ground Truth Answer: 1
+Model Answer: 1
+Is Correct: True
+Correct Count: 207/227
+--------------------
+Ground Truth Answer: 7.38
+Ground Truth Answer: 7.38
+Model Answer: 8
+Is Correct: False
+Correct Count: 207/228
+--------------------
+Ground Truth Answer: 7
+Ground Truth Answer: 7
+Model Answer: 7
+Is Correct: True
+Correct Count: 208/229
+--------------------
+Ground Truth Answer: 84
+Ground Truth Answer: 84
+Model Answer: 84
+Is Correct: True
+Correct Count: 209/230
+--------------------
+Ground Truth Answer: 144
+Ground Truth Answer: 144
+Model Answer: 144
+Is Correct: True
+Correct Count: 210/231
+--------------------
+Ground Truth Answer: 4
+Ground Truth Answer: 4
+Model Answer: 4
+Is Correct: True
+Correct Count: 211/232
+--------------------
+Ground Truth Answer: 12
+Ground Truth Answer: 12
+Model Answer: 12
+Is Correct: True
+Correct Count: 212/233
+--------------------
+Ground Truth Answer: 162
+Ground Truth Answer: 162
+Model Answer: 162
+Is Correct: True
+Correct Count: 213/234
+--------------------
+Ground Truth Answer: 36
+Ground Truth Answer: 36
+Model Answer: 36
+Is Correct: True
+Correct Count: 214/235
+--------------------
+Ground Truth Answer: 6
+Ground Truth Answer: 6
+Model Answer: 6
+Is Correct: True
+Correct Count: 215/236
+--------------------
+Ground Truth Answer: 25.33
+Ground Truth Answer: 25.33
+Model Answer: 25
+Is Correct: False
+Correct Count: 215/237
+--------------------
+Ground Truth Answer: 77
+Ground Truth Answer: 77
+Model Answer: 77
+Is Correct: True
+Correct Count: 216/238
+--------------------
+Ground Truth Answer: 11
+Ground Truth Answer: 11
+Model Answer: 11
+Is Correct: True
+Correct Count: 217/239
+--------------------
+Ground Truth Answer: 29
+Ground Truth Answer: 29
+Model Answer: 29
+Is Correct: True
+Correct Count: 218/240
+--------------------
+Ground Truth Answer: 19
+Ground Truth Answer: 19
+Model Answer: 19
+Is Correct: True
+Correct Count: 219/241
+--------------------
+Ground Truth Answer: 12
+Ground Truth Answer: 12
+Model Answer: 12
+Is Correct: True
+Correct Count: 220/242
+--------------------
+Ground Truth Answer: 25
+Ground Truth Answer: 25
+Model Answer: 25
+Is Correct: True
+Correct Count: 221/243
+--------------------
+Ground Truth Answer: 13
+Ground Truth Answer: 13
+Model Answer: 13
+Is Correct: True
+Correct Count: 222/244
+--------------------
+Ground Truth Answer: 11
+Ground Truth Answer: 11
+Model Answer: 11
+Is Correct: True
+Correct Count: 223/245
+--------------------
+Ground Truth Answer: 4
+Ground Truth Answer: 4
+Model Answer: 4
+Is Correct: True
+Correct Count: 224/246
+--------------------
+Ground Truth Answer: 48
+Ground Truth Answer: 48
+Model Answer: 48
+Is Correct: True
+Correct Count: 225/247
+--------------------
+Ground Truth Answer: 14
+Ground Truth Answer: 14
+Model Answer: 14
+Is Correct: True
+Correct Count: 226/248
+--------------------
+Ground Truth Answer: 24
+Ground Truth Answer: 24
+Model Answer: 24
+Is Correct: True
+Correct Count: 227/249
+--------------------
+Ground Truth Answer: 22
+Ground Truth Answer: 22
+Model Answer: 22
+Is Correct: True
+Correct Count: 228/250
+--------------------
+Ground Truth Answer: 67
+Ground Truth Answer: 67
+Model Answer: 67
+Is Correct: True
+Correct Count: 229/251
+--------------------
+Ground Truth Answer: 2
+Ground Truth Answer: 2
+Model Answer: 2
+Is Correct: True
+Correct Count: 230/252
+--------------------
+Ground Truth Answer: 10
+Ground Truth Answer: 10
+Model Answer: 10
+Is Correct: True
+Correct Count: 231/253
+--------------------
+Ground Truth Answer: 3
+Ground Truth Answer: 3
+Model Answer: 3
+Is Correct: True
+Correct Count: 232/254
+--------------------
+Ground Truth Answer: 7
+Ground Truth Answer: 7
+Model Answer: 7
+Is Correct: True
+Correct Count: 233/255
+--------------------
+Ground Truth Answer: 46
+Ground Truth Answer: 46
+Model Answer: 46
+Is Correct: True
+Correct Count: 234/256
+--------------------
+Ground Truth Answer: 12
+Ground Truth Answer: 12
+Model Answer: 12
+Is Correct: True
+Correct Count: 235/257
+--------------------
+Ground Truth Answer: 7
+Ground Truth Answer: 7
+Model Answer: 7
+Is Correct: True
+Correct Count: 236/258
+--------------------
+Ground Truth Answer: 5
+Ground Truth Answer: 5
+Model Answer: 5
+Is Correct: True
+Correct Count: 237/259
+--------------------
+Ground Truth Answer: -1
+Ground Truth Answer: -1
+Model Answer: 0
+Is Correct: False
+Correct Count: 237/260
+--------------------
+Ground Truth Answer: 5
+Ground Truth Answer: 5
+Model Answer: 5
+Is Correct: True
+Correct Count: 238/261
+--------------------
+Ground Truth Answer: 0
+Ground Truth Answer: 0
+Model Answer: 0
+Is Correct: True
+Correct Count: 239/262
+--------------------
+Ground Truth Answer: 7
+Ground Truth Answer: 7
+Model Answer: 7
+Is Correct: True
+Correct Count: 240/263
+--------------------
+Ground Truth Answer: 4
+Ground Truth Answer: 4
+Model Answer: 4
+Is Correct: True
+Correct Count: 241/264
+--------------------
+Ground Truth Answer: 6
+Ground Truth Answer: 6
+Model Answer: 6
+Is Correct: True
+Correct Count: 242/265
+--------------------
+Ground Truth Answer: 58
+Ground Truth Answer: 58
+Model Answer: 58
+Is Correct: True
+Correct Count: 243/266
+--------------------
+Ground Truth Answer: 68
+Ground Truth Answer: 68
+Model Answer: 68
+Is Correct: True
+Correct Count: 244/267
+--------------------
+Ground Truth Answer: 27
+Ground Truth Answer: 27
+Model Answer: 27
+Is Correct: True
+Correct Count: 245/268
+--------------------
+Ground Truth Answer: 12
+Ground Truth Answer: 12
+Model Answer: 12
+Is Correct: True
+Correct Count: 246/269
+--------------------
+Ground Truth Answer: 3
+Ground Truth Answer: 3
+Model Answer: 3
+Is Correct: True
+Correct Count: 247/270
+--------------------
+Ground Truth Answer: 0
+Ground Truth Answer: 0
+Model Answer: 0
+Is Correct: True
+Correct Count: 248/271
+--------------------
+Ground Truth Answer: 26
+Ground Truth Answer: 26
+Model Answer: 26
+Is Correct: True
+Correct Count: 249/272
+--------------------
+Ground Truth Answer: 39
+Ground Truth Answer: 39
+Model Answer: 39
+Is Correct: True
+Correct Count: 250/273
+--------------------
+Ground Truth Answer: -5
+Ground Truth Answer: -5
+Model Answer: 5
+Is Correct: False
+Correct Count: 250/274
+--------------------
+Ground Truth Answer: 20
+Ground Truth Answer: 20
+Model Answer: 20
+Is Correct: True
+Correct Count: 251/275
+--------------------
+Ground Truth Answer: 14
+Ground Truth Answer: 14
+Model Answer: 14
+Is Correct: True
+Correct Count: 252/276
+--------------------
+Ground Truth Answer: 11
+Ground Truth Answer: 11
+Model Answer: 11
+Is Correct: True
+Correct Count: 253/277
+--------------------
+Ground Truth Answer: 46
+Ground Truth Answer: 46
+Model Answer: 46
+Is Correct: True
+Correct Count: 254/278
+--------------------
+Ground Truth Answer: 14
+Ground Truth Answer: 14
+Model Answer: 14
+Is Correct: True
+Correct Count: 255/279
+--------------------
+Ground Truth Answer: 6
+Ground Truth Answer: 6
+Model Answer: 6
+Is Correct: True
+Correct Count: 256/280
+--------------------
+Ground Truth Answer: 15
+Ground Truth Answer: 15
+Model Answer: 15
+Is Correct: True
+Correct Count: 257/281
+--------------------
+Ground Truth Answer: 5
+Ground Truth Answer: 5
+Model Answer: 5
+Is Correct: True
+Correct Count: 258/282
+--------------------
+Ground Truth Answer: 54
+Ground Truth Answer: 54
+Model Answer: 54
+Is Correct: True
+Correct Count: 259/283
+--------------------
+Ground Truth Answer: 25
+Ground Truth Answer: 25
+Model Answer: 25
+Is Correct: True
+Correct Count: 260/284
+--------------------
+Ground Truth Answer: 40
+Ground Truth Answer: 40
+Model Answer: 40
+Is Correct: True
+Correct Count: 261/285
+--------------------
+Ground Truth Answer: 1317
+Ground Truth Answer: 1317
+Model Answer: 1317
+Is Correct: True
+Correct Count: 262/286
+--------------------
+Ground Truth Answer: 132
+Ground Truth Answer: 132
+Model Answer: 132
+Is Correct: True
+Correct Count: 263/287
+--------------------
+Ground Truth Answer: 49
+Ground Truth Answer: 49
+Model Answer: 49
+Is Correct: True
+Correct Count: 264/288
+--------------------
+Ground Truth Answer: 69
+Ground Truth Answer: 69
+Model Answer: 69
+Is Correct: True
+Correct Count: 265/289
+--------------------
+Ground Truth Answer: 237
+Ground Truth Answer: 237
+Model Answer: 237
+Is Correct: True
+Correct Count: 266/290
+--------------------
+Ground Truth Answer: 79
+Ground Truth Answer: 79
+Model Answer: 79
+Is Correct: True
+Correct Count: 267/291
+--------------------
+Ground Truth Answer: -6
+Ground Truth Answer: -6
+Model Answer: 6
+Is Correct: False
+Correct Count: 267/292
+--------------------
+Ground Truth Answer: 10
+Ground Truth Answer: 10
+Model Answer: 10
+Is Correct: True
+Correct Count: 268/293
+--------------------
+Ground Truth Answer: 28
+Ground Truth Answer: 28
+Model Answer: 28
+Is Correct: True
+Correct Count: 269/294
+--------------------
+Ground Truth Answer: 23
+Ground Truth Answer: 23
+Model Answer: 23
+Is Correct: True
+Correct Count: 270/295
+--------------------
+Ground Truth Answer: 16
+Ground Truth Answer: 16
+Model Answer: 16
+Is Correct: True
+Correct Count: 271/296
+--------------------
+Ground Truth Answer: 73
+Ground Truth Answer: 73
+Model Answer: 73
+Is Correct: True
+Correct Count: 272/297
+--------------------
+Ground Truth Answer: 22
+Ground Truth Answer: 22
+Model Answer: 22
+Is Correct: True
+Correct Count: 273/298
+--------------------
+Ground Truth Answer: 41
+Ground Truth Answer: 41
+Model Answer: 41
+Is Correct: True
+Correct Count: 274/299
+--------------------
+Ground Truth Answer: 57
+Ground Truth Answer: 57
+Model Answer: 57
+Is Correct: True
+Correct Count: 275/300
+--------------------
+Ground Truth Answer: 2
+Ground Truth Answer: 2
+Model Answer: 2
+Is Correct: True
+Correct Count: 276/301
+--------------------
+Ground Truth Answer: 127
+Ground Truth Answer: 127
+Model Answer: 127
+Is Correct: True
+Correct Count: 277/302
+--------------------
+Ground Truth Answer: 65
+Ground Truth Answer: 65
+Model Answer: 65
+Is Correct: True
+Correct Count: 278/303
+--------------------
+Ground Truth Answer: 276
+Ground Truth Answer: 276
+Model Answer: 276
+Is Correct: True
+Correct Count: 279/304
+--------------------
+Ground Truth Answer: 66
+Ground Truth Answer: 66
+Model Answer: 66
+Is Correct: True
+Correct Count: 280/305
+--------------------
+Ground Truth Answer: 70
+Ground Truth Answer: 70
+Model Answer: 70
+Is Correct: True
+Correct Count: 281/306
+--------------------
+Ground Truth Answer: 357
+Ground Truth Answer: 357
+Model Answer: 357
+Is Correct: True
+Correct Count: 282/307
+--------------------
+Ground Truth Answer: -25
+Ground Truth Answer: -25
+Model Answer: 25
+Is Correct: False
+Correct Count: 282/308
+--------------------
+Ground Truth Answer: 126
+Ground Truth Answer: 126
+Model Answer: 126
+Is Correct: True
+Correct Count: 283/309
+--------------------
+Ground Truth Answer: 36
+Ground Truth Answer: 36
+Model Answer: 36
+Is Correct: True
+Correct Count: 284/310
+--------------------
+Ground Truth Answer: 54
+Ground Truth Answer: 54
+Model Answer: 54
+Is Correct: True
+Correct Count: 285/311
+--------------------
+Ground Truth Answer: 184
+Ground Truth Answer: 184
+Model Answer: 184
+Is Correct: True
+Correct Count: 286/312
+--------------------
+Ground Truth Answer: 76
+Ground Truth Answer: 76
+Model Answer: 76
+Is Correct: True
+Correct Count: 287/313
+--------------------
+Ground Truth Answer: -34
+Ground Truth Answer: -34
+Model Answer: 0
+Is Correct: False
+Correct Count: 287/314
+--------------------
+Ground Truth Answer: 117
+Ground Truth Answer: 117
+Model Answer: 117
+Is Correct: True
+Correct Count: 288/315
+--------------------
+Ground Truth Answer: 48
+Ground Truth Answer: 48
+Model Answer: 48
+Is Correct: True
+Correct Count: 289/316
+--------------------
+Ground Truth Answer: 165
+Ground Truth Answer: 165
+Model Answer: 165
+Is Correct: True
+Correct Count: 290/317
+--------------------
+Ground Truth Answer: 610
+Ground Truth Answer: 610
+Model Answer: 610
+Is Correct: True
+Correct Count: 291/318
+--------------------
+Ground Truth Answer: 606
+Ground Truth Answer: 606
+Model Answer: 606
+Is Correct: True
+Correct Count: 292/319
+--------------------
+Ground Truth Answer: 35
+Ground Truth Answer: 35
+Model Answer: 94
+Is Correct: False
+Correct Count: 292/320
+--------------------
+Ground Truth Answer: 96
+Ground Truth Answer: 96
+Model Answer: 96
+Is Correct: True
+Correct Count: 293/321
+--------------------
+Ground Truth Answer: -128
+Ground Truth Answer: -128
+Model Answer: 0
+Is Correct: False
+Correct Count: 293/322
+--------------------
+Ground Truth Answer: 23
+Ground Truth Answer: 23
+Model Answer: 23
+Is Correct: True
+Correct Count: 294/323
+--------------------
+Ground Truth Answer: -4
+Ground Truth Answer: -4
+Model Answer: 4
+Is Correct: False
+Correct Count: 294/324
+--------------------
+Ground Truth Answer: 43
+Ground Truth Answer: 43
+Model Answer: 43
+Is Correct: True
+Correct Count: 295/325
+--------------------
+Ground Truth Answer: -87
+Ground Truth Answer: -87
+Model Answer: 87
+Is Correct: False
+Correct Count: 295/326
+--------------------
+Ground Truth Answer: 174
+Ground Truth Answer: 174
+Model Answer: 174
+Is Correct: True
+Correct Count: 296/327
+--------------------
+Ground Truth Answer: 60
+Ground Truth Answer: 60
+Model Answer: 60
+Is Correct: True
+Correct Count: 297/328
+--------------------
+Ground Truth Answer: 36
+Ground Truth Answer: 36
+Model Answer: 36
+Is Correct: True
+Correct Count: 298/329
+--------------------
+Ground Truth Answer: 108
+Ground Truth Answer: 108
+Model Answer: 108
+Is Correct: True
+Correct Count: 299/330
+--------------------
+Ground Truth Answer: 144
+Ground Truth Answer: 144
+Model Answer: 144
+Is Correct: True
+Correct Count: 300/331
+--------------------
+Ground Truth Answer: 88
+Ground Truth Answer: 88
+Model Answer: 88
+Is Correct: True
+Correct Count: 301/332
+--------------------
+Ground Truth Answer: 189
+Ground Truth Answer: 189
+Model Answer: 189
+Is Correct: True
+Correct Count: 302/333
+--------------------
+Ground Truth Answer: 24
+Ground Truth Answer: 24
+Model Answer: 24
+Is Correct: True
+Correct Count: 303/334
+--------------------
+Ground Truth Answer: 50
+Ground Truth Answer: 50
+Model Answer: 50
+Is Correct: True
+Correct Count: 304/335
+--------------------
+Ground Truth Answer: 56
+Ground Truth Answer: 56
+Model Answer: 56
+Is Correct: True
+Correct Count: 305/336
+--------------------
+Ground Truth Answer: 162
+Ground Truth Answer: 162
+Model Answer: 162
+Is Correct: True
+Correct Count: 306/337
+--------------------
+Ground Truth Answer: 3670
+Ground Truth Answer: 3670
+Model Answer: 3670
+Is Correct: True
+Correct Count: 307/338
+--------------------
+Ground Truth Answer: 476
+Ground Truth Answer: 476
+Model Answer: 476
+Is Correct: True
+Correct Count: 308/339
+--------------------
+Ground Truth Answer: 13050
+Ground Truth Answer: 13050
+Model Answer: 13050
+Is Correct: True
+Correct Count: 309/340
+--------------------
+Ground Truth Answer: 2400
+Ground Truth Answer: 2400
+Model Answer: 2400
+Is Correct: True
+Correct Count: 310/341
+--------------------
+Ground Truth Answer: 36
+Ground Truth Answer: 36
+Model Answer: 36
+Is Correct: True
+Correct Count: 311/342
+--------------------
+Ground Truth Answer: 48
+Ground Truth Answer: 48
+Model Answer: 24
+Is Correct: False
+Correct Count: 311/343
+--------------------
+Ground Truth Answer: 2706
+Ground Truth Answer: 2706
+Model Answer: 2706
+Is Correct: True
+Correct Count: 312/344
+--------------------
+Ground Truth Answer: 513
+Ground Truth Answer: 513
+Model Answer: 513
+Is Correct: True
+Correct Count: 313/345
+--------------------
+Ground Truth Answer: 625
+Ground Truth Answer: 625
+Model Answer: 625
+Is Correct: True
+Correct Count: 314/346
+--------------------
+Ground Truth Answer: 40
+Ground Truth Answer: 40
+Model Answer: 40
+Is Correct: True
+Correct Count: 315/347
+--------------------
+Ground Truth Answer: 1104
+Ground Truth Answer: 1104
+Model Answer: 1104
+Is Correct: True
+Correct Count: 316/348
+--------------------
+Ground Truth Answer: 86
+Ground Truth Answer: 86
+Model Answer: 86
+Is Correct: True
+Correct Count: 317/349
+--------------------
+Ground Truth Answer: 47
+Ground Truth Answer: 47
+Model Answer: 47
+Is Correct: True
+Correct Count: 318/350
+--------------------
+Ground Truth Answer: 59
+Ground Truth Answer: 59
+Model Answer: 59
+Is Correct: True
+Correct Count: 319/351
+--------------------
+Ground Truth Answer: 13.57
+Ground Truth Answer: 13.57
+Model Answer: 13.57
+Is Correct: True
+Correct Count: 320/352
+--------------------
+Ground Truth Answer: 7
+Ground Truth Answer: 7
+Model Answer: 7
+Is Correct: True
+Correct Count: 321/353
+--------------------
+Ground Truth Answer: 42
+Ground Truth Answer: 42
+Model Answer: 42
+Is Correct: True
+Correct Count: 322/354
+--------------------
+Ground Truth Answer: 7
+Ground Truth Answer: 7
+Model Answer: 7
+Is Correct: True
+Correct Count: 323/355
+--------------------
+Ground Truth Answer: 47
+Ground Truth Answer: 47
+Model Answer: 47
+Is Correct: True
+Correct Count: 324/356
+--------------------
+Ground Truth Answer: 47
+Ground Truth Answer: 47
+Model Answer: 47
+Is Correct: True
+Correct Count: 325/357
+--------------------
+Ground Truth Answer: 130
+Ground Truth Answer: 130
+Model Answer: 130
+Is Correct: True
+Correct Count: 326/358
+--------------------
+Ground Truth Answer: 97
+Ground Truth Answer: 97
+Model Answer: 97
+Is Correct: True
+Correct Count: 327/359
+--------------------
+Ground Truth Answer: 3
+Ground Truth Answer: 3
+Model Answer: 3
+Is Correct: True
+Correct Count: 328/360
+--------------------
+Ground Truth Answer: 172
+Ground Truth Answer: 172
+Model Answer: 172
+Is Correct: True
+Correct Count: 329/361
+--------------------
+Ground Truth Answer: -27
+Ground Truth Answer: -27
+Model Answer: 27
+Is Correct: False
+Correct Count: 329/362
+--------------------
+Ground Truth Answer: 20
+Ground Truth Answer: 20
+Model Answer: 20
+Is Correct: True
+Correct Count: 330/363
+--------------------
+Ground Truth Answer: 95
+Ground Truth Answer: 95
+Model Answer: 95
+Is Correct: True
+Correct Count: 331/364
+--------------------
+Ground Truth Answer: 17
+Ground Truth Answer: 17
+Model Answer: 17
+Is Correct: True
+Correct Count: 332/365
+--------------------
+Ground Truth Answer: 70
+Ground Truth Answer: 70
+Model Answer: 70
+Is Correct: True
+Correct Count: 333/366
+--------------------
+Ground Truth Answer: 167
+Ground Truth Answer: 167
+Model Answer: 167
+Is Correct: True
+Correct Count: 334/367
+--------------------
+Ground Truth Answer: 32
+Ground Truth Answer: 32
+Model Answer: 32
+Is Correct: True
+Correct Count: 335/368
+--------------------
+Ground Truth Answer: -10
+Ground Truth Answer: -10
+Model Answer: 0
+Is Correct: False
+Correct Count: 335/369
+--------------------
+Ground Truth Answer: 103
+Ground Truth Answer: 103
+Model Answer: 103
+Is Correct: True
+Correct Count: 336/370
+--------------------
+Ground Truth Answer: 143
+Ground Truth Answer: 143
+Model Answer: 143
+Is Correct: True
+Correct Count: 337/371
+--------------------
+Ground Truth Answer: 58
+Ground Truth Answer: 58
+Model Answer: 58
+Is Correct: True
+Correct Count: 338/372
+--------------------
+Ground Truth Answer: 15244
+Ground Truth Answer: 15244
+Model Answer: 15244
+Is Correct: True
+Correct Count: 339/373
+--------------------
+Ground Truth Answer: 54
+Ground Truth Answer: 54
+Model Answer: 54
+Is Correct: True
+Correct Count: 340/374
+--------------------
+Ground Truth Answer: 11
+Ground Truth Answer: 11
+Model Answer: 14
+Is Correct: False
+Correct Count: 340/375
+--------------------
+Ground Truth Answer: 16
+Ground Truth Answer: 16
+Model Answer: 16
+Is Correct: True
+Correct Count: 341/376
+--------------------
+Ground Truth Answer: 10
+Ground Truth Answer: 10
+Model Answer: 10
+Is Correct: True
+Correct Count: 342/377
+--------------------
+Ground Truth Answer: 90
+Ground Truth Answer: 90
+Model Answer: 90
+Is Correct: True
+Correct Count: 343/378
+--------------------
+Ground Truth Answer: 66
+Ground Truth Answer: 66
+Model Answer: 66
+Is Correct: True
+Correct Count: 344/379
+--------------------
+Ground Truth Answer: 12
+Ground Truth Answer: 12
+Model Answer: 12
+Is Correct: True
+Correct Count: 345/380
+--------------------
+Ground Truth Answer: 49
+Ground Truth Answer: 49
+Model Answer: 49
+Is Correct: True
+Correct Count: 346/381
+--------------------
+Ground Truth Answer: 66
+Ground Truth Answer: 66
+Model Answer: 66
+Is Correct: True
+Correct Count: 347/382
+--------------------
+Ground Truth Answer: 90
+Ground Truth Answer: 90
+Model Answer: 90
+Is Correct: True
+Correct Count: 348/383
+--------------------
+Ground Truth Answer: 7
+Ground Truth Answer: 7
+Model Answer: 7
+Is Correct: True
+Correct Count: 349/384
+--------------------
+Ground Truth Answer: 13
+Ground Truth Answer: 13
+Model Answer: 13
+Is Correct: True
+Correct Count: 350/385
+--------------------
+Ground Truth Answer: 7
+Ground Truth Answer: 7
+Model Answer: 7
+Is Correct: True
+Correct Count: 351/386
+--------------------
+Ground Truth Answer: 10
+Ground Truth Answer: 10
+Model Answer: 10
+Is Correct: True
+Correct Count: 352/387
+--------------------
+Ground Truth Answer: 90
+Ground Truth Answer: 90
+Model Answer: 90
+Is Correct: True
+Correct Count: 353/388
+--------------------
+Ground Truth Answer: 30
+Ground Truth Answer: 30
+Model Answer: 30
+Is Correct: True
+Correct Count: 354/389
+--------------------
+Ground Truth Answer: 21
+Ground Truth Answer: 21
+Model Answer: 21
+Is Correct: True
+Correct Count: 355/390
+--------------------
+Ground Truth Answer: 27
+Ground Truth Answer: 27
+Model Answer: 27
+Is Correct: True
+Correct Count: 356/391
+--------------------
+Ground Truth Answer: 4
+Ground Truth Answer: 4
+Model Answer: 4
+Is Correct: True
+Correct Count: 357/392
+--------------------
+Ground Truth Answer: 2
+Ground Truth Answer: 2
+Model Answer: 2
+Is Correct: True
+Correct Count: 358/393
+--------------------
+Ground Truth Answer: 16
+Ground Truth Answer: 16
+Model Answer: 16
+Is Correct: True
+Correct Count: 359/394
+--------------------
+Ground Truth Answer: 11
+Ground Truth Answer: 11
+Model Answer: 11
+Is Correct: True
+Correct Count: 360/395
+--------------------
+Ground Truth Answer: 7
+Ground Truth Answer: 7
+Model Answer: 7
+Is Correct: True
+Correct Count: 361/396
+--------------------
+Ground Truth Answer: 176
+Ground Truth Answer: 176
+Model Answer: 176
+Is Correct: True
+Correct Count: 362/397
+--------------------
+Ground Truth Answer: 28
+Ground Truth Answer: 28
+Model Answer: 28
+Is Correct: True
+Correct Count: 363/398
+--------------------
+Ground Truth Answer: 15
+Ground Truth Answer: 15
+Model Answer: 15
+Is Correct: True
+Correct Count: 364/399
+--------------------
+Ground Truth Answer: -11
+Ground Truth Answer: -11
+Model Answer: 53
+Is Correct: False
+Correct Count: 364/400
+--------------------
+Ground Truth Answer: 20
+Ground Truth Answer: 20
+Model Answer: 20
+Is Correct: True
+Correct Count: 365/401
+--------------------
+Ground Truth Answer: 4
+Ground Truth Answer: 4
+Model Answer: 4
+Is Correct: True
+Correct Count: 366/402
+--------------------
+Ground Truth Answer: 9
+Ground Truth Answer: 9
+Model Answer: 9
+Is Correct: True
+Correct Count: 367/403
+--------------------
+Ground Truth Answer: 12
+Ground Truth Answer: 12
+Model Answer: 12
+Is Correct: True
+Correct Count: 368/404
+--------------------
+Ground Truth Answer: 15
+Ground Truth Answer: 15
+Model Answer: 15
+Is Correct: True
+Correct Count: 369/405
+--------------------
+Ground Truth Answer: 8
+Ground Truth Answer: 8
+Model Answer: 8
+Is Correct: True
+Correct Count: 370/406
+--------------------
+Ground Truth Answer: 10
+Ground Truth Answer: 10
+Model Answer: 10
+Is Correct: True
+Correct Count: 371/407
+--------------------
+Ground Truth Answer: 15
+Ground Truth Answer: 15
+Model Answer: 15
+Is Correct: True
+Correct Count: 372/408
+--------------------
+Ground Truth Answer: 8
+Ground Truth Answer: 8
+Model Answer: 8
+Is Correct: True
+Correct Count: 373/409
+--------------------
+Ground Truth Answer: 7
+Ground Truth Answer: 7
+Model Answer: 7
+Is Correct: True
+Correct Count: 374/410
+--------------------
+Ground Truth Answer: 12
+Ground Truth Answer: 12
+Model Answer: 12
+Is Correct: True
+Correct Count: 375/411
+--------------------
+Ground Truth Answer: -16
+Ground Truth Answer: -16
+Model Answer: 0
+Is Correct: False
+Correct Count: 375/412
+--------------------
+Ground Truth Answer: 186
+Ground Truth Answer: 186
+Model Answer: 186
+Is Correct: True
+Correct Count: 376/413
+--------------------
+Ground Truth Answer: 7
+Ground Truth Answer: 7
+Model Answer: 7
+Is Correct: True
+Correct Count: 377/414
+--------------------
+Ground Truth Answer: 2
+Ground Truth Answer: 2
+Model Answer: 2
+Is Correct: True
+Correct Count: 378/415
+--------------------
+Ground Truth Answer: 11
+Ground Truth Answer: 11
+Model Answer: 11
+Is Correct: True
+Correct Count: 379/416
+--------------------
+Ground Truth Answer: 5
+Ground Truth Answer: 5
+Model Answer: 5
+Is Correct: True
+Correct Count: 380/417
+--------------------
+Ground Truth Answer: 297
+Ground Truth Answer: 297
+Model Answer: 297
+Is Correct: True
+Correct Count: 381/418
+--------------------
+Ground Truth Answer: 36
+Ground Truth Answer: 36
+Model Answer: 36
+Is Correct: True
+Correct Count: 382/419
+--------------------
+Ground Truth Answer: 41
+Ground Truth Answer: 41
+Model Answer: 41
+Is Correct: True
+Correct Count: 383/420
+--------------------
+Ground Truth Answer: 19
+Ground Truth Answer: 19
+Model Answer: 19
+Is Correct: True
+Correct Count: 384/421
+--------------------
+Ground Truth Answer: 40
+Ground Truth Answer: 40
+Model Answer: 40
+Is Correct: True
+Correct Count: 385/422
+--------------------
+Ground Truth Answer: 72
+Ground Truth Answer: 72
+Model Answer: 72
+Is Correct: True
+Correct Count: 386/423
+--------------------
+Ground Truth Answer: 24
+Ground Truth Answer: 24
+Model Answer: 24
+Is Correct: True
+Correct Count: 387/424
+--------------------
+Ground Truth Answer: 149
+Ground Truth Answer: 149
+Model Answer: 149
+Is Correct: True
+Correct Count: 388/425
+--------------------
+Ground Truth Answer: 35
+Ground Truth Answer: 35
+Model Answer: 35
+Is Correct: True
+Correct Count: 389/426
+--------------------
+Ground Truth Answer: 51
+Ground Truth Answer: 51
+Model Answer: 51
+Is Correct: True
+Correct Count: 390/427
+--------------------
+Ground Truth Answer: 206
+Ground Truth Answer: 206
+Model Answer: 206
+Is Correct: True
+Correct Count: 391/428
+--------------------
+Ground Truth Answer: 41
+Ground Truth Answer: 41
+Model Answer: 41
+Is Correct: True
+Correct Count: 392/429
+--------------------
+Ground Truth Answer: 91
+Ground Truth Answer: 91
+Model Answer: 91
+Is Correct: True
+Correct Count: 393/430
+--------------------
+Ground Truth Answer: 11
+Ground Truth Answer: 11
+Model Answer: 11
+Is Correct: True
+Correct Count: 394/431
+--------------------
+Ground Truth Answer: 17
+Ground Truth Answer: 17
+Model Answer: 17
+Is Correct: True
+Correct Count: 395/432
+--------------------
+Ground Truth Answer: 46
+Ground Truth Answer: 46
+Model Answer: 46
+Is Correct: True
+Correct Count: 396/433
+--------------------
+Ground Truth Answer: 35
+Ground Truth Answer: 35
+Model Answer: 35
+Is Correct: True
+Correct Count: 397/434
+--------------------
+Ground Truth Answer: 70
+Ground Truth Answer: 70
+Model Answer: 70
+Is Correct: True
+Correct Count: 398/435
+--------------------
+Ground Truth Answer: 135
+Ground Truth Answer: 135
+Model Answer: 135
+Is Correct: True
+Correct Count: 399/436
+--------------------
+Ground Truth Answer: 108
+Ground Truth Answer: 108
+Model Answer: 108
+Is Correct: True
+Correct Count: 400/437
+--------------------
+Ground Truth Answer: 8
+Ground Truth Answer: 8
+Model Answer: 8
+Is Correct: True
+Correct Count: 401/438
+--------------------
+Ground Truth Answer: 20
+Ground Truth Answer: 20
+Model Answer: 20
+Is Correct: True
+Correct Count: 402/439
+--------------------
+Ground Truth Answer: 17
+Ground Truth Answer: 17
+Model Answer: 17
+Is Correct: True
+Correct Count: 403/440
+--------------------
+Ground Truth Answer: 20
+Ground Truth Answer: 20
+Model Answer: 20
+Is Correct: True
+Correct Count: 404/441
+--------------------
+Ground Truth Answer: 9
+Ground Truth Answer: 9
+Model Answer: 9
+Is Correct: True
+Correct Count: 405/442
+--------------------
+Ground Truth Answer: 16
+Ground Truth Answer: 16
+Model Answer: 16
+Is Correct: True
+Correct Count: 406/443
+--------------------
+Ground Truth Answer: 19
+Ground Truth Answer: 19
+Model Answer: 19
+Is Correct: True
+Correct Count: 407/444
+--------------------
+Ground Truth Answer: 11
+Ground Truth Answer: 11
+Model Answer: 11
+Is Correct: True
+Correct Count: 408/445
+--------------------
+Ground Truth Answer: -28
+Ground Truth Answer: -28
+Model Answer: 28
+Is Correct: False
+Correct Count: 408/446
+--------------------
+Ground Truth Answer: 21
+Ground Truth Answer: 21
+Model Answer: 21
+Is Correct: True
+Correct Count: 409/447
+--------------------
+Ground Truth Answer: 14
+Ground Truth Answer: 14
+Model Answer: 14
+Is Correct: True
+Correct Count: 410/448
+--------------------
+Ground Truth Answer: 24
+Ground Truth Answer: 24
+Model Answer: 24
+Is Correct: True
+Correct Count: 411/449
+--------------------
+Ground Truth Answer: 22
+Ground Truth Answer: 22
+Model Answer: 22
+Is Correct: True
+Correct Count: 412/450
+--------------------
+Ground Truth Answer: 46
+Ground Truth Answer: 46
+Model Answer: 46
+Is Correct: True
+Correct Count: 413/451
+--------------------
+Ground Truth Answer: 2
+Ground Truth Answer: 2
+Model Answer: 2
+Is Correct: True
+Correct Count: 414/452
+--------------------
+Ground Truth Answer: 16
+Ground Truth Answer: 16
+Model Answer: 16
+Is Correct: True
+Correct Count: 415/453
+--------------------
+Ground Truth Answer: 19
+Ground Truth Answer: 19
+Model Answer: 19
+Is Correct: True
+Correct Count: 416/454
+--------------------
+Ground Truth Answer: 3
+Ground Truth Answer: 3
+Model Answer: 3
+Is Correct: True
+Correct Count: 417/455
+--------------------
+Ground Truth Answer: 6
+Ground Truth Answer: 6
+Model Answer: 6
+Is Correct: True
+Correct Count: 418/456
+--------------------
+Ground Truth Answer: 35
+Ground Truth Answer: 35
+Model Answer: 35
+Is Correct: True
+Correct Count: 419/457
+--------------------
+Ground Truth Answer: 7
+Ground Truth Answer: 7
+Model Answer: 7
+Is Correct: True
+Correct Count: 420/458
+--------------------
+Ground Truth Answer: 4
+Ground Truth Answer: 4
+Model Answer: 4
+Is Correct: True
+Correct Count: 421/459
+--------------------
+Ground Truth Answer: 14
+Ground Truth Answer: 14
+Model Answer: 14
+Is Correct: True
+Correct Count: 422/460
+--------------------
+Ground Truth Answer: 3
+Ground Truth Answer: 3
+Model Answer: 3
+Is Correct: True
+Correct Count: 423/461
+--------------------
+Ground Truth Answer: 2
+Ground Truth Answer: 2
+Model Answer: 2
+Is Correct: True
+Correct Count: 424/462
+--------------------
+Ground Truth Answer: 15
+Ground Truth Answer: 15
+Model Answer: 15
+Is Correct: True
+Correct Count: 425/463
+--------------------
+Ground Truth Answer: 2
+Ground Truth Answer: 2
+Model Answer: 2
+Is Correct: True
+Correct Count: 426/464
+--------------------
+Ground Truth Answer: 5
+Ground Truth Answer: 5
+Model Answer: 5
+Is Correct: True
+Correct Count: 427/465
+--------------------
+Ground Truth Answer: 58
+Ground Truth Answer: 58
+Model Answer: 58
+Is Correct: True
+Correct Count: 428/466
+--------------------
+Ground Truth Answer: 64
+Ground Truth Answer: 64
+Model Answer: 64
+Is Correct: True
+Correct Count: 429/467
+--------------------
+Ground Truth Answer: 27
+Ground Truth Answer: 27
+Model Answer: 27
+Is Correct: True
+Correct Count: 430/468
+--------------------
+Ground Truth Answer: 12
+Ground Truth Answer: 12
+Model Answer: 12
+Is Correct: True
+Correct Count: 431/469
+--------------------
+Ground Truth Answer: 3
+Ground Truth Answer: 3
+Model Answer: 3
+Is Correct: True
+Correct Count: 432/470
+--------------------
+Ground Truth Answer: -1
+Ground Truth Answer: -1
+Model Answer: 0
+Is Correct: False
+Correct Count: 432/471
+--------------------
+Ground Truth Answer: 26
+Ground Truth Answer: 26
+Model Answer: 26
+Is Correct: True
+Correct Count: 433/472
+--------------------
+Ground Truth Answer: 23
+Ground Truth Answer: 23
+Model Answer: 23
+Is Correct: True
+Correct Count: 434/473
+--------------------
+Ground Truth Answer: -6
+Ground Truth Answer: -6
+Model Answer: 6
+Is Correct: False
+Correct Count: 434/474
+--------------------
+Ground Truth Answer: 6
+Ground Truth Answer: 6
+Model Answer: 6
+Is Correct: True
+Correct Count: 435/475
+--------------------
+Ground Truth Answer: 14
+Ground Truth Answer: 14
+Model Answer: 14
+Is Correct: True
+Correct Count: 436/476
+--------------------
+Ground Truth Answer: 15
+Ground Truth Answer: 15
+Model Answer: 15
+Is Correct: True
+Correct Count: 437/477
+--------------------
+Ground Truth Answer: 20
+Ground Truth Answer: 20
+Model Answer: 20
+Is Correct: True
+Correct Count: 438/478
+--------------------
+Ground Truth Answer: 5
+Ground Truth Answer: 5
+Model Answer: 5
+Is Correct: True
+Correct Count: 439/479
+--------------------
+Ground Truth Answer: 8
+Ground Truth Answer: 8
+Model Answer: 8
+Is Correct: True
+Correct Count: 440/480
+--------------------
+Ground Truth Answer: 7
+Ground Truth Answer: 7
+Model Answer: 7
+Is Correct: True
+Correct Count: 441/481
+--------------------
+Ground Truth Answer: 0
+Ground Truth Answer: 0
+Model Answer: 0
+Is Correct: True
+Correct Count: 442/482
+--------------------
+Ground Truth Answer: 44
+Ground Truth Answer: 44
+Model Answer: 44
+Is Correct: True
+Correct Count: 443/483
+--------------------
+Ground Truth Answer: 25
+Ground Truth Answer: 25
+Model Answer: 25
+Is Correct: True
+Correct Count: 444/484
+--------------------
+Ground Truth Answer: 42
+Ground Truth Answer: 42
+Model Answer: 42
+Is Correct: True
+Correct Count: 445/485
+--------------------
+Ground Truth Answer: 2015
+Ground Truth Answer: 2015
+Model Answer: 2015
+Is Correct: True
+Correct Count: 446/486
+--------------------
+Ground Truth Answer: 97
+Ground Truth Answer: 97
+Model Answer: 97
+Is Correct: True
+Correct Count: 447/487
+--------------------
+Ground Truth Answer: 48
+Ground Truth Answer: 48
+Model Answer: 48
+Is Correct: True
+Correct Count: 448/488
+--------------------
+Ground Truth Answer: 74
+Ground Truth Answer: 74
+Model Answer: 74
+Is Correct: True
+Correct Count: 449/489
+--------------------
+Ground Truth Answer: 165
+Ground Truth Answer: 165
+Model Answer: 165
+Is Correct: True
+Correct Count: 450/490
+--------------------
+Ground Truth Answer: -4
+Ground Truth Answer: -4
+Model Answer: 4
+Is Correct: False
+Correct Count: 450/491
+--------------------
+Ground Truth Answer: 5
+Ground Truth Answer: 5
+Model Answer: 5
+Is Correct: True
+Correct Count: 451/492
+--------------------
+Ground Truth Answer: 8
+Ground Truth Answer: 8
+Model Answer: 8
+Is Correct: True
+Correct Count: 452/493
+--------------------
+Ground Truth Answer: 28
+Ground Truth Answer: 28
+Model Answer: 28
+Is Correct: True
+Correct Count: 453/494
+--------------------
+Ground Truth Answer: 41
+Ground Truth Answer: 41
+Model Answer: 41
+Is Correct: True
+Correct Count: 454/495
+--------------------
+Ground Truth Answer: 16
+Ground Truth Answer: 16
+Model Answer: 16
+Is Correct: True
+Correct Count: 455/496
+--------------------
+Ground Truth Answer: 74
+Ground Truth Answer: 74
+Model Answer: 74
+Is Correct: True
+Correct Count: 456/497
+--------------------
+Ground Truth Answer: 23
+Ground Truth Answer: 23
+Model Answer: 23
+Is Correct: True
+Correct Count: 457/498
+--------------------
+Ground Truth Answer: 42
+Ground Truth Answer: 42
+Model Answer: 42
+Is Correct: True
+Correct Count: 458/499
+--------------------
+Ground Truth Answer: 21
+Ground Truth Answer: 21
+Model Answer: 21
+Is Correct: True
+Correct Count: 459/500
+--------------------
+Ground Truth Answer: 17
+Ground Truth Answer: 17
+Model Answer: 17
+Is Correct: True
+Correct Count: 460/501
+--------------------
+Ground Truth Answer: 195
+Ground Truth Answer: 195
+Model Answer: 195
+Is Correct: True
+Correct Count: 461/502
+--------------------
+Ground Truth Answer: 48
+Ground Truth Answer: 48
+Model Answer: 48
+Is Correct: True
+Correct Count: 462/503
+--------------------
+Ground Truth Answer: 769
+Ground Truth Answer: 769
+Model Answer: 769
+Is Correct: True
+Correct Count: 463/504
+--------------------
+Ground Truth Answer: 96
+Ground Truth Answer: 96
+Model Answer: 96
+Is Correct: True
+Correct Count: 464/505
+--------------------
+Ground Truth Answer: 180
+Ground Truth Answer: 180
+Model Answer: 180
+Is Correct: True
+Correct Count: 465/506
+--------------------
+Ground Truth Answer: 408
+Ground Truth Answer: 408
+Model Answer: 408
+Is Correct: True
+Correct Count: 466/507
+--------------------
+Ground Truth Answer: 15
+Ground Truth Answer: 15
+Model Answer: 15
+Is Correct: True
+Correct Count: 467/508
+--------------------
+Ground Truth Answer: 48
+Ground Truth Answer: 48
+Model Answer: 48
+Is Correct: True
+Correct Count: 468/509
+--------------------
+Ground Truth Answer: 84
+Ground Truth Answer: 84
+Model Answer: 84
+Is Correct: True
+Correct Count: 469/510
+--------------------
+Ground Truth Answer: 40
+Ground Truth Answer: 40
+Model Answer: 40
+Is Correct: True
+Correct Count: 470/511
+--------------------
+Ground Truth Answer: 256
+Ground Truth Answer: 256
+Model Answer: 256
+Is Correct: True
+Correct Count: 471/512
+--------------------
+Ground Truth Answer: 58
+Ground Truth Answer: 58
+Model Answer: 58
+Is Correct: True
+Correct Count: 472/513
+--------------------
+Ground Truth Answer: 754
+Ground Truth Answer: 754
+Model Answer: 754
+Is Correct: True
+Correct Count: 473/514
+--------------------
+Ground Truth Answer: -19
+Ground Truth Answer: -19
+Model Answer: 0
+Is Correct: False
+Correct Count: 473/515
+--------------------
+Ground Truth Answer: 1048
+Ground Truth Answer: 1048
+Model Answer: 1048
+Is Correct: True
+Correct Count: 474/516
+--------------------
+Ground Truth Answer: 164
+Ground Truth Answer: 164
+Model Answer: 164
+Is Correct: True
+Correct Count: 475/517
+--------------------
+Ground Truth Answer: -5
+Ground Truth Answer: -5
+Model Answer: 5
+Is Correct: False
+Correct Count: 475/518
+--------------------
+Ground Truth Answer: -527
+Ground Truth Answer: -527
+Model Answer: 527
+Is Correct: False
+Correct Count: 475/519
+--------------------
+Ground Truth Answer: 81
+Ground Truth Answer: 81
+Model Answer: 139
+Is Correct: False
+Correct Count: 475/520
+--------------------
+Ground Truth Answer: -40
+Ground Truth Answer: -40
+Model Answer: 40
+Is Correct: False
+Correct Count: 475/521
+--------------------
+Ground Truth Answer: 382
+Ground Truth Answer: 382
+Model Answer: 382
+Is Correct: True
+Correct Count: 476/522
+--------------------
+Ground Truth Answer: 24
+Ground Truth Answer: 24
+Model Answer: 24
+Is Correct: True
+Correct Count: 477/523
+--------------------
+Ground Truth Answer: 47
+Ground Truth Answer: 47
+Model Answer: 47
+Is Correct: True
+Correct Count: 478/524
+--------------------
+Ground Truth Answer: 114
+Ground Truth Answer: 114
+Model Answer: 114
+Is Correct: True
+Correct Count: 479/525
+--------------------
+Ground Truth Answer: 979
+Ground Truth Answer: 979
+Model Answer: 979
+Is Correct: True
+Correct Count: 480/526
+--------------------
+Ground Truth Answer: 756
+Ground Truth Answer: 756
+Model Answer: 756
+Is Correct: True
+Correct Count: 481/527
+--------------------
+Ground Truth Answer: 60
+Ground Truth Answer: 60
+Model Answer: 60
+Is Correct: True
+Correct Count: 482/528
+--------------------
+Ground Truth Answer: 32
+Ground Truth Answer: 32
+Model Answer: 32
+Is Correct: True
+Correct Count: 483/529
+--------------------
+Ground Truth Answer: 90
+Ground Truth Answer: 90
+Model Answer: 90
+Is Correct: True
+Correct Count: 484/530
+--------------------
+Ground Truth Answer: 168
+Ground Truth Answer: 168
+Model Answer: 168
+Is Correct: True
+Correct Count: 485/531
+--------------------
+Ground Truth Answer: 120
+Ground Truth Answer: 120
+Model Answer: 120
+Is Correct: True
+Correct Count: 486/532
+--------------------
+Ground Truth Answer: 90
+Ground Truth Answer: 90
+Model Answer: 90
+Is Correct: True
+Correct Count: 487/533
+--------------------
+Ground Truth Answer: 32
+Ground Truth Answer: 32
+Model Answer: 32
+Is Correct: True
+Correct Count: 488/534
+--------------------
+Ground Truth Answer: 30
+Ground Truth Answer: 30
+Model Answer: 30
+Is Correct: True
+Correct Count: 489/535
+--------------------
+Ground Truth Answer: 72
+Ground Truth Answer: 72
+Model Answer: 72
+Is Correct: True
+Correct Count: 490/536
+--------------------
+Ground Truth Answer: 162
+Ground Truth Answer: 162
+Model Answer: 162
+Is Correct: True
+Correct Count: 491/537
+--------------------
+Ground Truth Answer: 3660
+Ground Truth Answer: 3660
+Model Answer: 3660
+Is Correct: True
+Correct Count: 492/538
+--------------------
+Ground Truth Answer: 972
+Ground Truth Answer: 972
+Model Answer: 972
+Is Correct: True
+Correct Count: 493/539
+--------------------
+Ground Truth Answer: 13050
+Ground Truth Answer: 13050
+Model Answer: 13050
+Is Correct: True
+Correct Count: 494/540
+--------------------
+Ground Truth Answer: 7200
+Ground Truth Answer: 7200
+Model Answer: 7200
+Is Correct: True
+Correct Count: 495/541
+--------------------
+Ground Truth Answer: 56
+Ground Truth Answer: 56
+Model Answer: 56
+Is Correct: True
+Correct Count: 496/542
+--------------------
+Ground Truth Answer: 32
+Ground Truth Answer: 32
+Model Answer: 16
+Is Correct: False
+Correct Count: 496/543
+--------------------
+Ground Truth Answer: 6642
+Ground Truth Answer: 6642
+Model Answer: 6642
+Is Correct: True
+Correct Count: 497/544
+--------------------
+Ground Truth Answer: 1080
+Ground Truth Answer: 1080
+Model Answer: 1080
+Is Correct: True
+Correct Count: 498/545
+--------------------
+Ground Truth Answer: 375
+Ground Truth Answer: 375
+Model Answer: 375
+Is Correct: True
+Correct Count: 499/546
+--------------------
+Ground Truth Answer: 44
+Ground Truth Answer: 44
+Model Answer: 44
+Is Correct: True
+Correct Count: 500/547
+--------------------
+Ground Truth Answer: 1128
+Ground Truth Answer: 1128
+Model Answer: 1128
+Is Correct: True
+Correct Count: 501/548
+--------------------
+Ground Truth Answer: 70
+Ground Truth Answer: 70
+Model Answer: 70
+Is Correct: True
+Correct Count: 502/549
+--------------------
+Ground Truth Answer: 24
+Ground Truth Answer: 24
+Model Answer: 24
+Is Correct: True
+Correct Count: 503/550
+--------------------
+Ground Truth Answer: 99
+Ground Truth Answer: 99
+Model Answer: 99
+Is Correct: True
+Correct Count: 504/551
+--------------------
+Ground Truth Answer: 15.57
+Ground Truth Answer: 15.57
+Model Answer: 15.57
+Is Correct: True
+Correct Count: 505/552
+--------------------
+Ground Truth Answer: -26
+Ground Truth Answer: -26
+Model Answer: 26
+Is Correct: False
+Correct Count: 505/553
+--------------------
+Ground Truth Answer: 6
+Ground Truth Answer: 6
+Model Answer: 6
+Is Correct: True
+Correct Count: 506/554
+--------------------
+Ground Truth Answer: -78
+Ground Truth Answer: -78
+Model Answer: 78
+Is Correct: False
+Correct Count: 506/555
+--------------------
+Ground Truth Answer: 46
+Ground Truth Answer: 46
+Model Answer: 46
+Is Correct: True
+Correct Count: 507/556
+--------------------
+Ground Truth Answer: 77
+Ground Truth Answer: 77
+Model Answer: 110
+Is Correct: False
+Correct Count: 507/557
+--------------------
+Ground Truth Answer: 153
+Ground Truth Answer: 153
+Model Answer: 153
+Is Correct: True
+Correct Count: 508/558
+--------------------
+Ground Truth Answer: 63
+Ground Truth Answer: 63
+Model Answer: 63
+Is Correct: True
+Correct Count: 509/559
+--------------------
+Ground Truth Answer: 37
+Ground Truth Answer: 37
+Model Answer: 37
+Is Correct: True
+Correct Count: 510/560
+--------------------
+Ground Truth Answer: 95
+Ground Truth Answer: 95
+Model Answer: 95
+Is Correct: True
+Correct Count: 511/561
+--------------------
+Ground Truth Answer: -8
+Ground Truth Answer: -8
+Model Answer: 8
+Is Correct: False
+Correct Count: 511/562
+--------------------
+Ground Truth Answer: 46
+Ground Truth Answer: 46
+Model Answer: 46
+Is Correct: True
+Correct Count: 512/563
+--------------------
+Ground Truth Answer: 95
+Ground Truth Answer: 95
+Model Answer: 95
+Is Correct: True
+Correct Count: 513/564
+--------------------
+Ground Truth Answer: 17
+Ground Truth Answer: 17
+Model Answer: 17
+Is Correct: True
+Correct Count: 514/565
+--------------------
+Ground Truth Answer: 69
+Ground Truth Answer: 69
+Model Answer: 69
+Is Correct: True
+Correct Count: 515/566
+--------------------
+Ground Truth Answer: 77
+Ground Truth Answer: 77
+Model Answer: 77
+Is Correct: True
+Correct Count: 516/567
+--------------------
+Ground Truth Answer: 46
+Ground Truth Answer: 46
+Model Answer: 46
+Is Correct: True
+Correct Count: 517/568
+--------------------
+Ground Truth Answer: 34
+Ground Truth Answer: 34
+Model Answer: 34
+Is Correct: True
+Correct Count: 518/569
+--------------------
+Ground Truth Answer: 7
+Ground Truth Answer: 7
+Model Answer: 7
+Is Correct: True
+Correct Count: 519/570
+--------------------
+Ground Truth Answer: 97
+Ground Truth Answer: 97
+Model Answer: 97
+Is Correct: True
+Correct Count: 520/571
+--------------------
+Ground Truth Answer: 157
+Ground Truth Answer: 157
+Model Answer: 157
+Is Correct: True
+Correct Count: 521/572
+--------------------
+Ground Truth Answer: 15242
+Ground Truth Answer: 15242
+Model Answer: 15242
+Is Correct: True
+Correct Count: 522/573
+--------------------
+Ground Truth Answer: 65
+Ground Truth Answer: 65
+Model Answer: 65
+Is Correct: True
+Correct Count: 523/574
+--------------------
+Ground Truth Answer: 10
+Ground Truth Answer: 10
+Model Answer: 10
+Is Correct: True
+Correct Count: 524/575
+--------------------
+Ground Truth Answer: 32
+Ground Truth Answer: 32
+Model Answer: 32
+Is Correct: True
+Correct Count: 525/576
+--------------------
+Ground Truth Answer: 23
+Ground Truth Answer: 23
+Model Answer: 23
+Is Correct: True
+Correct Count: 526/577
+--------------------
+Ground Truth Answer: 31
+Ground Truth Answer: 31
+Model Answer: 31
+Is Correct: True
+Correct Count: 527/578
+--------------------
+Ground Truth Answer: 223
+Ground Truth Answer: 223
+Model Answer: 223
+Is Correct: True
+Correct Count: 528/579
+--------------------
+Ground Truth Answer: 13
+Ground Truth Answer: 13
+Model Answer: 13
+Is Correct: True
+Correct Count: 529/580
+--------------------
+Ground Truth Answer: 48
+Ground Truth Answer: 48
+Model Answer: 48
+Is Correct: True
+Correct Count: 530/581
+--------------------
+Ground Truth Answer: 65
+Ground Truth Answer: 65
+Model Answer: 65
+Is Correct: True
+Correct Count: 531/582
+--------------------
+Ground Truth Answer: 56
+Ground Truth Answer: 56
+Model Answer: 56
+Is Correct: True
+Correct Count: 532/583
+--------------------
+Ground Truth Answer: 6
+Ground Truth Answer: 6
+Model Answer: 6
+Is Correct: True
+Correct Count: 533/584
+--------------------
+Ground Truth Answer: 11
+Ground Truth Answer: 11
+Model Answer: 11
+Is Correct: True
+Correct Count: 534/585
+--------------------
+Ground Truth Answer: 7
+Ground Truth Answer: 7
+Model Answer: 7
+Is Correct: True
+Correct Count: 535/586
+--------------------
+Ground Truth Answer: 14
+Ground Truth Answer: 14
+Model Answer: 14
+Is Correct: True
+Correct Count: 536/587
+--------------------
+Ground Truth Answer: 120
+Ground Truth Answer: 120
+Model Answer: 120
+Is Correct: True
+Correct Count: 537/588
+--------------------
+Ground Truth Answer: 6
+Ground Truth Answer: 6
+Model Answer: 6
+Is Correct: True
+Correct Count: 538/589
+--------------------
+Ground Truth Answer: 35
+Ground Truth Answer: 35
+Model Answer: 35
+Is Correct: True
+Correct Count: 539/590
+--------------------
+Ground Truth Answer: 63
+Ground Truth Answer: 63
+Model Answer: 63
+Is Correct: True
+Correct Count: 540/591
+--------------------
+Ground Truth Answer: 5
+Ground Truth Answer: 5
+Model Answer: 5
+Is Correct: True
+Correct Count: 541/592
+--------------------
+Ground Truth Answer: 2
+Ground Truth Answer: 2
+Model Answer: 2
+Is Correct: True
+Correct Count: 542/593
+--------------------
+Ground Truth Answer: 15
+Ground Truth Answer: 15
+Model Answer: 15
+Is Correct: True
+Correct Count: 543/594
+--------------------
+Ground Truth Answer: 10
+Ground Truth Answer: 10
+Model Answer: 10
+Is Correct: True
+Correct Count: 544/595
+--------------------
+Ground Truth Answer: 6
+Ground Truth Answer: 6
+Model Answer: 6
+Is Correct: True
+Correct Count: 545/596
+--------------------
+Ground Truth Answer: 160
+Ground Truth Answer: 160
+Model Answer: 160
+Is Correct: True
+Correct Count: 546/597
+--------------------
+Ground Truth Answer: 27
+Ground Truth Answer: 27
+Model Answer: 27
+Is Correct: True
+Correct Count: 547/598
+--------------------
+Ground Truth Answer: 13
+Ground Truth Answer: 13
+Model Answer: 13
+Is Correct: True
+Correct Count: 548/599
+--------------------
+Ground Truth Answer: -4
+Ground Truth Answer: -4
+Model Answer: 10
+Is Correct: False
+Correct Count: 548/600
+--------------------
+Ground Truth Answer: 13
+Ground Truth Answer: 13
+Model Answer: 13
+Is Correct: True
+Correct Count: 549/601
+--------------------
+Ground Truth Answer: 4
+Ground Truth Answer: 4
+Model Answer: 4
+Is Correct: True
+Correct Count: 550/602
+--------------------
+Ground Truth Answer: 4
+Ground Truth Answer: 4
+Model Answer: 4
+Is Correct: True
+Correct Count: 551/603
+--------------------
+Ground Truth Answer: 3
+Ground Truth Answer: 3
+Model Answer: 3
+Is Correct: True
+Correct Count: 552/604
+--------------------
+Ground Truth Answer: 12
+Ground Truth Answer: 12
+Model Answer: 12
+Is Correct: True
+Correct Count: 553/605
+--------------------
+Ground Truth Answer: 40
+Ground Truth Answer: 40
+Model Answer: 40
+Is Correct: True
+Correct Count: 554/606
+--------------------
+Ground Truth Answer: 11
+Ground Truth Answer: 11
+Model Answer: 11
+Is Correct: True
+Correct Count: 555/607
+--------------------
+Ground Truth Answer: 15
+Ground Truth Answer: 15
+Model Answer: 15
+Is Correct: True
+Correct Count: 556/608
+--------------------
+Ground Truth Answer: 11
+Ground Truth Answer: 11
+Model Answer: 11
+Is Correct: True
+Correct Count: 557/609
+--------------------
+Ground Truth Answer: 12
+Ground Truth Answer: 12
+Model Answer: 12
+Is Correct: True
+Correct Count: 558/610
+--------------------
+Ground Truth Answer: 17
+Ground Truth Answer: 17
+Model Answer: 17
+Is Correct: True
+Correct Count: 559/611
+--------------------
+Ground Truth Answer: 27
+Ground Truth Answer: 27
+Model Answer: 27
+Is Correct: True
+Correct Count: 560/612
+--------------------
+Ground Truth Answer: 100
+Ground Truth Answer: 100
+Model Answer: 100
+Is Correct: True
+Correct Count: 561/613
+--------------------
+Ground Truth Answer: 8
+Ground Truth Answer: 8
+Model Answer: 8
+Is Correct: True
+Correct Count: 562/614
+--------------------
+Ground Truth Answer: -191
+Ground Truth Answer: -191
+Model Answer: 191
+Is Correct: False
+Correct Count: 562/615
+--------------------
+Ground Truth Answer: 97
+Ground Truth Answer: 97
+Model Answer: 97
+Is Correct: True
+Correct Count: 563/616
+--------------------
+Ground Truth Answer: 11
+Ground Truth Answer: 11
+Model Answer: 11
+Is Correct: True
+Correct Count: 564/617
+--------------------
+Ground Truth Answer: 104
+Ground Truth Answer: 104
+Model Answer: 104
+Is Correct: True
+Correct Count: 565/618
+--------------------
+Ground Truth Answer: 25
+Ground Truth Answer: 25
+Model Answer: 25
+Is Correct: True
+Correct Count: 566/619
+--------------------
+Ground Truth Answer: 27
+Ground Truth Answer: 27
+Model Answer: 27
+Is Correct: True
+Correct Count: 567/620
+--------------------
+Ground Truth Answer: 20
+Ground Truth Answer: 20
+Model Answer: 20
+Is Correct: True
+Correct Count: 568/621
+--------------------
+Ground Truth Answer: 22
+Ground Truth Answer: 22
+Model Answer: 22
+Is Correct: True
+Correct Count: 569/622
+--------------------
+Ground Truth Answer: 55
+Ground Truth Answer: 55
+Model Answer: 55
+Is Correct: True
+Correct Count: 570/623
+--------------------
+Ground Truth Answer: 68
+Ground Truth Answer: 68
+Model Answer: 68
+Is Correct: True
+Correct Count: 571/624
+--------------------
+Ground Truth Answer: 89
+Ground Truth Answer: 89
+Model Answer: 89
+Is Correct: True
+Correct Count: 572/625
+--------------------
+Ground Truth Answer: 52
+Ground Truth Answer: 52
+Model Answer: 52
+Is Correct: True
+Correct Count: 573/626
+--------------------
+Ground Truth Answer: 108
+Ground Truth Answer: 108
+Model Answer: 108
+Is Correct: True
+Correct Count: 574/627
+--------------------
+Ground Truth Answer: 145
+Ground Truth Answer: 145
+Model Answer: 145
+Is Correct: True
+Correct Count: 575/628
+--------------------
+Ground Truth Answer: 58
+Ground Truth Answer: 58
+Model Answer: 58
+Is Correct: True
+Correct Count: 576/629
+--------------------
+Ground Truth Answer: 101
+Ground Truth Answer: 101
+Model Answer: 101
+Is Correct: True
+Correct Count: 577/630
+--------------------
+Ground Truth Answer: 11
+Ground Truth Answer: 11
+Model Answer: 11
+Is Correct: True
+Correct Count: 578/631
+--------------------
+Ground Truth Answer: 12
+Ground Truth Answer: 12
+Model Answer: 12
+Is Correct: True
+Correct Count: 579/632
+--------------------
+Ground Truth Answer: 44
+Ground Truth Answer: 44
+Model Answer: 44
+Is Correct: True
+Correct Count: 580/633
+--------------------
+Ground Truth Answer: 16
+Ground Truth Answer: 16
+Model Answer: 16
+Is Correct: True
+Correct Count: 581/634
+--------------------
+Ground Truth Answer: 135
+Ground Truth Answer: 135
+Model Answer: 135
+Is Correct: True
+Correct Count: 582/635
+--------------------
+Ground Truth Answer: 176
+Ground Truth Answer: 176
+Model Answer: 176
+Is Correct: True
+Correct Count: 583/636
+--------------------
+Ground Truth Answer: 35
+Ground Truth Answer: 35
+Model Answer: 35
+Is Correct: True
+Correct Count: 584/637
+--------------------
+Ground Truth Answer: 72
+Ground Truth Answer: 72
+Model Answer: 72
+Is Correct: True
+Correct Count: 585/638
+--------------------
+Ground Truth Answer: 12
+Ground Truth Answer: 12
+Model Answer: 12
+Is Correct: True
+Correct Count: 586/639
+--------------------
+Ground Truth Answer: 18
+Ground Truth Answer: 18
+Model Answer: 18
+Is Correct: True
+Correct Count: 587/640
+--------------------
+Ground Truth Answer: 18
+Ground Truth Answer: 18
+Model Answer: 18
+Is Correct: True
+Correct Count: 588/641
+--------------------
+Ground Truth Answer: 8
+Ground Truth Answer: 8
+Model Answer: 8
+Is Correct: True
+Correct Count: 589/642
+--------------------
+Ground Truth Answer: 17
+Ground Truth Answer: 17
+Model Answer: 17
+Is Correct: True
+Correct Count: 590/643
+--------------------
+Ground Truth Answer: 20
+Ground Truth Answer: 20
+Model Answer: 20
+Is Correct: True
+Correct Count: 591/644
+--------------------
+Ground Truth Answer: 13
+Ground Truth Answer: 13
+Model Answer: 13
+Is Correct: True
+Correct Count: 592/645
+--------------------
+Ground Truth Answer: 5
+Ground Truth Answer: 5
+Model Answer: 5
+Is Correct: True
+Correct Count: 593/646
+--------------------
+Ground Truth Answer: 20
+Ground Truth Answer: 20
+Model Answer: 20
+Is Correct: True
+Correct Count: 594/647
+--------------------
+Ground Truth Answer: 14
+Ground Truth Answer: 14
+Model Answer: 14
+Is Correct: True
+Correct Count: 595/648
+--------------------
+Ground Truth Answer: 23
+Ground Truth Answer: 23
+Model Answer: 23
+Is Correct: True
+Correct Count: 596/649
+--------------------
+Ground Truth Answer: 22
+Ground Truth Answer: 22
+Model Answer: 22
+Is Correct: True
+Correct Count: 597/650
+--------------------
+Ground Truth Answer: 47
+Ground Truth Answer: 47
+Model Answer: 47
+Is Correct: True
+Correct Count: 598/651
+--------------------
+Ground Truth Answer: -3
+Ground Truth Answer: -3
+Model Answer: 0
+Is Correct: False
+Correct Count: 598/652
+--------------------
+Ground Truth Answer: 15
+Ground Truth Answer: 15
+Model Answer: 15
+Is Correct: True
+Correct Count: 599/653
+--------------------
+Ground Truth Answer: 8
+Ground Truth Answer: 8
+Model Answer: 8
+Is Correct: True
+Correct Count: 600/654
+--------------------
+Ground Truth Answer: 5
+Ground Truth Answer: 5
+Model Answer: 5
+Is Correct: True
+Correct Count: 601/655
+--------------------
+Ground Truth Answer: 88
+Ground Truth Answer: 88
+Model Answer: 88
+Is Correct: True
+Correct Count: 602/656
+--------------------
+Ground Truth Answer: 11
+Ground Truth Answer: 11
+Model Answer: 11
+Is Correct: True
+Correct Count: 603/657
+--------------------
+Ground Truth Answer: 12
+Ground Truth Answer: 12
+Model Answer: 12
+Is Correct: True
+Correct Count: 604/658
+--------------------
+Ground Truth Answer: 5
+Ground Truth Answer: 5
+Model Answer: 5
+Is Correct: True
+Correct Count: 605/659
+--------------------
+Ground Truth Answer: -2
+Ground Truth Answer: -2
+Model Answer: 2
+Is Correct: False
+Correct Count: 605/660
+--------------------
+Ground Truth Answer: 4
+Ground Truth Answer: 4
+Model Answer: 4
+Is Correct: True
+Correct Count: 606/661
+--------------------
+Ground Truth Answer: 5
+Ground Truth Answer: 5
+Model Answer: 5
+Is Correct: True
+Correct Count: 607/662
+--------------------
+Ground Truth Answer: 7
+Ground Truth Answer: 7
+Model Answer: 7
+Is Correct: True
+Correct Count: 608/663
+--------------------
+Ground Truth Answer: 1
+Ground Truth Answer: 1
+Model Answer: 1
+Is Correct: True
+Correct Count: 609/664
+--------------------
+Ground Truth Answer: 6
+Ground Truth Answer: 6
+Model Answer: 6
+Is Correct: True
+Correct Count: 610/665
+--------------------
+Ground Truth Answer: 76
+Ground Truth Answer: 76
+Model Answer: 76
+Is Correct: True
+Correct Count: 611/666
+--------------------
+Ground Truth Answer: 76
+Ground Truth Answer: 76
+Model Answer: 76
+Is Correct: True
+Correct Count: 612/667
+--------------------
+Ground Truth Answer: 29
+Ground Truth Answer: 29
+Model Answer: 29
+Is Correct: True
+Correct Count: 613/668
+--------------------
+Ground Truth Answer: 13
+Ground Truth Answer: 13
+Model Answer: 13
+Is Correct: True
+Correct Count: 614/669
+--------------------
+Ground Truth Answer: 3
+Ground Truth Answer: 3
+Model Answer: 3
+Is Correct: True
+Correct Count: 615/670
+--------------------
+Ground Truth Answer: 8
+Ground Truth Answer: 8
+Model Answer: 8
+Is Correct: True
+Correct Count: 616/671
+--------------------
+Ground Truth Answer: 14
+Ground Truth Answer: 14
+Model Answer: 14
+Is Correct: True
+Correct Count: 617/672
+--------------------
+Ground Truth Answer: 6
+Ground Truth Answer: 6
+Model Answer: 6
+Is Correct: True
+Correct Count: 618/673
+--------------------
+Ground Truth Answer: 5
+Ground Truth Answer: 5
+Model Answer: 5
+Is Correct: True
+Correct Count: 619/674
+--------------------
+Ground Truth Answer: 6
+Ground Truth Answer: 6
+Model Answer: 6
+Is Correct: True
+Correct Count: 620/675
+--------------------
+Ground Truth Answer: 18
+Ground Truth Answer: 18
+Model Answer: 18
+Is Correct: True
+Correct Count: 621/676
+--------------------
+Ground Truth Answer: 10
+Ground Truth Answer: 10
+Model Answer: 10
+Is Correct: True
+Correct Count: 622/677
+--------------------
+Ground Truth Answer: 39
+Ground Truth Answer: 39
+Model Answer: 39
+Is Correct: True
+Correct Count: 623/678
+--------------------
+Ground Truth Answer: 5
+Ground Truth Answer: 5
+Model Answer: 5
+Is Correct: True
+Correct Count: 624/679
+--------------------
+Ground Truth Answer: 25
+Ground Truth Answer: 25
+Model Answer: 25
+Is Correct: True
+Correct Count: 625/680
+--------------------
+Ground Truth Answer: 14
+Ground Truth Answer: 14
+Model Answer: 14
+Is Correct: True
+Correct Count: 626/681
+--------------------
+Ground Truth Answer: 5
+Ground Truth Answer: 5
+Model Answer: 5
+Is Correct: True
+Correct Count: 627/682
+--------------------
+Ground Truth Answer: 32
+Ground Truth Answer: 32
+Model Answer: 32
+Is Correct: True
+Correct Count: 628/683
+--------------------
+Ground Truth Answer: 25
+Ground Truth Answer: 25
+Model Answer: 25
+Is Correct: True
+Correct Count: 629/684
+--------------------
+Ground Truth Answer: 114
+Ground Truth Answer: 114
+Model Answer: 114
+Is Correct: True
+Correct Count: 630/685
+--------------------
+Ground Truth Answer: 1858
+Ground Truth Answer: 1858
+Model Answer: 1858
+Is Correct: True
+Correct Count: 631/686
+--------------------
+Ground Truth Answer: 64
+Ground Truth Answer: 64
+Model Answer: 64
+Is Correct: True
+Correct Count: 632/687
+--------------------
+Ground Truth Answer: 92
+Ground Truth Answer: 92
+Model Answer: 92
+Is Correct: True
+Correct Count: 633/688
+--------------------
+Ground Truth Answer: 55
+Ground Truth Answer: 55
+Model Answer: 55
+Is Correct: True
+Correct Count: 634/689
+--------------------
+Ground Truth Answer: 80
+Ground Truth Answer: 80
+Model Answer: 80
+Is Correct: True
+Correct Count: 635/690
+--------------------
+Ground Truth Answer: 31
+Ground Truth Answer: 31
+Model Answer: 31
+Is Correct: True
+Correct Count: 636/691
+--------------------
+Ground Truth Answer: 4
+Ground Truth Answer: 4
+Model Answer: 4
+Is Correct: True
+Correct Count: 637/692
+--------------------
+Ground Truth Answer: 26
+Ground Truth Answer: 26
+Model Answer: 26
+Is Correct: True
+Correct Count: 638/693
+--------------------
+Ground Truth Answer: -10
+Ground Truth Answer: -10
+Model Answer: 10
+Is Correct: False
+Correct Count: 638/694
+--------------------
+Ground Truth Answer: 46
+Ground Truth Answer: 46
+Model Answer: 46
+Is Correct: True
+Correct Count: 639/695
+--------------------
+Ground Truth Answer: 47
+Ground Truth Answer: 47
+Model Answer: 47
+Is Correct: True
+Correct Count: 640/696
+--------------------
+Ground Truth Answer: 64
+Ground Truth Answer: 64
+Model Answer: 64
+Is Correct: True
+Correct Count: 641/697
+--------------------
+Ground Truth Answer: 22
+Ground Truth Answer: 22
+Model Answer: 22
+Is Correct: True
+Correct Count: 642/698
+--------------------
+Ground Truth Answer: 68
+Ground Truth Answer: 68
+Model Answer: 68
+Is Correct: True
+Correct Count: 643/699
+--------------------
+Ground Truth Answer: 21
+Ground Truth Answer: 21
+Model Answer: 21
+Is Correct: True
+Correct Count: 644/700
+--------------------
+Ground Truth Answer: 17
+Ground Truth Answer: 17
+Model Answer: 17
+Is Correct: True
+Correct Count: 645/701
+--------------------
+Ground Truth Answer: 210
+Ground Truth Answer: 210
+Model Answer: 210
+Is Correct: True
+Correct Count: 646/702
+--------------------
+Ground Truth Answer: 103
+Ground Truth Answer: 103
+Model Answer: 103
+Is Correct: True
+Correct Count: 647/703
+--------------------
+Ground Truth Answer: 309
+Ground Truth Answer: 309
+Model Answer: 309
+Is Correct: True
+Correct Count: 648/704
+--------------------
+Ground Truth Answer: 104
+Ground Truth Answer: 104
+Model Answer: 104
+Is Correct: True
+Correct Count: 649/705
+--------------------
+Ground Truth Answer: 63
+Ground Truth Answer: 63
+Model Answer: 63
+Is Correct: True
+Correct Count: 650/706
+--------------------
+Ground Truth Answer: 612
+Ground Truth Answer: 612
+Model Answer: 612
+Is Correct: True
+Correct Count: 651/707
+--------------------
+Ground Truth Answer: 102
+Ground Truth Answer: 102
+Model Answer: 102
+Is Correct: True
+Correct Count: 652/708
+--------------------
+Ground Truth Answer: 36
+Ground Truth Answer: 36
+Model Answer: 36
+Is Correct: True
+Correct Count: 653/709
+--------------------
+Ground Truth Answer: 36
+Ground Truth Answer: 36
+Model Answer: 36
+Is Correct: True
+Correct Count: 654/710
+--------------------
+Ground Truth Answer: 50
+Ground Truth Answer: 50
+Model Answer: 50
+Is Correct: True
+Correct Count: 655/711
+--------------------
+Ground Truth Answer: 195
+Ground Truth Answer: 195
+Model Answer: 195
+Is Correct: True
+Correct Count: 656/712
+--------------------
+Ground Truth Answer: 70
+Ground Truth Answer: 70
+Model Answer: 42
+Is Correct: False
+Correct Count: 656/713
+--------------------
+Ground Truth Answer: -35
+Ground Truth Answer: -35
+Model Answer: 0
+Is Correct: False
+Correct Count: 656/714
+--------------------
+Ground Truth Answer: 119
+Ground Truth Answer: 119
+Model Answer: 119
+Is Correct: True
+Correct Count: 657/715
+--------------------
+Ground Truth Answer: 177
+Ground Truth Answer: 177
+Model Answer: 177
+Is Correct: True
+Correct Count: 658/716
+--------------------
+Ground Truth Answer: 168
+Ground Truth Answer: 168
+Model Answer: 168
+Is Correct: True
+Correct Count: 659/717
+--------------------
+Ground Truth Answer: -130
+Ground Truth Answer: -130
+Model Answer: 130
+Is Correct: False
+Correct Count: 659/718
+--------------------
+Ground Truth Answer: -139
+Ground Truth Answer: -139
+Model Answer: 139
+Is Correct: False
+Correct Count: 659/719
+--------------------
+Ground Truth Answer: 79
+Ground Truth Answer: 79
+Model Answer: 138
+Is Correct: False
+Correct Count: 659/720
+--------------------
+Ground Truth Answer: 860
+Ground Truth Answer: 860
+Model Answer: 860
+Is Correct: True
+Correct Count: 660/721
+--------------------
+Ground Truth Answer: 1034
+Ground Truth Answer: 1034
+Model Answer: 1034
+Is Correct: True
+Correct Count: 661/722
+--------------------
+Ground Truth Answer: 23
+Ground Truth Answer: 23
+Model Answer: 23
+Is Correct: True
+Correct Count: 662/723
+--------------------
+Ground Truth Answer: -21
+Ground Truth Answer: -21
+Model Answer: 0
+Is Correct: False
+Correct Count: 662/724
+--------------------
+Ground Truth Answer: 42
+Ground Truth Answer: 42
+Model Answer: 42
+Is Correct: True
+Correct Count: 663/725
+--------------------
+Ground Truth Answer: 281
+Ground Truth Answer: 281
+Model Answer: 281
+Is Correct: True
+Correct Count: 664/726
+--------------------
+Ground Truth Answer: 908
+Ground Truth Answer: 908
+Model Answer: 908
+Is Correct: True
+Correct Count: 665/727
+--------------------
+Ground Truth Answer: 48
+Ground Truth Answer: 48
+Model Answer: 48
+Is Correct: True
+Correct Count: 666/728
+--------------------
+Ground Truth Answer: 32
+Ground Truth Answer: 32
+Model Answer: 32
+Is Correct: True
+Correct Count: 667/729
+--------------------
+Ground Truth Answer: 108
+Ground Truth Answer: 108
+Model Answer: 108
+Is Correct: True
+Correct Count: 668/730
+--------------------
+Ground Truth Answer: 45
+Ground Truth Answer: 45
+Model Answer: 45
+Is Correct: True
+Correct Count: 669/731
+--------------------
+Ground Truth Answer: 180
+Ground Truth Answer: 180
+Model Answer: 180
+Is Correct: True
+Correct Count: 670/732
+--------------------
+Ground Truth Answer: 336
+Ground Truth Answer: 336
+Model Answer: 336
+Is Correct: True
+Correct Count: 671/733
+--------------------
+Ground Truth Answer: 21
+Ground Truth Answer: 21
+Model Answer: 21
+Is Correct: True
+Correct Count: 672/734
+--------------------
+Ground Truth Answer: 50
+Ground Truth Answer: 50
+Model Answer: 50
+Is Correct: True
+Correct Count: 673/735
+--------------------
+Ground Truth Answer: 126
+Ground Truth Answer: 126
+Model Answer: 126
+Is Correct: True
+Correct Count: 674/736
+--------------------
+Ground Truth Answer: 162
+Ground Truth Answer: 162
+Model Answer: 162
+Is Correct: True
+Correct Count: 675/737
+--------------------
+Ground Truth Answer: 19710
+Ground Truth Answer: 19710
+Model Answer: 19710
+Is Correct: True
+Correct Count: 676/738
+--------------------
+Ground Truth Answer: 918
+Ground Truth Answer: 918
+Model Answer: 918
+Is Correct: True
+Correct Count: 677/739
+--------------------
+Ground Truth Answer: 36018
+Ground Truth Answer: 36018
+Model Answer: 35998
+Is Correct: False
+Correct Count: 677/740
+--------------------
+Ground Truth Answer: 6795
+Ground Truth Answer: 6795
+Model Answer: 6795
+Is Correct: True
+Correct Count: 678/741
+--------------------
+Ground Truth Answer: 36
+Ground Truth Answer: 36
+Model Answer: 36
+Is Correct: True
+Correct Count: 679/742
+--------------------
+Ground Truth Answer: 40
+Ground Truth Answer: 40
+Model Answer: 20
+Is Correct: False
+Correct Count: 679/743
+--------------------
+Ground Truth Answer: 6642
+Ground Truth Answer: 6642
+Model Answer: 6642
+Is Correct: True
+Correct Count: 680/744
+--------------------
+Ground Truth Answer: 551
+Ground Truth Answer: 551
+Model Answer: 551
+Is Correct: True
+Correct Count: 681/745
+--------------------
+Ground Truth Answer: 625
+Ground Truth Answer: 625
+Model Answer: 625
+Is Correct: True
+Correct Count: 682/746
+--------------------
+Ground Truth Answer: 30
+Ground Truth Answer: 30
+Model Answer: 30
+Is Correct: True
+Correct Count: 683/747
+--------------------
+Ground Truth Answer: 2070
+Ground Truth Answer: 2070
+Model Answer: 2070
+Is Correct: True
+Correct Count: 684/748
+--------------------
+Ground Truth Answer: 41
+Ground Truth Answer: 41
+Model Answer: 41
+Is Correct: True
+Correct Count: 685/749
+--------------------
+Ground Truth Answer: 50
+Ground Truth Answer: 50
+Model Answer: 50
+Is Correct: True
+Correct Count: 686/750
+--------------------
+Ground Truth Answer: 61
+Ground Truth Answer: 61
+Model Answer: 61
+Is Correct: True
+Correct Count: 687/751
+--------------------
+Ground Truth Answer: 14.57
+Ground Truth Answer: 14.57
+Model Answer: 14.57
+Is Correct: True
+Correct Count: 688/752
+--------------------
+Ground Truth Answer: 16
+Ground Truth Answer: 16
+Model Answer: 16
+Is Correct: True
+Correct Count: 689/753
+--------------------
+Ground Truth Answer: 7
+Ground Truth Answer: 7
+Model Answer: 7
+Is Correct: True
+Correct Count: 690/754
+--------------------
+Ground Truth Answer: -78
+Ground Truth Answer: -78
+Model Answer: 78
+Is Correct: False
+Correct Count: 690/755
+--------------------
+Ground Truth Answer: 69
+Ground Truth Answer: 69
+Model Answer: 69
+Is Correct: True
+Correct Count: 691/756
+--------------------
+Ground Truth Answer: 47
+Ground Truth Answer: 47
+Model Answer: 47
+Is Correct: True
+Correct Count: 692/757
+--------------------
+Ground Truth Answer: 156
+Ground Truth Answer: 156
+Model Answer: 156
+Is Correct: True
+Correct Count: 693/758
+--------------------
+Ground Truth Answer: 63
+Ground Truth Answer: 63
+Model Answer: 63
+Is Correct: True
+Correct Count: 694/759
+--------------------
+Ground Truth Answer: 3
+Ground Truth Answer: 3
+Model Answer: 3
+Is Correct: True
+Correct Count: 695/760
+--------------------
+Ground Truth Answer: 96
+Ground Truth Answer: 96
+Model Answer: 96
+Is Correct: True
+Correct Count: 696/761
+--------------------
+Ground Truth Answer: 11
+Ground Truth Answer: 11
+Model Answer: 11
+Is Correct: True
+Correct Count: 697/762
+--------------------
+Ground Truth Answer: 67
+Ground Truth Answer: 67
+Model Answer: 67
+Is Correct: True
+Correct Count: 698/763
+--------------------
+Ground Truth Answer: 20
+Ground Truth Answer: 20
+Model Answer: 20
+Is Correct: True
+Correct Count: 699/764
+--------------------
+Ground Truth Answer: 19
+Ground Truth Answer: 19
+Model Answer: 19
+Is Correct: True
+Correct Count: 700/765
+--------------------
+Ground Truth Answer: 58
+Ground Truth Answer: 58
+Model Answer: 58
+Is Correct: True
+Correct Count: 701/766
+--------------------
+Ground Truth Answer: 166
+Ground Truth Answer: 166
+Model Answer: 166
+Is Correct: True
+Correct Count: 702/767
+--------------------
+Ground Truth Answer: 59
+Ground Truth Answer: 59
+Model Answer: 59
+Is Correct: True
+Correct Count: 703/768
+--------------------
+Ground Truth Answer: -10
+Ground Truth Answer: -10
+Model Answer: 0
+Is Correct: False
+Correct Count: 703/769
+--------------------
+Ground Truth Answer: -79
+Ground Truth Answer: -79
+Model Answer: 79
+Is Correct: False
+Correct Count: 703/770
+--------------------
+Ground Truth Answer: 141
+Ground Truth Answer: 141
+Model Answer: 141
+Is Correct: True
+Correct Count: 704/771
+--------------------
+Ground Truth Answer: 79
+Ground Truth Answer: 79
+Model Answer: 79
+Is Correct: True
+Correct Count: 705/772
+--------------------
+Ground Truth Answer: 20039
+Ground Truth Answer: 20039
+Model Answer: 20039
+Is Correct: True
+Correct Count: 706/773
+--------------------
+Ground Truth Answer: 117
+Ground Truth Answer: 117
+Model Answer: 117
+Is Correct: True
+Correct Count: 707/774
+--------------------
+Ground Truth Answer: 11
+Ground Truth Answer: 11
+Model Answer: 15
+Is Correct: False
+Correct Count: 707/775
+--------------------
+Ground Truth Answer: 16
+Ground Truth Answer: 16
+Model Answer: 16
+Is Correct: True
+Correct Count: 708/776
+--------------------
+Ground Truth Answer: 10
+Ground Truth Answer: 10
+Model Answer: 10
+Is Correct: True
+Correct Count: 709/777
+--------------------
+Ground Truth Answer: 31
+Ground Truth Answer: 31
+Model Answer: 31
+Is Correct: True
+Correct Count: 710/778
+--------------------
+Ground Truth Answer: 68
+Ground Truth Answer: 68
+Model Answer: 68
+Is Correct: True
+Correct Count: 711/779
+--------------------
+Ground Truth Answer: 7
+Ground Truth Answer: 7
+Model Answer: 7
+Is Correct: True
+Correct Count: 712/780
+--------------------
+Ground Truth Answer: 172
+Ground Truth Answer: 172
+Model Answer: 172
+Is Correct: True
+Correct Count: 713/781
+--------------------
+Ground Truth Answer: 65
+Ground Truth Answer: 65
+Model Answer: 65
+Is Correct: True
+Correct Count: 714/782
+--------------------
+Ground Truth Answer: 48
+Ground Truth Answer: 48
+Model Answer: 48
+Is Correct: True
+Correct Count: 715/783
+--------------------
+Ground Truth Answer: 33
+Ground Truth Answer: 33
+Model Answer: 33
+Is Correct: True
+Correct Count: 716/784
+--------------------
+Ground Truth Answer: 18
+Ground Truth Answer: 18
+Model Answer: 18
+Is Correct: True
+Correct Count: 717/785
+--------------------
+Ground Truth Answer: 4
+Ground Truth Answer: 4
+Model Answer: 4
+Is Correct: True
+Correct Count: 718/786
+--------------------
+Ground Truth Answer: 10
+Ground Truth Answer: 10
+Model Answer: 10
+Is Correct: True
+Correct Count: 719/787
+--------------------
+Ground Truth Answer: 36
+Ground Truth Answer: 36
+Model Answer: 36
+Is Correct: True
+Correct Count: 720/788
+--------------------
+Ground Truth Answer: 1
+Ground Truth Answer: 1
+Model Answer: 1
+Is Correct: True
+Correct Count: 721/789
+--------------------
+Ground Truth Answer: 21
+Ground Truth Answer: 21
+Model Answer: 21
+Is Correct: True
+Correct Count: 722/790
+--------------------
+Ground Truth Answer: 48
+Ground Truth Answer: 48
+Model Answer: 48
+Is Correct: True
+Correct Count: 723/791
+--------------------
+Ground Truth Answer: 0
+Ground Truth Answer: 0
+Model Answer: 0
+Is Correct: True
+Correct Count: 724/792
+--------------------
+Ground Truth Answer: 3
+Ground Truth Answer: 3
+Model Answer: 3
+Is Correct: True
+Correct Count: 725/793
+--------------------
+Ground Truth Answer: 16
+Ground Truth Answer: 16
+Model Answer: 16
+Is Correct: True
+Correct Count: 726/794
+--------------------
+Ground Truth Answer: 12
+Ground Truth Answer: 12
+Model Answer: 12
+Is Correct: True
+Correct Count: 727/795
+--------------------
+Ground Truth Answer: -3
+Ground Truth Answer: -3
+Model Answer: 3
+Is Correct: False
+Correct Count: 727/796
+--------------------
+Ground Truth Answer: 99
+Ground Truth Answer: 99
+Model Answer: 99
+Is Correct: True
+Correct Count: 728/797
+--------------------
+Ground Truth Answer: 14
+Ground Truth Answer: 14
+Model Answer: 14
+Is Correct: True
+Correct Count: 729/798
+--------------------
+Ground Truth Answer: 13
+Ground Truth Answer: 13
+Model Answer: 13
+Is Correct: True
+Correct Count: 730/799
+--------------------
+Ground Truth Answer: -4
+Ground Truth Answer: -4
+Model Answer: 0
+Is Correct: False
+Correct Count: 730/800
+--------------------
+Ground Truth Answer: 15
+Ground Truth Answer: 15
+Model Answer: 15
+Is Correct: True
+Correct Count: 731/801
+--------------------
+Ground Truth Answer: 6
+Ground Truth Answer: 6
+Model Answer: 6
+Is Correct: True
+Correct Count: 732/802
+--------------------
+Ground Truth Answer: 9
+Ground Truth Answer: 9
+Model Answer: 9
+Is Correct: True
+Correct Count: 733/803
+--------------------
+Ground Truth Answer: 11
+Ground Truth Answer: 11
+Model Answer: 11
+Is Correct: True
+Correct Count: 734/804
+--------------------
+Ground Truth Answer: 9
+Ground Truth Answer: 9
+Model Answer: 9
+Is Correct: True
+Correct Count: 735/805
+--------------------
+Ground Truth Answer: 3
+Ground Truth Answer: 3
+Model Answer: 3
+Is Correct: True
+Correct Count: 736/806
+--------------------
+Ground Truth Answer: 10
+Ground Truth Answer: 10
+Model Answer: 10
+Is Correct: True
+Correct Count: 737/807
+--------------------
+Ground Truth Answer: 14
+Ground Truth Answer: 14
+Model Answer: 14
+Is Correct: True
+Correct Count: 738/808
+--------------------
+Ground Truth Answer: 13
+Ground Truth Answer: 13
+Model Answer: 13
+Is Correct: True
+Correct Count: 739/809
+--------------------
+Ground Truth Answer: 12
+Ground Truth Answer: 12
+Model Answer: 12
+Is Correct: True
+Correct Count: 740/810
+--------------------
+Ground Truth Answer: 9
+Ground Truth Answer: 9
+Model Answer: 9
+Is Correct: True
+Correct Count: 741/811
+--------------------
+Ground Truth Answer: 26
+Ground Truth Answer: 26
+Model Answer: 26
+Is Correct: True
+Correct Count: 742/812
+--------------------
+Ground Truth Answer: 101
+Ground Truth Answer: 101
+Model Answer: 101
+Is Correct: True
+Correct Count: 743/813
+--------------------
+Ground Truth Answer: -82
+Ground Truth Answer: -82
+Model Answer: 0
+Is Correct: False
+Correct Count: 743/814
+--------------------
+Ground Truth Answer: 3
+Ground Truth Answer: 3
+Model Answer: 3
+Is Correct: True
+Correct Count: 744/815
+--------------------
+Ground Truth Answer: 13
+Ground Truth Answer: 13
+Model Answer: 13
+Is Correct: True
+Correct Count: 745/816
+--------------------
+Ground Truth Answer: 11
+Ground Truth Answer: 11
+Model Answer: 11
+Is Correct: True
+Correct Count: 746/817
+--------------------
+Ground Truth Answer: 102
+Ground Truth Answer: 102
+Model Answer: 102
+Is Correct: True
+Correct Count: 747/818
+--------------------
+Ground Truth Answer: 20
+Ground Truth Answer: 20
+Model Answer: 20
+Is Correct: True
+Correct Count: 748/819
+--------------------
+Ground Truth Answer: 26
+Ground Truth Answer: 26
+Model Answer: 26
+Is Correct: True
+Correct Count: 749/820
+--------------------
+Ground Truth Answer: 19
+Ground Truth Answer: 19
+Model Answer: 19
+Is Correct: True
+Correct Count: 750/821
+--------------------
+Ground Truth Answer: 22
+Ground Truth Answer: 22
+Model Answer: 22
+Is Correct: True
+Correct Count: 751/822
+--------------------
+Ground Truth Answer: 117
+Ground Truth Answer: 117
+Model Answer: 117
+Is Correct: True
+Correct Count: 752/823
+--------------------
+Ground Truth Answer: 62
+Ground Truth Answer: 62
+Model Answer: 62
+Is Correct: True
+Correct Count: 753/824
+--------------------
+Ground Truth Answer: 80
+Ground Truth Answer: 80
+Model Answer: 80
+Is Correct: True
+Correct Count: 754/825
+--------------------
+Ground Truth Answer: 36
+Ground Truth Answer: 36
+Model Answer: 36
+Is Correct: True
+Correct Count: 755/826
+--------------------
+Ground Truth Answer: 49
+Ground Truth Answer: 49
+Model Answer: 49
+Is Correct: True
+Correct Count: 756/827
+--------------------
+Ground Truth Answer: 86
+Ground Truth Answer: 86
+Model Answer: 86
+Is Correct: True
+Correct Count: 757/828
+--------------------
+Ground Truth Answer: 77
+Ground Truth Answer: 77
+Model Answer: 77
+Is Correct: True
+Correct Count: 758/829
+--------------------
+Ground Truth Answer: 89
+Ground Truth Answer: 89
+Model Answer: 89
+Is Correct: True
+Correct Count: 759/830
+--------------------
+Ground Truth Answer: 21
+Ground Truth Answer: 21
+Model Answer: 21
+Is Correct: True
+Correct Count: 760/831
+--------------------
+Ground Truth Answer: 16
+Ground Truth Answer: 16
+Model Answer: 16
+Is Correct: True
+Correct Count: 761/832
+--------------------
+Ground Truth Answer: 45
+Ground Truth Answer: 45
+Model Answer: 45
+Is Correct: True
+Correct Count: 762/833
+--------------------
+Ground Truth Answer: 9
+Ground Truth Answer: 9
+Model Answer: 9
+Is Correct: True
+Correct Count: 763/834
+--------------------
+Ground Truth Answer: 70
+Ground Truth Answer: 70
+Model Answer: 70
+Is Correct: True
+Correct Count: 764/835
+--------------------
+Ground Truth Answer: 117
+Ground Truth Answer: 117
+Model Answer: 117
+Is Correct: True
+Correct Count: 765/836
+--------------------
+Ground Truth Answer: 8
+Ground Truth Answer: 8
+Model Answer: 8
+Is Correct: True
+Correct Count: 766/837
+--------------------
+Ground Truth Answer: 24
+Ground Truth Answer: 24
+Model Answer: 24
+Is Correct: True
+Correct Count: 767/838
+--------------------
+Ground Truth Answer: 11
+Ground Truth Answer: 11
+Model Answer: 11
+Is Correct: True
+Correct Count: 768/839
+--------------------
+Ground Truth Answer: 23
+Ground Truth Answer: 23
+Model Answer: 23
+Is Correct: True
+Correct Count: 769/840
+--------------------
+Ground Truth Answer: 18
+Ground Truth Answer: 18
+Model Answer: 18
+Is Correct: True
+Correct Count: 770/841
+--------------------
+Ground Truth Answer: 9
+Ground Truth Answer: 9
+Model Answer: 9
+Is Correct: True
+Correct Count: 771/842
+--------------------
+Ground Truth Answer: 16
+Ground Truth Answer: 16
+Model Answer: 16
+Is Correct: True
+Correct Count: 772/843
+--------------------
+Ground Truth Answer: 20
+Ground Truth Answer: 20
+Model Answer: 20
+Is Correct: True
+Correct Count: 773/844
+--------------------
+Ground Truth Answer: 11
+Ground Truth Answer: 11
+Model Answer: 11
+Is Correct: True
+Correct Count: 774/845
+--------------------
+Ground Truth Answer: -9
+Ground Truth Answer: -9
+Model Answer: 9
+Is Correct: False
+Correct Count: 774/846
+--------------------
+Ground Truth Answer: 20
+Ground Truth Answer: 20
+Model Answer: 20
+Is Correct: True
+Correct Count: 775/847
+--------------------
+Ground Truth Answer: 14
+Ground Truth Answer: 14
+Model Answer: 14
+Is Correct: True
+Correct Count: 776/848
+--------------------
+Ground Truth Answer: 116
+Ground Truth Answer: 116
+Model Answer: 116
+Is Correct: True
+Correct Count: 777/849
+--------------------
+Ground Truth Answer: 25
+Ground Truth Answer: 25
+Model Answer: 25
+Is Correct: True
+Correct Count: 778/850
+--------------------
+Ground Truth Answer: 115
+Ground Truth Answer: 115
+Model Answer: 115
+Is Correct: True
+Correct Count: 779/851
+--------------------
+Ground Truth Answer: 9
+Ground Truth Answer: 9
+Model Answer: 9
+Is Correct: True
+Correct Count: 780/852
+--------------------
+Ground Truth Answer: 10
+Ground Truth Answer: 10
+Model Answer: 10
+Is Correct: True
+Correct Count: 781/853
+--------------------
+Ground Truth Answer: 8
+Ground Truth Answer: 8
+Model Answer: 8
+Is Correct: True
+Correct Count: 782/854
+--------------------
+Ground Truth Answer: 4
+Ground Truth Answer: 4
+Model Answer: 4
+Is Correct: True
+Correct Count: 783/855
+--------------------
+Ground Truth Answer: -26
+Ground Truth Answer: -26
+Model Answer: 0
+Is Correct: False
+Correct Count: 783/856
+--------------------
+Ground Truth Answer: 13
+Ground Truth Answer: 13
+Model Answer: 13
+Is Correct: True
+Correct Count: 784/857
+--------------------
+Ground Truth Answer: 12
+Ground Truth Answer: 12
+Model Answer: 12
+Is Correct: True
+Correct Count: 785/858
+--------------------
+Ground Truth Answer: 5
+Ground Truth Answer: 5
+Model Answer: 5
+Is Correct: True
+Correct Count: 786/859
+--------------------
+Ground Truth Answer: 14
+Ground Truth Answer: 14
+Model Answer: 14
+Is Correct: True
+Correct Count: 787/860
+--------------------
+Ground Truth Answer: 2
+Ground Truth Answer: 2
+Model Answer: 2
+Is Correct: True
+Correct Count: 788/861
+--------------------
+Ground Truth Answer: 3
+Ground Truth Answer: 3
+Model Answer: 3
+Is Correct: True
+Correct Count: 789/862
+--------------------
+Ground Truth Answer: 12
+Ground Truth Answer: 12
+Model Answer: 12
+Is Correct: True
+Correct Count: 790/863
+--------------------
+Ground Truth Answer: 1
+Ground Truth Answer: 1
+Model Answer: 1
+Is Correct: True
+Correct Count: 791/864
+--------------------
+Ground Truth Answer: 8
+Ground Truth Answer: 8
+Model Answer: 8
+Is Correct: True
+Correct Count: 792/865
+--------------------
+Ground Truth Answer: 75
+Ground Truth Answer: 75
+Model Answer: 75
+Is Correct: True
+Correct Count: 793/866
+--------------------
+Ground Truth Answer: 90
+Ground Truth Answer: 90
+Model Answer: 90
+Is Correct: True
+Correct Count: 794/867
+--------------------
+Ground Truth Answer: 27
+Ground Truth Answer: 27
+Model Answer: 27
+Is Correct: True
+Correct Count: 795/868
+--------------------
+Ground Truth Answer: -3
+Ground Truth Answer: -3
+Model Answer: 3
+Is Correct: False
+Correct Count: 795/869
+--------------------
+Ground Truth Answer: 11
+Ground Truth Answer: 11
+Model Answer: 11
+Is Correct: True
+Correct Count: 796/870
+--------------------
+Ground Truth Answer: -7
+Ground Truth Answer: -7
+Model Answer: 0
+Is Correct: False
+Correct Count: 796/871
+--------------------
+Ground Truth Answer: 24
+Ground Truth Answer: 24
+Model Answer: 24
+Is Correct: True
+Correct Count: 797/872
+--------------------
+Ground Truth Answer: 21
+Ground Truth Answer: 21
+Model Answer: 21
+Is Correct: True
+Correct Count: 798/873
+--------------------
+Ground Truth Answer: -5
+Ground Truth Answer: -5
+Model Answer: 5
+Is Correct: False
+Correct Count: 798/874
+--------------------
+Ground Truth Answer: 6
+Ground Truth Answer: 6
+Model Answer: 6
+Is Correct: True
+Correct Count: 799/875
+--------------------
+Ground Truth Answer: 17
+Ground Truth Answer: 17
+Model Answer: 17
+Is Correct: True
+Correct Count: 800/876
+--------------------
+Ground Truth Answer: 10
+Ground Truth Answer: 10
+Model Answer: 10
+Is Correct: True
+Correct Count: 801/877
+--------------------
+Ground Truth Answer: 35
+Ground Truth Answer: 35
+Model Answer: 35
+Is Correct: True
+Correct Count: 802/878
+--------------------
+Ground Truth Answer: 7
+Ground Truth Answer: 7
+Model Answer: 7
+Is Correct: True
+Correct Count: 803/879
+--------------------
+Ground Truth Answer: 7
+Ground Truth Answer: 7
+Model Answer: 7
+Is Correct: True
+Correct Count: 804/880
+--------------------
+Ground Truth Answer: 6
+Ground Truth Answer: 6
+Model Answer: 6
+Is Correct: True
+Correct Count: 805/881
+--------------------
+Ground Truth Answer: 5
+Ground Truth Answer: 5
+Model Answer: 5
+Is Correct: True
+Correct Count: 806/882
+--------------------
+Ground Truth Answer: 45
+Ground Truth Answer: 45
+Model Answer: 45
+Is Correct: True
+Correct Count: 807/883
+--------------------
+Ground Truth Answer: 25
+Ground Truth Answer: 25
+Model Answer: 25
+Is Correct: True
+Correct Count: 808/884
+--------------------
+Ground Truth Answer: 41
+Ground Truth Answer: 41
+Model Answer: 41
+Is Correct: True
+Correct Count: 809/885
+--------------------
+Ground Truth Answer: 931
+Ground Truth Answer: 931
+Model Answer: 931
+Is Correct: True
+Correct Count: 810/886
+--------------------
+Ground Truth Answer: 97
+Ground Truth Answer: 97
+Model Answer: 97
+Is Correct: True
+Correct Count: 811/887
+--------------------
+Ground Truth Answer: 49
+Ground Truth Answer: 49
+Model Answer: 49
+Is Correct: True
+Correct Count: 812/888
+--------------------
+Ground Truth Answer: 50
+Ground Truth Answer: 50
+Model Answer: 50
+Is Correct: True
+Correct Count: 813/889
+--------------------
+Ground Truth Answer: 79
+Ground Truth Answer: 79
+Model Answer: 79
+Is Correct: True
+Correct Count: 814/890
+--------------------
+Ground Truth Answer: 30
+Ground Truth Answer: 30
+Model Answer: 30
+Is Correct: True
+Correct Count: 815/891
+--------------------
+Ground Truth Answer: 13
+Ground Truth Answer: 13
+Model Answer: 13
+Is Correct: True
+Correct Count: 816/892
+--------------------
+Ground Truth Answer: 8
+Ground Truth Answer: 8
+Model Answer: 8
+Is Correct: True
+Correct Count: 817/893
+--------------------
+Ground Truth Answer: 6
+Ground Truth Answer: 6
+Model Answer: 6
+Is Correct: True
+Correct Count: 818/894
+--------------------
+Ground Truth Answer: 15
+Ground Truth Answer: 15
+Model Answer: 15
+Is Correct: True
+Correct Count: 819/895
+--------------------
+Ground Truth Answer: 17
+Ground Truth Answer: 17
+Model Answer: 17
+Is Correct: True
+Correct Count: 820/896
+--------------------
+Ground Truth Answer: 31
+Ground Truth Answer: 31
+Model Answer: 31
+Is Correct: True
+Correct Count: 821/897
+--------------------
+Ground Truth Answer: 23
+Ground Truth Answer: 23
+Model Answer: 23
+Is Correct: True
+Correct Count: 822/898
+--------------------
+Ground Truth Answer: 41
+Ground Truth Answer: 41
+Model Answer: 41
+Is Correct: True
+Correct Count: 823/899
+--------------------
+Ground Truth Answer: 24
+Ground Truth Answer: 24
+Model Answer: 24
+Is Correct: True
+Correct Count: 824/900
+--------------------
+Ground Truth Answer: 115
+Ground Truth Answer: 115
+Model Answer: 115
+Is Correct: True
+Correct Count: 825/901
+--------------------
+Ground Truth Answer: 128
+Ground Truth Answer: 128
+Model Answer: 128
+Is Correct: True
+Correct Count: 826/902
+--------------------
+Ground Truth Answer: 43
+Ground Truth Answer: 43
+Model Answer: 43
+Is Correct: True
+Correct Count: 827/903
+--------------------
+Ground Truth Answer: 310
+Ground Truth Answer: 310
+Model Answer: 310
+Is Correct: True
+Correct Count: 828/904
+--------------------
+Ground Truth Answer: 114
+Ground Truth Answer: 114
+Model Answer: 114
+Is Correct: True
+Correct Count: 829/905
+--------------------
+Ground Truth Answer: 180
+Ground Truth Answer: 180
+Model Answer: 180
+Is Correct: True
+Correct Count: 830/906
+--------------------
+Ground Truth Answer: 1800
+Ground Truth Answer: 1800
+Model Answer: 1800
+Is Correct: True
+Correct Count: 831/907
+--------------------
+Ground Truth Answer: 17
+Ground Truth Answer: 17
+Model Answer: 17
+Is Correct: True
+Correct Count: 832/908
+--------------------
+Ground Truth Answer: 105
+Ground Truth Answer: 105
+Model Answer: 105
+Is Correct: True
+Correct Count: 833/909
+--------------------
+Ground Truth Answer: 50
+Ground Truth Answer: 50
+Model Answer: 50
+Is Correct: True
+Correct Count: 834/910
+--------------------
+Ground Truth Answer: 42
+Ground Truth Answer: 42
+Model Answer: 42
+Is Correct: True
+Correct Count: 835/911
+--------------------
+Ground Truth Answer: 265
+Ground Truth Answer: 265
+Model Answer: 265
+Is Correct: True
+Correct Count: 836/912
+--------------------
+Ground Truth Answer: 68
+Ground Truth Answer: 68
+Model Answer: 28
+Is Correct: False
+Correct Count: 836/913
+--------------------
+Ground Truth Answer: -35
+Ground Truth Answer: -35
+Model Answer: 35
+Is Correct: False
+Correct Count: 836/914
+--------------------
+Ground Truth Answer: 119
+Ground Truth Answer: 119
+Model Answer: 119
+Is Correct: True
+Correct Count: 837/915
+--------------------
+Ground Truth Answer: 676
+Ground Truth Answer: 676
+Model Answer: 676
+Is Correct: True
+Correct Count: 838/916
+--------------------
+Ground Truth Answer: 802
+Ground Truth Answer: 802
+Model Answer: 802
+Is Correct: True
+Correct Count: 839/917
+--------------------
+Ground Truth Answer: 369
+Ground Truth Answer: 369
+Model Answer: 369
+Is Correct: True
+Correct Count: 840/918
+--------------------
+Ground Truth Answer: -139
+Ground Truth Answer: -139
+Model Answer: 139
+Is Correct: False
+Correct Count: 840/919
+--------------------
+Ground Truth Answer: 81
+Ground Truth Answer: 81
+Model Answer: 139
+Is Correct: False
+Correct Count: 840/920
+--------------------
+Ground Truth Answer: -38
+Ground Truth Answer: -38
+Model Answer: 38
+Is Correct: False
+Correct Count: 840/921
+--------------------
+Ground Truth Answer: 383
+Ground Truth Answer: 383
+Model Answer: 383
+Is Correct: True
+Correct Count: 841/922
+--------------------
+Ground Truth Answer: -830
+Ground Truth Answer: -830
+Model Answer: 0
+Is Correct: False
+Correct Count: 841/923
+--------------------
+Ground Truth Answer: 265
+Ground Truth Answer: 265
+Model Answer: 265
+Is Correct: True
+Correct Count: 842/924
+--------------------
+Ground Truth Answer: 44
+Ground Truth Answer: 44
+Model Answer: 44
+Is Correct: True
+Correct Count: 843/925
+--------------------
+Ground Truth Answer: 281
+Ground Truth Answer: 281
+Model Answer: 281
+Is Correct: True
+Correct Count: 844/926
+--------------------
+Ground Truth Answer: 173
+Ground Truth Answer: 173
+Model Answer: 173
+Is Correct: True
+Correct Count: 845/927
+--------------------
+Ground Truth Answer: 24
+Ground Truth Answer: 24
+Model Answer: 24
+Is Correct: True
+Correct Count: 846/928
+--------------------
+Ground Truth Answer: 54
+Ground Truth Answer: 54
+Model Answer: 54
+Is Correct: True
+Correct Count: 847/929
+--------------------
+Ground Truth Answer: 108
+Ground Truth Answer: 108
+Model Answer: 108
+Is Correct: True
+Correct Count: 848/930
+--------------------
+Ground Truth Answer: 135
+Ground Truth Answer: 135
+Model Answer: 135
+Is Correct: True
+Correct Count: 849/931
+--------------------
+Ground Truth Answer: 162
+Ground Truth Answer: 162
+Model Answer: 162
+Is Correct: True
+Correct Count: 850/932
+--------------------
+Ground Truth Answer: 90
+Ground Truth Answer: 90
+Model Answer: 90
+Is Correct: True
+Correct Count: 851/933
+--------------------
+Ground Truth Answer: 21
+Ground Truth Answer: 21
+Model Answer: 21
+Is Correct: True
+Correct Count: 852/934
+--------------------
+Ground Truth Answer: 35
+Ground Truth Answer: 35
+Model Answer: 35
+Is Correct: True
+Correct Count: 853/935
+--------------------
+Ground Truth Answer: 105
+Ground Truth Answer: 105
+Model Answer: 105
+Is Correct: True
+Correct Count: 854/936
+--------------------
+Ground Truth Answer: 90
+Ground Truth Answer: 90
+Model Answer: 90
+Is Correct: True
+Correct Count: 855/937
+--------------------
+Ground Truth Answer: 13140
+Ground Truth Answer: 13140
+Model Answer: 13140
+Is Correct: True
+Correct Count: 856/938
+--------------------
+Ground Truth Answer: 972
+Ground Truth Answer: 972
+Model Answer: 972
+Is Correct: True
+Correct Count: 857/939
+--------------------
+Ground Truth Answer: 6550
+Ground Truth Answer: 6550
+Model Answer: 6550
+Is Correct: True
+Correct Count: 858/940
+--------------------
+Ground Truth Answer: 4560
+Ground Truth Answer: 4560
+Model Answer: 4560
+Is Correct: True
+Correct Count: 859/941
+--------------------
+Ground Truth Answer: 35
+Ground Truth Answer: 35
+Model Answer: 35
+Is Correct: True
+Correct Count: 860/942
+--------------------
+Ground Truth Answer: 40
+Ground Truth Answer: 40
+Model Answer: 20
+Is Correct: False
+Correct Count: 860/943
+--------------------
+Ground Truth Answer: 13230
+Ground Truth Answer: 13230
+Model Answer: 13230
+Is Correct: True
+Correct Count: 861/944
+--------------------
+Ground Truth Answer: 1944
+Ground Truth Answer: 1944
+Model Answer: 1944
+Is Correct: True
+Correct Count: 862/945
+--------------------
+Ground Truth Answer: 1488
+Ground Truth Answer: 1488
+Model Answer: 1488
+Is Correct: True
+Correct Count: 863/946
+--------------------
+Ground Truth Answer: 40
+Ground Truth Answer: 40
+Model Answer: 40
+Is Correct: True
+Correct Count: 864/947
+--------------------
+Ground Truth Answer: 2116
+Ground Truth Answer: 2116
+Model Answer: 2116
+Is Correct: True
+Correct Count: 865/948
+--------------------
+Ground Truth Answer: 94
+Ground Truth Answer: 94
+Model Answer: 94
+Is Correct: True
+Correct Count: 866/949
+--------------------
+Ground Truth Answer: 127
+Ground Truth Answer: 127
+Model Answer: 127
+Is Correct: True
+Correct Count: 867/950
+--------------------
+Ground Truth Answer: 61
+Ground Truth Answer: 61
+Model Answer: 61
+Is Correct: True
+Correct Count: 868/951
+--------------------
+Ground Truth Answer: -23.76
+Ground Truth Answer: -23.76
+Model Answer: 23.76
+Is Correct: False
+Correct Count: 868/952
+--------------------
+Ground Truth Answer: 8
+Ground Truth Answer: 8
+Model Answer: 8
+Is Correct: True
+Correct Count: 869/953
+--------------------
+Ground Truth Answer: 8
+Ground Truth Answer: 8
+Model Answer: 8
+Is Correct: True
+Correct Count: 870/954
+--------------------
+Ground Truth Answer: 197
+Ground Truth Answer: 197
+Model Answer: 197
+Is Correct: True
+Correct Count: 871/955
+--------------------
+Ground Truth Answer: 47
+Ground Truth Answer: 47
+Model Answer: 47
+Is Correct: True
+Correct Count: 872/956
+--------------------
+Ground Truth Answer: 74
+Ground Truth Answer: 74
+Model Answer: 74
+Is Correct: True
+Correct Count: 873/957
+--------------------
+Ground Truth Answer: 81
+Ground Truth Answer: 81
+Model Answer: 81
+Is Correct: True
+Correct Count: 874/958
+--------------------
+Ground Truth Answer: 62
+Ground Truth Answer: 62
+Model Answer: 62
+Is Correct: True
+Correct Count: 875/959
+--------------------
+Ground Truth Answer: 2
+Ground Truth Answer: 2
+Model Answer: 2
+Is Correct: True
+Correct Count: 876/960
+--------------------
+Ground Truth Answer: 109
+Ground Truth Answer: 109
+Model Answer: 109
+Is Correct: True
+Correct Count: 877/961
+--------------------
+Ground Truth Answer: 18
+Ground Truth Answer: 18
+Model Answer: 18
+Is Correct: True
+Correct Count: 878/962
+--------------------
+Ground Truth Answer: 21
+Ground Truth Answer: 21
+Model Answer: 21
+Is Correct: True
+Correct Count: 879/963
+--------------------
+Ground Truth Answer: 21
+Ground Truth Answer: 21
+Model Answer: 21
+Is Correct: True
+Correct Count: 880/964
+--------------------
+Ground Truth Answer: -55
+Ground Truth Answer: -55
+Model Answer: 55
+Is Correct: False
+Correct Count: 880/965
+--------------------
+Ground Truth Answer: 72
+Ground Truth Answer: 72
+Model Answer: 72
+Is Correct: True
+Correct Count: 881/966
+--------------------
+Ground Truth Answer: 79
+Ground Truth Answer: 79
+Model Answer: 79
+Is Correct: True
+Correct Count: 882/967
+--------------------
+Ground Truth Answer: 60
+Ground Truth Answer: 60
+Model Answer: 60
+Is Correct: True
+Correct Count: 883/968
+--------------------
+Ground Truth Answer: 33
+Ground Truth Answer: 33
+Model Answer: 33
+Is Correct: True
+Correct Count: 884/969
+--------------------
+Ground Truth Answer: -78
+Ground Truth Answer: -78
+Model Answer: 78
+Is Correct: False
+Correct Count: 884/970
+--------------------
+Ground Truth Answer: 191
+Ground Truth Answer: 191
+Model Answer: 191
+Is Correct: True
+Correct Count: 885/971
+--------------------
+Ground Truth Answer: 155
+Ground Truth Answer: 155
+Model Answer: 155
+Is Correct: True
+Correct Count: 886/972
+--------------------
+Ground Truth Answer: 15243
+Ground Truth Answer: 15243
+Model Answer: 15243
+Is Correct: True
+Correct Count: 887/973
+--------------------
+Ground Truth Answer: 138
+Ground Truth Answer: 138
+Model Answer: 138
+Is Correct: True
+Correct Count: 888/974
+--------------------
+Ground Truth Answer: 22
+Ground Truth Answer: 22
+Model Answer: 22
+Is Correct: True
+Correct Count: 889/975
+--------------------
+Ground Truth Answer: 12
+Ground Truth Answer: 12
+Model Answer: 12
+Is Correct: True
+Correct Count: 890/976
+--------------------
+Ground Truth Answer: 7
+Ground Truth Answer: 7
+Model Answer: 7
+Is Correct: True
+Correct Count: 891/977
+--------------------
+Ground Truth Answer: 31
+Ground Truth Answer: 31
+Model Answer: 31
+Is Correct: True
+Correct Count: 892/978
+--------------------
+Ground Truth Answer: 68
+Ground Truth Answer: 68
+Model Answer: 68
+Is Correct: True
+Correct Count: 893/979
+--------------------
+Ground Truth Answer: 18
+Ground Truth Answer: 18
+Model Answer: 18
+Is Correct: True
+Correct Count: 894/980
+--------------------
+Ground Truth Answer: 50
+Ground Truth Answer: 50
+Model Answer: 50
+Is Correct: True
+Correct Count: 895/981
+--------------------
+Ground Truth Answer: 66
+Ground Truth Answer: 66
+Model Answer: 66
+Is Correct: True
+Correct Count: 896/982
+--------------------
+Ground Truth Answer: 108
+Ground Truth Answer: 108
+Model Answer: 108
+Is Correct: True
+Correct Count: 897/983
+--------------------
+Ground Truth Answer: 33
+Ground Truth Answer: 33
+Model Answer: 33
+Is Correct: True
+Correct Count: 898/984
+--------------------
+Ground Truth Answer: 10
+Ground Truth Answer: 10
+Model Answer: 10
+Is Correct: True
+Correct Count: 899/985
+--------------------
+Ground Truth Answer: 3
+Ground Truth Answer: 3
+Model Answer: 3
+Is Correct: True
+Correct Count: 900/986
+--------------------
+Ground Truth Answer: 9
+Ground Truth Answer: 9
+Model Answer: 9
+Is Correct: True
+Correct Count: 901/987
+--------------------
+Ground Truth Answer: 120
+Ground Truth Answer: 120
+Model Answer: 120
+Is Correct: True
+Correct Count: 902/988
+--------------------
+Ground Truth Answer: 30
+Ground Truth Answer: 30
+Model Answer: 30
+Is Correct: True
+Correct Count: 903/989
+--------------------
+Ground Truth Answer: 27
+Ground Truth Answer: 27
+Model Answer: 27
+Is Correct: True
+Correct Count: 904/990
+--------------------
+Ground Truth Answer: 84
+Ground Truth Answer: 84
+Model Answer: 84
+Is Correct: True
+Correct Count: 905/991
+--------------------
+Ground Truth Answer: 4
+Ground Truth Answer: 4
+Model Answer: 4
+Is Correct: True
+Correct Count: 906/992
+--------------------
+Ground Truth Answer: 3
+Ground Truth Answer: 3
+Model Answer: 3
+Is Correct: True
+Correct Count: 907/993
+--------------------
+Ground Truth Answer: 16
+Ground Truth Answer: 16
+Model Answer: 16
+Is Correct: True
+Correct Count: 908/994
+--------------------
+Ground Truth Answer: 9
+Ground Truth Answer: 9
+Model Answer: 9
+Is Correct: True
+Correct Count: 909/995
+--------------------
+Ground Truth Answer: 7
+Ground Truth Answer: 7
+Model Answer: 7
+Is Correct: True
+Correct Count: 910/996
+--------------------
+Ground Truth Answer: 110
+Ground Truth Answer: 110
+Model Answer: 110
+Is Correct: True
+Correct Count: 911/997
+--------------------
+Ground Truth Answer: 15
+Ground Truth Answer: 15
+Model Answer: 15
+Is Correct: True
+Correct Count: 912/998
+--------------------
+Ground Truth Answer: 13
+Ground Truth Answer: 13
+Model Answer: 13
+Is Correct: True
+Correct Count: 913/999
+--------------------
+Ground Truth Answer: 1
+Ground Truth Answer: 1
+Model Answer: 17
+Is Correct: False
+Correct Count: 913/1000
+--------------------
+Ground Truth Answer: 12
+Ground Truth Answer: 12
+Model Answer: 12
+Is Correct: True
+Correct Count: 914/1001
+--------------------
+Ground Truth Answer: 5
+Ground Truth Answer: 5
+Model Answer: 5
+Is Correct: True
+Correct Count: 915/1002
+--------------------
+Ground Truth Answer: 3
+Ground Truth Answer: 3
+Model Answer: 3
+Is Correct: True
+Correct Count: 916/1003
+--------------------
+Ground Truth Answer: 13
+Ground Truth Answer: 13
+Model Answer: 13
+Is Correct: True
+Correct Count: 917/1004
+--------------------
+Ground Truth Answer: 16
+Ground Truth Answer: 16
+Model Answer: 16
+Is Correct: True
+Correct Count: 918/1005
+--------------------
+Ground Truth Answer: 9
+Ground Truth Answer: 9
+Model Answer: 9
+Is Correct: True
+Correct Count: 919/1006
+--------------------
+Ground Truth Answer: 11
+Ground Truth Answer: 11
+Model Answer: 11
+Is Correct: True
+Correct Count: 920/1007
+--------------------
+Ground Truth Answer: 27
+Ground Truth Answer: 27
+Model Answer: 27
+Is Correct: True
+Correct Count: 921/1008
+--------------------
+Ground Truth Answer: 12
+Ground Truth Answer: 12
+Model Answer: 12
+Is Correct: True
+Correct Count: 922/1009
+--------------------
+Ground Truth Answer: 10
+Ground Truth Answer: 10
+Model Answer: 10
+Is Correct: True
+Correct Count: 923/1010
+--------------------
+Ground Truth Answer: 7
+Ground Truth Answer: 7
+Model Answer: 7
+Is Correct: True
+Correct Count: 924/1011
+--------------------
+Ground Truth Answer: 26
+Ground Truth Answer: 26
+Model Answer: 26
+Is Correct: True
+Correct Count: 925/1012
+--------------------
+Ground Truth Answer: 100
+Ground Truth Answer: 100
+Model Answer: 100
+Is Correct: True
+Correct Count: 926/1013
+--------------------
+Ground Truth Answer: 8
+Ground Truth Answer: 8
+Model Answer: 8
+Is Correct: True
+Correct Count: 927/1014
+--------------------
+Ground Truth Answer: 199
+Ground Truth Answer: 199
+Model Answer: 199
+Is Correct: True
+Correct Count: 928/1015
+--------------------
+Ground Truth Answer: 12
+Ground Truth Answer: 12
+Model Answer: 12
+Is Correct: True
+Correct Count: 929/1016
+--------------------
+Ground Truth Answer: 33
+Ground Truth Answer: 33
+Model Answer: 33
+Is Correct: True
+Correct Count: 930/1017
+--------------------
+Ground Truth Answer: 102
+Ground Truth Answer: 102
+Model Answer: 102
+Is Correct: True
+Correct Count: 931/1018
+--------------------
+Ground Truth Answer: 33
+Ground Truth Answer: 33
+Model Answer: 33
+Is Correct: True
+Correct Count: 932/1019
+--------------------
+Ground Truth Answer: 28
+Ground Truth Answer: 28
+Model Answer: 28
+Is Correct: True
+Correct Count: 933/1020
+--------------------
+Ground Truth Answer: 28
+Ground Truth Answer: 28
+Model Answer: 28
+Is Correct: True
+Correct Count: 934/1021
+--------------------
+Ground Truth Answer: 21
+Ground Truth Answer: 21
+Model Answer: 21
+Is Correct: True
+Correct Count: 935/1022
+--------------------
+Ground Truth Answer: 153
+Ground Truth Answer: 153
+Model Answer: 153
+Is Correct: True
+Correct Count: 936/1023
+--------------------
+Ground Truth Answer: 63
+Ground Truth Answer: 63
+Model Answer: 63
+Is Correct: True
+Correct Count: 937/1024
+--------------------
+Ground Truth Answer: 54
+Ground Truth Answer: 54
+Model Answer: 54
+Is Correct: True
+Correct Count: 938/1025
+--------------------
+Ground Truth Answer: 65
+Ground Truth Answer: 65
+Model Answer: 65
+Is Correct: True
+Correct Count: 939/1026
+--------------------
+Ground Truth Answer: 46
+Ground Truth Answer: 46
+Model Answer: 46
+Is Correct: True
+Correct Count: 940/1027
+--------------------
+Ground Truth Answer: 85
+Ground Truth Answer: 85
+Model Answer: 85
+Is Correct: True
+Correct Count: 941/1028
+--------------------
+Ground Truth Answer: 58
+Ground Truth Answer: 58
+Model Answer: 58
+Is Correct: True
+Correct Count: 942/1029
+--------------------
+Ground Truth Answer: 238
+Ground Truth Answer: 238
+Model Answer: 238
+Is Correct: True
+Correct Count: 943/1030
+--------------------
+Ground Truth Answer: 13
+Ground Truth Answer: 13
+Model Answer: 13
+Is Correct: True
+Correct Count: 944/1031
+--------------------
+Ground Truth Answer: 10
+Ground Truth Answer: 10
+Model Answer: 10
+Is Correct: True
+Correct Count: 945/1032
+--------------------
+Ground Truth Answer: 37
+Ground Truth Answer: 37
+Model Answer: 37
+Is Correct: True
+Correct Count: 946/1033
+--------------------
+Ground Truth Answer: 14
+Ground Truth Answer: 14
+Model Answer: 14
+Is Correct: True
+Correct Count: 947/1034
+--------------------
+Ground Truth Answer: 110
+Ground Truth Answer: 110
+Model Answer: 110
+Is Correct: True
+Correct Count: 948/1035
+--------------------
+Ground Truth Answer: 210
+Ground Truth Answer: 210
+Model Answer: 210
+Is Correct: True
+Correct Count: 949/1036
+--------------------
+Ground Truth Answer: 35
+Ground Truth Answer: 35
+Model Answer: 35
+Is Correct: True
+Correct Count: 950/1037
+--------------------
+Ground Truth Answer: 18
+Ground Truth Answer: 18
+Model Answer: 18
+Is Correct: True
+Correct Count: 951/1038
+--------------------

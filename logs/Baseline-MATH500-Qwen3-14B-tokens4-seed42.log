@@ -1,0 +1,3003 @@
+Args: {'base_model_id': 'Qwen/Qwen3-14B', 'assistant_model_id': 'Qwen/Qwen3-1.7B', 'params_file_name': 'ckpt/qwen_3_14b_gsm8k_proj.bin', 'base_model_ckpt': 'None', 'assistant_model_ckpt': 'None', 'num_thought_tokens': 4, 'num_return_sequences': 1, 'task_name': 'math-500', 'print_input': False, 'print_response': False, 'test_k': 0, 'seed': 42, 'tune_base_model': False, 'tune_assistant_model': False}
+Load weights from file `ckpt/qwen_3_14b_gsm8k_proj.bin` for projection module.
+Successfully Init Model `EfficientSoftCoTFromSmallModel`
+Ground Truth Answer: \left( 3, \frac{\pi}{2} \right)
+Ground Truth Answer: \left( 3, \frac{\pi}{2} \right)
+Model Answer: (3,\frac{\pi}{2})
+Is Correct: True
+Correct Count: 1/1
+--------------------
+Ground Truth Answer: p - q
+Ground Truth Answer: p - q
+Model Answer: p-q
+Is Correct: True
+Correct Count: 2/2
+--------------------
+Ground Truth Answer: \frac{14}{3}
+Ground Truth Answer: \frac{14}{3}
+Model Answer: \frac{14}{3}
+Is Correct: True
+Correct Count: 3/3
+--------------------
+Ground Truth Answer: 9
+Ground Truth Answer: 9
+Model Answer: 9
+Is Correct: True
+Correct Count: 4/4
+--------------------
+Ground Truth Answer: \text{Evelyn}
+Ground Truth Answer: \text{Evelyn}
+Model Answer: Evelyn
+Is Correct: False
+Correct Count: 4/5
+--------------------
+Ground Truth Answer: 42
+Ground Truth Answer: 42
+Model Answer: 42
+Is Correct: True
+Correct Count: 5/6
+--------------------
+Ground Truth Answer: 27
+Ground Truth Answer: 27
+Model Answer: 27
+Is Correct: True
+Correct Count: 6/7
+--------------------
+Ground Truth Answer: 90^\circ
+Ground Truth Answer: 90^\circ
+Model Answer: 90
+Is Correct: True
+Correct Count: 7/8
+--------------------
+Ground Truth Answer: 3\sqrt{13}
+Ground Truth Answer: 3\sqrt{13}
+Model Answer: 3\sqrt{13}
+Is Correct: True
+Correct Count: 8/9
+--------------------
+Ground Truth Answer: 4
+Ground Truth Answer: 4
+Model Answer: 1
+Is Correct: False
+Correct Count: 8/10
+--------------------
+Ground Truth Answer: 2220
+Ground Truth Answer: 2220
+Model Answer: 2220
+Is Correct: True
+Correct Count: 9/11
+--------------------
+Ground Truth Answer: \frac{3}{56}
+Ground Truth Answer: \frac{3}{56}
+Model Answer: 1
+Is Correct: False
+Correct Count: 9/12
+--------------------
+Ground Truth Answer: 284
+Ground Truth Answer: 284
+Model Answer: 284
+Is Correct: True
+Correct Count: 10/13
+--------------------
+Ground Truth Answer: 5
+Ground Truth Answer: 5
+Model Answer: 5
+Is Correct: True
+Correct Count: 11/14
+--------------------
+Ground Truth Answer: \sqrt{51}
+Ground Truth Answer: \sqrt{51}
+Model Answer: \sqrt{51}
+Is Correct: True
+Correct Count: 12/15
+--------------------
+Ground Truth Answer: 6 - 5i
+Ground Truth Answer: 6 - 5i
+Model Answer: 6-5i
+Is Correct: True
+Correct Count: 13/16
+--------------------
+Ground Truth Answer: -50
+Ground Truth Answer: -50
+Model Answer: -50
+Is Correct: True
+Correct Count: 14/17
+--------------------
+Ground Truth Answer: \pi
+Ground Truth Answer: \pi
+Model Answer: -\pi
+Is Correct: False
+Correct Count: 14/18
+--------------------
+Ground Truth Answer: 28
+Ground Truth Answer: 28
+Model Answer: 28
+Is Correct: True
+Correct Count: 15/19
+--------------------
+Ground Truth Answer: 3
+Ground Truth Answer: 3
+Model Answer: 3
+Is Correct: True
+Correct Count: 16/20
+--------------------
+Ground Truth Answer: 6+9i
+Ground Truth Answer: 6+9i
+Model Answer: 6+9i
+Is Correct: True
+Correct Count: 17/21
+--------------------
+Ground Truth Answer: 13535
+Ground Truth Answer: 13535
+Model Answer: 13535
+Is Correct: True
+Correct Count: 18/22
+--------------------
+Ground Truth Answer: 5
+Ground Truth Answer: 5
+Model Answer: 5
+Is Correct: True
+Correct Count: 19/23
+--------------------
+Ground Truth Answer: x=5
+Ground Truth Answer: x=5
+Model Answer: 5
+Is Correct: True
+Correct Count: 20/24
+--------------------
+Ground Truth Answer: 10
+Ground Truth Answer: 10
+Model Answer: 10
+Is Correct: True
+Correct Count: 21/25
+--------------------
+Ground Truth Answer: 1,-2
+Ground Truth Answer: 1,-2
+Model Answer: 1,2
+Is Correct: True
+Correct Count: 22/26
+--------------------
+Ground Truth Answer: 144
+Ground Truth Answer: 144
+Model Answer: 576
+Is Correct: False
+Correct Count: 22/27
+--------------------
+Ground Truth Answer: 78
+Ground Truth Answer: 78
+Model Answer: 78
+Is Correct: True
+Correct Count: 23/28
+--------------------
+Ground Truth Answer: -2 + 7i
+Ground Truth Answer: -2 + 7i
+Model Answer: -2+7i
+Is Correct: True
+Correct Count: 24/29
+--------------------
+Ground Truth Answer: 225
+Ground Truth Answer: 225
+Model Answer: 225
+Is Correct: True
+Correct Count: 25/30
+--------------------
+Ground Truth Answer: 52_8
+Ground Truth Answer: 52_8
+Model Answer: 52_8
+Is Correct: True
+Correct Count: 26/31
+--------------------
+Ground Truth Answer: 11\sqrt2
+Ground Truth Answer: 11\sqrt2
+Model Answer: 11\sqrt{2}
+Is Correct: True
+Correct Count: 27/32
+--------------------
+Ground Truth Answer: 720
+Ground Truth Answer: 720
+Model Answer: 720
+Is Correct: True
+Correct Count: 28/33
+--------------------
+Ground Truth Answer: \frac{243}{625}
+Ground Truth Answer: \frac{243}{625}
+Model Answer: \frac{2187}{5625}
+Is Correct: True
+Correct Count: 29/34
+--------------------
+Ground Truth Answer: -125
+Ground Truth Answer: -125
+Model Answer: -125
+Is Correct: True
+Correct Count: 30/35
+--------------------
+Ground Truth Answer: 3
+Ground Truth Answer: 3
+Model Answer: 3
+Is Correct: True
+Correct Count: 31/36
+--------------------
+Ground Truth Answer: 3, 5, 7
+Ground Truth Answer: 3, 5, 7
+Model Answer: 7
+Is Correct: False
+Correct Count: 31/37
+--------------------
+Ground Truth Answer: 72
+Ground Truth Answer: 72
+Model Answer: 72
+Is Correct: True
+Correct Count: 32/38
+--------------------
+Ground Truth Answer: 2000
+Ground Truth Answer: 2000
+Model Answer: 2000
+Is Correct: True
+Correct Count: 33/39
+--------------------
+Ground Truth Answer: 23
+Ground Truth Answer: 23
+Model Answer: 23
+Is Correct: True
+Correct Count: 34/40
+--------------------
+Ground Truth Answer: 12
+Ground Truth Answer: 12
+Model Answer: 12
+Is Correct: True
+Correct Count: 35/41
+--------------------
+Ground Truth Answer: 17
+Ground Truth Answer: 17
+Model Answer: 17
+Is Correct: True
+Correct Count: 36/42
+--------------------
+Ground Truth Answer: 4
+Ground Truth Answer: 4
+Model Answer: 4
+Is Correct: True
+Correct Count: 37/43
+--------------------
+Ground Truth Answer: 70 \sqrt{2}
+Ground Truth Answer: 70 \sqrt{2}
+Model Answer: 2
+Is Correct: False
+Correct Count: 37/44
+--------------------
+Ground Truth Answer: 1.25
+Ground Truth Answer: 1.25
+Model Answer: 1.25
+Is Correct: True
+Correct Count: 38/45
+--------------------
+Ground Truth Answer: 2
+Ground Truth Answer: 2
+Model Answer: 2
+Is Correct: True
+Correct Count: 39/46
+--------------------
+Ground Truth Answer: 6
+Ground Truth Answer: 6
+Model Answer: 6
+Is Correct: True
+Correct Count: 40/47
+--------------------
+Ground Truth Answer: 5
+Ground Truth Answer: 5
+Model Answer: 5
+Is Correct: True
+Correct Count: 41/48
+--------------------
+Ground Truth Answer: \frac{3}{2}
+Ground Truth Answer: \frac{3}{2}
+Model Answer: \frac{3}{2}
+Is Correct: True
+Correct Count: 42/49
+--------------------
+Ground Truth Answer: 83
+Ground Truth Answer: 83
+Model Answer: 83
+Is Correct: True
+Correct Count: 43/50
+--------------------
+Ground Truth Answer: 203
+Ground Truth Answer: 203
+Model Answer: 203
+Is Correct: True
+Correct Count: 44/51
+--------------------
+Ground Truth Answer: x^5 - x^4 + x^3 - x^2 + x - 1
+Ground Truth Answer: x^5 - x^4 + x^3 - x^2 + x - 1
+Model Answer: x^5-x^4+x^3-x^2+x-1
+Is Correct: True
+Correct Count: 45/52
+--------------------
+Ground Truth Answer: 12
+Ground Truth Answer: 12
+Model Answer: 12
+Is Correct: True
+Correct Count: 46/53
+--------------------
+Ground Truth Answer: -\frac{\pi}{6}
+Ground Truth Answer: -\frac{\pi}{6}
+Model Answer: -\frac{\pi}{6}
+Is Correct: True
+Correct Count: 47/54
+--------------------
+Ground Truth Answer: 0.15
+Ground Truth Answer: 0.15
+Model Answer: 0.15
+Is Correct: True
+Correct Count: 48/55
+--------------------
+Ground Truth Answer: 3
+Ground Truth Answer: 3
+Model Answer: 3
+Is Correct: True
+Correct Count: 49/56
+--------------------
+Ground Truth Answer: 11
+Ground Truth Answer: 11
+Model Answer: 11
+Is Correct: True
+Correct Count: 50/57
+--------------------
+Ground Truth Answer: 16
+Ground Truth Answer: 16
+Model Answer: 16
+Is Correct: True
+Correct Count: 51/58
+--------------------
+Ground Truth Answer: 9901
+Ground Truth Answer: 9901
+Model Answer: 9901
+Is Correct: True
+Correct Count: 52/59
+--------------------
+Ground Truth Answer: 5
+Ground Truth Answer: 5
+Model Answer: 5
+Is Correct: True
+Correct Count: 53/60
+--------------------
+Ground Truth Answer: (6,31,-1)
+Ground Truth Answer: (6,31,-1)
+Model Answer: 2
+Is Correct: False
+Correct Count: 53/61
+--------------------
+Ground Truth Answer: -256
+Ground Truth Answer: -256
+Model Answer: -256
+Is Correct: True
+Correct Count: 54/62
+--------------------
+Ground Truth Answer: 4
+Ground Truth Answer: 4
+Model Answer: 24
+Is Correct: False
+Correct Count: 54/63
+--------------------
+Ground Truth Answer: 10
+Ground Truth Answer: 10
+Model Answer: 10
+Is Correct: True
+Correct Count: 55/64
+--------------------
+Ground Truth Answer: \frac{35}{64}
+Ground Truth Answer: \frac{35}{64}
+Model Answer: -\frac{35}{64}
+Is Correct: False
+Correct Count: 55/65
+--------------------
+Ground Truth Answer: 1
+Ground Truth Answer: 1
+Model Answer: 1
+Is Correct: True
+Correct Count: 56/66
+--------------------
+Ground Truth Answer: x^3+3x-6
+Ground Truth Answer: x^3+3x-6
+Model Answer: x^3+3x-6
+Is Correct: True
+Correct Count: 57/67
+--------------------
+Ground Truth Answer: 10
+Ground Truth Answer: 10
+Model Answer: 10
+Is Correct: True
+Correct Count: 58/68
+--------------------
+Ground Truth Answer: 46
+Ground Truth Answer: 46
+Model Answer: 46
+Is Correct: True
+Correct Count: 59/69
+--------------------
+Ground Truth Answer: -1
+Ground Truth Answer: -1
+Model Answer: -1
+Is Correct: True
+Correct Count: 60/70
+--------------------
+Ground Truth Answer: 40_9
+Ground Truth Answer: 40_9
+Model Answer: 40_9
+Is Correct: True
+Correct Count: 61/71
+--------------------
+Ground Truth Answer: 2516_8
+Ground Truth Answer: 2516_8
+Model Answer: 2516
+Is Correct: False
+Correct Count: 61/72
+--------------------
+Ground Truth Answer: 3
+Ground Truth Answer: 3
+Model Answer: 3
+Is Correct: True
+Correct Count: 62/73
+--------------------
+Ground Truth Answer: \frac{3\sqrt{3}}{4}
+Ground Truth Answer: \frac{3\sqrt{3}}{4}
+Model Answer: \frac{3\sqrt{3}}{4}
+Is Correct: True
+Correct Count: 63/74
+--------------------
+Ground Truth Answer: \cot x
+Ground Truth Answer: \cot x
+Model Answer: \frac{\cosx}{\sinx}
+Is Correct: False
+Correct Count: 63/75
+--------------------
+Ground Truth Answer: \frac{11}{36}
+Ground Truth Answer: \frac{11}{36}
+Model Answer: \frac{11}{36}
+Is Correct: True
+Correct Count: 64/76
+--------------------
+Ground Truth Answer: 0
+Ground Truth Answer: 0
+Model Answer: 0
+Is Correct: True
+Correct Count: 65/77
+--------------------
+Ground Truth Answer: 4
+Ground Truth Answer: 4
+Model Answer: 4
+Is Correct: True
+Correct Count: 66/78
+--------------------
+Ground Truth Answer: (-2,1)
+Ground Truth Answer: (-2,1)
+Model Answer: (-2,1)
+Is Correct: True
+Correct Count: 67/79
+--------------------
+Ground Truth Answer: 2
+Ground Truth Answer: 2
+Model Answer: 2
+Is Correct: True
+Correct Count: 68/80
+--------------------
+Ground Truth Answer: 501
+Ground Truth Answer: 501
+Model Answer: 2
+Is Correct: False
+Correct Count: 68/81
+--------------------
+Ground Truth Answer: 3
+Ground Truth Answer: 3
+Model Answer: 3
+Is Correct: True
+Correct Count: 69/82
+--------------------
+Ground Truth Answer: \frac{3}{2}
+Ground Truth Answer: \frac{3}{2}
+Model Answer: \frac{3}{2}
+Is Correct: True
+Correct Count: 70/83
+--------------------
+Ground Truth Answer: 2
+Ground Truth Answer: 2
+Model Answer: 2
+Is Correct: True
+Correct Count: 71/84
+--------------------
+Ground Truth Answer: -1
+Ground Truth Answer: -1
+Model Answer: -1
+Is Correct: True
+Correct Count: 72/85
+--------------------
+Ground Truth Answer: \sqrt{5}
+Ground Truth Answer: \sqrt{5}
+Model Answer: \sqrt{5}
+Is Correct: True
+Correct Count: 73/86
+--------------------
+Ground Truth Answer: 240
+Ground Truth Answer: 240
+Model Answer: 240
+Is Correct: True
+Correct Count: 74/87
+--------------------
+Ground Truth Answer: 1
+Ground Truth Answer: 1
+Model Answer: 1
+Is Correct: True
+Correct Count: 75/88
+--------------------
+Ground Truth Answer: 2
+Ground Truth Answer: 2
+Model Answer: 0
+Is Correct: False
+Correct Count: 75/89
+--------------------
+Ground Truth Answer: 21
+Ground Truth Answer: 21
+Model Answer: 21
+Is Correct: True
+Correct Count: 76/90
+--------------------
+Ground Truth Answer: \frac{3}{2}
+Ground Truth Answer: \frac{3}{2}
+Model Answer: \frac{3}{2}
+Is Correct: True
+Correct Count: 77/91
+--------------------
+Ground Truth Answer: 1
+Ground Truth Answer: 1
+Model Answer: 1
+Is Correct: True
+Correct Count: 78/92
+--------------------
+Ground Truth Answer: \frac{448}{15625}
+Ground Truth Answer: \frac{448}{15625}
+Model Answer: \frac{2240}{78125}
+Is Correct: True
+Correct Count: 79/93
+--------------------
+Ground Truth Answer: 33
+Ground Truth Answer: 33
+Model Answer: 33
+Is Correct: True
+Correct Count: 80/94
+--------------------
+Ground Truth Answer: 80
+Ground Truth Answer: 80
+Model Answer: 130
+Is Correct: False
+Correct Count: 80/95
+--------------------
+Ground Truth Answer: -4
+Ground Truth Answer: -4
+Model Answer: -4
+Is Correct: True
+Correct Count: 81/96
+--------------------
+Ground Truth Answer: 1 \pm \sqrt{19}
+Ground Truth Answer: 1 \pm \sqrt{19}
+Model Answer: 4
+Is Correct: False
+Correct Count: 81/97
+--------------------
+Ground Truth Answer: \text{east}
+Ground Truth Answer: \text{east}
+Model Answer: east
+Is Correct: False
+Correct Count: 81/98
+--------------------
+Ground Truth Answer: 2k+2
+Ground Truth Answer: 2k+2
+Model Answer: 2k+2
+Is Correct: True
+Correct Count: 82/99
+--------------------
+Ground Truth Answer: \begin{pmatrix} -1/3 \\ 2/3 \\ 5/3 \end{pmatrix}
+Ground Truth Answer: \begin{pmatrix} -1/3 \\ 2/3 \\ 5/3 \end{pmatrix}
+Model Answer: \begin{pmatrix}-\frac{1}{3}\\\frac{2}{3}\\\frac{5}{3}\end{pmatrix}
+Is Correct: True
+Correct Count: 83/100
+--------------------
+Ground Truth Answer: 145^\circ
+Ground Truth Answer: 145^\circ
+Model Answer: 2
+Is Correct: False
+Correct Count: 83/101
+--------------------
+Ground Truth Answer: 850
+Ground Truth Answer: 850
+Model Answer: 26
+Is Correct: False
+Correct Count: 83/102
+--------------------
+Ground Truth Answer: (a+5)(b+2)
+Ground Truth Answer: (a+5)(b+2)
+Model Answer: (5)(2)
+Is Correct: False
+Correct Count: 83/103
+--------------------
+Ground Truth Answer: (3,4]
+Ground Truth Answer: (3,4]
+Model Answer: -2
+Is Correct: False
+Correct Count: 83/104
+--------------------
+Ground Truth Answer: 40
+Ground Truth Answer: 40
+Model Answer: 2
+Is Correct: False
+Correct Count: 83/105
+--------------------
+Ground Truth Answer: 29
+Ground Truth Answer: 29
+Model Answer: 29
+Is Correct: True
+Correct Count: 84/106
+--------------------
+Ground Truth Answer: \frac43
+Ground Truth Answer: \frac43
+Model Answer: \frac{4}{3}
+Is Correct: True
+Correct Count: 85/107
+--------------------
+Ground Truth Answer: 9
+Ground Truth Answer: 9
+Model Answer: 9
+Is Correct: True
+Correct Count: 86/108
+--------------------
+Ground Truth Answer: 2
+Ground Truth Answer: 2
+Model Answer: 2
+Is Correct: True
+Correct Count: 87/109
+--------------------
+Ground Truth Answer: 120^\circ
+Ground Truth Answer: 120^\circ
+Model Answer: 0
+Is Correct: False
+Correct Count: 87/110
+--------------------
+Ground Truth Answer: 504
+Ground Truth Answer: 504
+Model Answer: 6
+Is Correct: False
+Correct Count: 87/111
+--------------------
+Ground Truth Answer: 210
+Ground Truth Answer: 210
+Model Answer: 210
+Is Correct: True
+Correct Count: 88/112
+--------------------
+Ground Truth Answer: 13
+Ground Truth Answer: 13
+Model Answer: 13
+Is Correct: True
+Correct Count: 89/113
+--------------------
+Ground Truth Answer: 8000
+Ground Truth Answer: 8000
+Model Answer: 8000
+Is Correct: True
+Correct Count: 90/114
+--------------------
+Ground Truth Answer: -5
+Ground Truth Answer: -5
+Model Answer: -5
+Is Correct: True
+Correct Count: 91/115
+--------------------
+Ground Truth Answer: 1260
+Ground Truth Answer: 1260
+Model Answer: 1260
+Is Correct: True
+Correct Count: 92/116
+--------------------
+Ground Truth Answer: 2
+Ground Truth Answer: 2
+Model Answer: 2
+Is Correct: True
+Correct Count: 93/117
+--------------------
+Ground Truth Answer: 3
+Ground Truth Answer: 3
+Model Answer: 3
+Is Correct: True
+Correct Count: 94/118
+--------------------
+Ground Truth Answer: 81
+Ground Truth Answer: 81
+Model Answer: 81
+Is Correct: True
+Correct Count: 95/119
+--------------------
+Ground Truth Answer: -9
+Ground Truth Answer: -9
+Model Answer: -9
+Is Correct: True
+Correct Count: 96/120
+--------------------
+Ground Truth Answer: \text{even}
+Ground Truth Answer: \text{even}
+Model Answer: even
+Is Correct: False
+Correct Count: 96/121
+--------------------
+Ground Truth Answer: 6
+Ground Truth Answer: 6
+Model Answer: 6
+Is Correct: True
+Correct Count: 97/122
+--------------------
+Ground Truth Answer: 9
+Ground Truth Answer: 9
+Model Answer: 9
+Is Correct: True
+Correct Count: 98/123
+--------------------
+Ground Truth Answer: 8
+Ground Truth Answer: 8
+Model Answer: 8
+Is Correct: True
+Correct Count: 99/124
+--------------------
+Ground Truth Answer: \frac{11}{2}
+Ground Truth Answer: \frac{11}{2}
+Model Answer: \frac{11}{2}
+Is Correct: True
+Correct Count: 100/125
+--------------------
+Ground Truth Answer: -3
+Ground Truth Answer: -3
+Model Answer: -3
+Is Correct: True
+Correct Count: 101/126
+--------------------
+Ground Truth Answer: 1+274i
+Ground Truth Answer: 1+274i
+Model Answer: 2
+Is Correct: False
+Correct Count: 101/127
+--------------------
+Ground Truth Answer: 4210_{5}
+Ground Truth Answer: 4210_{5}
+Model Answer: 41100_5
+Is Correct: False
+Correct Count: 101/128
+--------------------
+Ground Truth Answer: 36
+Ground Truth Answer: 36
+Model Answer: 36
+Is Correct: True
+Correct Count: 102/129
+--------------------
+Ground Truth Answer: \frac{3840}{289}
+Ground Truth Answer: \frac{3840}{289}
+Model Answer: \frac{480}{17}
+Is Correct: False
+Correct Count: 102/130
+--------------------
+Ground Truth Answer: 13
+Ground Truth Answer: 13
+Model Answer: 13
+Is Correct: True
+Correct Count: 103/131
+--------------------
+Ground Truth Answer: 8
+Ground Truth Answer: 8
+Model Answer: 8
+Is Correct: True
+Correct Count: 104/132
+--------------------
+Ground Truth Answer: 4
+Ground Truth Answer: 4
+Model Answer: 4
+Is Correct: True
+Correct Count: 105/133
+--------------------
+Ground Truth Answer: 120
+Ground Truth Answer: 120
+Model Answer: 120
+Is Correct: True
+Correct Count: 106/134
+--------------------
+Ground Truth Answer: 16
+Ground Truth Answer: 16
+Model Answer: 16
+Is Correct: True
+Correct Count: 107/135
+--------------------
+Ground Truth Answer: 9
+Ground Truth Answer: 9
+Model Answer: 9
+Is Correct: True
+Correct Count: 108/136
+--------------------
+Ground Truth Answer: 64
+Ground Truth Answer: 64
+Model Answer: 64
+Is Correct: True
+Correct Count: 109/137
+--------------------
+Ground Truth Answer: 204_5
+Ground Truth Answer: 204_5
+Model Answer: 204_5
+Is Correct: True
+Correct Count: 110/138
+--------------------
+Ground Truth Answer: \frac{1}{3}
+Ground Truth Answer: \frac{1}{3}
+Model Answer: \frac{1}{6}
+Is Correct: False
+Correct Count: 110/139
+--------------------
+Ground Truth Answer: 1
+Ground Truth Answer: 1
+Model Answer: 1
+Is Correct: True
+Correct Count: 111/140
+--------------------
+Ground Truth Answer: 13
+Ground Truth Answer: 13
+Model Answer: 13
+Is Correct: True
+Correct Count: 112/141
+--------------------
+Ground Truth Answer: 2
+Ground Truth Answer: 2
+Model Answer: 2
+Is Correct: True
+Correct Count: 113/142
+--------------------
+Ground Truth Answer: 28800
+Ground Truth Answer: 28800
+Model Answer: 28800
+Is Correct: True
+Correct Count: 114/143
+--------------------
+Ground Truth Answer: 3 \sqrt{5}
+Ground Truth Answer: 3 \sqrt{5}
+Model Answer: 3\sqrt{5}
+Is Correct: True
+Correct Count: 115/144
+--------------------
+Ground Truth Answer: (15,-29)
+Ground Truth Answer: (15,-29)
+Model Answer: (15,-29)
+Is Correct: True
+Correct Count: 116/145
+--------------------
+Ground Truth Answer: -2
+Ground Truth Answer: -2
+Model Answer: 1
+Is Correct: False
+Correct Count: 116/146
+--------------------
+Ground Truth Answer: \frac{\sqrt{3}}{3}
+Ground Truth Answer: \frac{\sqrt{3}}{3}
+Model Answer: \frac{\sqrt{3}}{3}
+Is Correct: True
+Correct Count: 117/147
+--------------------
+Ground Truth Answer: 16
+Ground Truth Answer: 16
+Model Answer: 5
+Is Correct: False
+Correct Count: 117/148
+--------------------
+Ground Truth Answer: 11
+Ground Truth Answer: 11
+Model Answer: 11
+Is Correct: True
+Correct Count: 118/149
+--------------------
+Ground Truth Answer: 49
+Ground Truth Answer: 49
+Model Answer: 49
+Is Correct: True
+Correct Count: 119/150
+--------------------
+Ground Truth Answer: 1
+Ground Truth Answer: 1
+Model Answer: 4
+Is Correct: False
+Correct Count: 119/151
+--------------------
+Ground Truth Answer: 144
+Ground Truth Answer: 144
+Model Answer: 144
+Is Correct: True
+Correct Count: 120/152
+--------------------
+Ground Truth Answer: 8
+Ground Truth Answer: 8
+Model Answer: 24
+Is Correct: False
+Correct Count: 120/153
+--------------------
+Ground Truth Answer: \frac{2}{21}
+Ground Truth Answer: \frac{2}{21}
+Model Answer: \frac{2}{21}
+Is Correct: True
+Correct Count: 121/154
+--------------------
+Ground Truth Answer: 2\sqrt{113}
+Ground Truth Answer: 2\sqrt{113}
+Model Answer: 2\sqrt{58}
+Is Correct: False
+Correct Count: 121/155
+--------------------
+Ground Truth Answer: \frac{1}{4}
+Ground Truth Answer: \frac{1}{4}
+Model Answer: \frac{1}{4}
+Is Correct: True
+Correct Count: 122/156
+--------------------
+Ground Truth Answer: 30^\circ
+Ground Truth Answer: 30^\circ
+Model Answer: 0
+Is Correct: False
+Correct Count: 122/157
+--------------------
+Ground Truth Answer: \frac65
+Ground Truth Answer: \frac65
+Model Answer: \frac{6}{5}
+Is Correct: True
+Correct Count: 123/158
+--------------------
+Ground Truth Answer: 2107
+Ground Truth Answer: 2107
+Model Answer: 2107
+Is Correct: True
+Correct Count: 124/159
+--------------------
+Ground Truth Answer: 3.21
+Ground Truth Answer: 3.21
+Model Answer: 3.21
+Is Correct: True
+Correct Count: 125/160
+--------------------
+Ground Truth Answer: 18
+Ground Truth Answer: 18
+Model Answer: 18
+Is Correct: True
+Correct Count: 126/161
+--------------------
+Ground Truth Answer: 6
+Ground Truth Answer: 6
+Model Answer: 6
+Is Correct: True
+Correct Count: 127/162
+--------------------
+Ground Truth Answer: \dfrac{17}{50}
+Ground Truth Answer: \dfrac{17}{50}
+Model Answer: \frac{17}{50}
+Is Correct: True
+Correct Count: 128/163
+--------------------
+Ground Truth Answer: -\frac{35}{9}
+Ground Truth Answer: -\frac{35}{9}
+Model Answer: -\frac{99}{25}
+Is Correct: False
+Correct Count: 128/164
+--------------------
+Ground Truth Answer: -\sqrt{3}
+Ground Truth Answer: -\sqrt{3}
+Model Answer: -1.732
+Is Correct: True
+Correct Count: 129/165
+--------------------
+Ground Truth Answer: \frac{4}{9}
+Ground Truth Answer: \frac{4}{9}
+Model Answer: \frac{4}{9}
+Is Correct: True
+Correct Count: 130/166
+--------------------
+Ground Truth Answer: \frac{270}7\text{ degrees}
+Ground Truth Answer: \frac{270}7\text{ degrees}
+Model Answer: \frac{270}{7}
+Is Correct: False
+Correct Count: 130/167
+--------------------
+Ground Truth Answer: 65
+Ground Truth Answer: 65
+Model Answer: 65
+Is Correct: True
+Correct Count: 131/168
+--------------------
+Ground Truth Answer: 19
+Ground Truth Answer: 19
+Model Answer: 1
+Is Correct: False
+Correct Count: 131/169
+--------------------
+Ground Truth Answer: 12
+Ground Truth Answer: 12
+Model Answer: 12
+Is Correct: True
+Correct Count: 132/170
+--------------------
+Ground Truth Answer: 1736
+Ground Truth Answer: 1736
+Model Answer: 2
+Is Correct: False
+Correct Count: 132/171
+--------------------
+Ground Truth Answer: \frac{13}{15}
+Ground Truth Answer: \frac{13}{15}
+Model Answer: \frac{13}{15}
+Is Correct: True
+Correct Count: 133/172
+--------------------
+Ground Truth Answer: 350
+Ground Truth Answer: 350
+Model Answer: 350
+Is Correct: True
+Correct Count: 134/173
+--------------------
+Ground Truth Answer: 4
+Ground Truth Answer: 4
+Model Answer: 4
+Is Correct: True
+Correct Count: 135/174
+--------------------
+Ground Truth Answer: 2
+Ground Truth Answer: 2
+Model Answer: 2
+Is Correct: True
+Correct Count: 136/175
+--------------------
+Ground Truth Answer: 3
+Ground Truth Answer: 3
+Model Answer: 3
+Is Correct: True
+Correct Count: 137/176
+--------------------
+Ground Truth Answer: .0000672
+Ground Truth Answer: .0000672
+Model Answer: 0.0000672
+Is Correct: True
+Correct Count: 138/177
+--------------------
+Ground Truth Answer: 30^\circ
+Ground Truth Answer: 30^\circ
+Model Answer: 30
+Is Correct: True
+Correct Count: 139/178
+--------------------
+Ground Truth Answer: 60
+Ground Truth Answer: 60
+Model Answer: 60
+Is Correct: True
+Correct Count: 140/179
+--------------------
+Ground Truth Answer: 5x - 7y + 11z + 4 = 0
+Ground Truth Answer: 5x - 7y + 11z + 4 = 0
+Model Answer: 5x-7y+11z+4=0
+Is Correct: True
+Correct Count: 141/180
+--------------------
+Ground Truth Answer: 3
+Ground Truth Answer: 3
+Model Answer: 2
+Is Correct: False
+Correct Count: 141/181
+--------------------
+Ground Truth Answer: \frac{\sqrt{3}}{3}
+Ground Truth Answer: \frac{\sqrt{3}}{3}
+Model Answer: \frac{\sqrt{3}}{3}
+Is Correct: True
+Correct Count: 142/182
+--------------------
+Ground Truth Answer: 1251
+Ground Truth Answer: 1251
+Model Answer: 1251
+Is Correct: True
+Correct Count: 143/183
+--------------------
+Ground Truth Answer: 23
+Ground Truth Answer: 23
+Model Answer: 23
+Is Correct: True
+Correct Count: 144/184
+--------------------
+Ground Truth Answer: (2,\infty)
+Ground Truth Answer: (2,\infty)
+Model Answer: [\frac{5}{2},\infty)
+Is Correct: False
+Correct Count: 144/185
+--------------------
+Ground Truth Answer: 1
+Ground Truth Answer: 1
+Model Answer: 1
+Is Correct: True
+Correct Count: 145/186
+--------------------
+Ground Truth Answer: 7
+Ground Truth Answer: 7
+Model Answer: 7
+Is Correct: True
+Correct Count: 146/187
+--------------------
+Ground Truth Answer: 7
+Ground Truth Answer: 7
+Model Answer: 7
+Is Correct: True
+Correct Count: 147/188
+--------------------
+Ground Truth Answer: 6
+Ground Truth Answer: 6
+Model Answer: 6
+Is Correct: True
+Correct Count: 148/189
+--------------------
+Ground Truth Answer: 160
+Ground Truth Answer: 160
+Model Answer: 3
+Is Correct: False
+Correct Count: 148/190
+--------------------
+Ground Truth Answer: \frac{13}{18}
+Ground Truth Answer: \frac{13}{18}
+Model Answer: \frac{13}{18}
+Is Correct: True
+Correct Count: 149/191
+--------------------
+Ground Truth Answer: 0
+Ground Truth Answer: 0
+Model Answer: 0
+Is Correct: True
+Correct Count: 150/192
+--------------------
+Ground Truth Answer: 30
+Ground Truth Answer: 30
+Model Answer: 30
+Is Correct: True
+Correct Count: 151/193
+--------------------
+Ground Truth Answer: 4
+Ground Truth Answer: 4
+Model Answer: 4
+Is Correct: True
+Correct Count: 152/194
+--------------------
+Ground Truth Answer: \frac{1}{4}
+Ground Truth Answer: \frac{1}{4}
+Model Answer: \frac{1}{4}
+Is Correct: True
+Correct Count: 153/195
+--------------------
+Ground Truth Answer: 24
+Ground Truth Answer: 24
+Model Answer: 24
+Is Correct: True
+Correct Count: 154/196
+--------------------
+Ground Truth Answer: 1600
+Ground Truth Answer: 1600
+Model Answer: 1600
+Is Correct: True
+Correct Count: 155/197
+--------------------
+Ground Truth Answer: 6
+Ground Truth Answer: 6
+Model Answer: 6
+Is Correct: True
+Correct Count: 156/198
+--------------------
+Ground Truth Answer: 10,\!080
+Ground Truth Answer: 10,\!080
+Model Answer: 10080
+Is Correct: True
+Correct Count: 157/199
+--------------------
+Ground Truth Answer: 17
+Ground Truth Answer: 17
+Model Answer: 17
+Is Correct: True
+Correct Count: 158/200
+--------------------
+Ground Truth Answer: 40
+Ground Truth Answer: 40
+Model Answer: 40
+Is Correct: True
+Correct Count: 159/201
+--------------------
+Ground Truth Answer: 66
+Ground Truth Answer: 66
+Model Answer: 66
+Is Correct: True
+Correct Count: 160/202
+--------------------
+Ground Truth Answer: \frac{2}{3}
+Ground Truth Answer: \frac{2}{3}
+Model Answer: \frac{2}{3}
+Is Correct: True
+Correct Count: 161/203
+--------------------
+Ground Truth Answer: 12
+Ground Truth Answer: 12
+Model Answer: 12
+Is Correct: True
+Correct Count: 162/204
+--------------------
+Ground Truth Answer: 0
+Ground Truth Answer: 0
+Model Answer: 3
+Is Correct: False
+Correct Count: 162/205
+--------------------
+Ground Truth Answer: \begin{pmatrix} -2 \\ -14 \\ -7 \end{pmatrix}
+Ground Truth Answer: \begin{pmatrix} -2 \\ -14 \\ -7 \end{pmatrix}
+Model Answer: \begin{pmatrix}-2\\-14\\-7\end{pmatrix}
+Is Correct: True
+Correct Count: 163/206
+--------------------
+Ground Truth Answer: \left( \frac{3}{2}, -13 \right)
+Ground Truth Answer: \left( \frac{3}{2}, -13 \right)
+Model Answer: (\frac{3}{2},-13)
+Is Correct: True
+Correct Count: 164/207
+--------------------
+Ground Truth Answer: 28
+Ground Truth Answer: 28
+Model Answer: 28
+Is Correct: True
+Correct Count: 165/208
+--------------------
+Ground Truth Answer: 1
+Ground Truth Answer: 1
+Model Answer: 1
+Is Correct: True
+Correct Count: 166/209
+--------------------
+Ground Truth Answer: 16
+Ground Truth Answer: 16
+Model Answer: 16
+Is Correct: True
+Correct Count: 167/210
+--------------------
+Ground Truth Answer: 10
+Ground Truth Answer: 10
+Model Answer: 10
+Is Correct: True
+Correct Count: 168/211
+--------------------
+Ground Truth Answer: 5
+Ground Truth Answer: 5
+Model Answer: 5
+Is Correct: True
+Correct Count: 169/212
+--------------------
+Ground Truth Answer: 56
+Ground Truth Answer: 56
+Model Answer: 56
+Is Correct: True
+Correct Count: 170/213
+--------------------
+Ground Truth Answer: 2
+Ground Truth Answer: 2
+Model Answer: 1
+Is Correct: False
+Correct Count: 170/214
+--------------------
+Ground Truth Answer: 110
+Ground Truth Answer: 110
+Model Answer: 110
+Is Correct: True
+Correct Count: 171/215
+--------------------
+Ground Truth Answer: 2
+Ground Truth Answer: 2
+Model Answer: 2
+Is Correct: True
+Correct Count: 172/216
+--------------------
+Ground Truth Answer: 6
+Ground Truth Answer: 6
+Model Answer: 6
+Is Correct: True
+Correct Count: 173/217
+--------------------
+Ground Truth Answer: 11,\! 111,\! 111,\! 100
+Ground Truth Answer: 11,\! 111,\! 111,\! 100
+Model Answer: 100111100
+Is Correct: False
+Correct Count: 173/218
+--------------------
+Ground Truth Answer: (-1,6)
+Ground Truth Answer: (-1,6)
+Model Answer: (-1,6)
+Is Correct: True
+Correct Count: 174/219
+--------------------
+Ground Truth Answer: \frac{1}{2}
+Ground Truth Answer: \frac{1}{2}
+Model Answer: \frac{1}{6}
+Is Correct: False
+Correct Count: 174/220
+--------------------
+Ground Truth Answer: \frac{16}{27}
+Ground Truth Answer: \frac{16}{27}
+Model Answer: \frac{16}{27}
+Is Correct: True
+Correct Count: 175/221
+--------------------
+Ground Truth Answer: 900
+Ground Truth Answer: 900
+Model Answer: 900
+Is Correct: True
+Correct Count: 176/222
+--------------------
+Ground Truth Answer: 54
+Ground Truth Answer: 54
+Model Answer: 54
+Is Correct: True
+Correct Count: 177/223
+--------------------
+Ground Truth Answer: 14
+Ground Truth Answer: 14
+Model Answer: 14
+Is Correct: True
+Correct Count: 178/224
+--------------------
+Ground Truth Answer: \frac{9}{256}
+Ground Truth Answer: \frac{9}{256}
+Model Answer: \frac{9}{256}
+Is Correct: True
+Correct Count: 179/225
+--------------------
+Ground Truth Answer: 11
+Ground Truth Answer: 11
+Model Answer: 11
+Is Correct: True
+Correct Count: 180/226
+--------------------
+Ground Truth Answer: 3
+Ground Truth Answer: 3
+Model Answer: 3
+Is Correct: True
+Correct Count: 181/227
+--------------------
+Ground Truth Answer: \text{(C)}
+Ground Truth Answer: \text{(C)}
+Model Answer: C
+Is Correct: True
+Correct Count: 182/228
+--------------------
+Ground Truth Answer: 288 \pi
+Ground Truth Answer: 288 \pi
+Model Answer: Anellipsoid
+Is Correct: False
+Correct Count: 182/229
+--------------------
+Ground Truth Answer: 90
+Ground Truth Answer: 90
+Model Answer: 90
+Is Correct: True
+Correct Count: 183/230
+--------------------
+Ground Truth Answer: \frac{16}{5}
+Ground Truth Answer: \frac{16}{5}
+Model Answer: \frac{16}{5}
+Is Correct: True
+Correct Count: 184/231
+--------------------
+Ground Truth Answer: 10
+Ground Truth Answer: 10
+Model Answer: 10
+Is Correct: True
+Correct Count: 185/232
+--------------------
+Ground Truth Answer: \frac{1997}{2}
+Ground Truth Answer: \frac{1997}{2}
+Model Answer: \frac{1997}{2}
+Is Correct: True
+Correct Count: 186/233
+--------------------
+Ground Truth Answer: 30^\circ
+Ground Truth Answer: 30^\circ
+Model Answer: 30
+Is Correct: True
+Correct Count: 187/234
+--------------------
+Ground Truth Answer: 34
+Ground Truth Answer: 34
+Model Answer: 34
+Is Correct: True
+Correct Count: 188/235
+--------------------
+Ground Truth Answer: \frac 59
+Ground Truth Answer: \frac 59
+Model Answer: \frac{5}{9}
+Is Correct: True
+Correct Count: 189/236
+--------------------
+Ground Truth Answer: 12
+Ground Truth Answer: 12
+Model Answer: 12
+Is Correct: True
+Correct Count: 190/237
+--------------------
+Ground Truth Answer: 22
+Ground Truth Answer: 22
+Model Answer: 22
+Is Correct: True
+Correct Count: 191/238
+--------------------
+Ground Truth Answer: -4
+Ground Truth Answer: -4
+Model Answer: -4
+Is Correct: True
+Correct Count: 192/239
+--------------------
+Ground Truth Answer: 16
+Ground Truth Answer: 16
+Model Answer: 5
+Is Correct: False
+Correct Count: 192/240
+--------------------
+Ground Truth Answer: 116
+Ground Truth Answer: 116
+Model Answer: 26
+Is Correct: False
+Correct Count: 192/241
+--------------------
+Ground Truth Answer: 17
+Ground Truth Answer: 17
+Model Answer: 17
+Is Correct: True
+Correct Count: 193/242
+--------------------
+Ground Truth Answer: \$32,\!348
+Ground Truth Answer: \$32,\!348
+Model Answer: 32348
+Is Correct: False
+Correct Count: 193/243
+--------------------
+Ground Truth Answer: 3
+Ground Truth Answer: 3
+Model Answer: 3
+Is Correct: True
+Correct Count: 194/244
+--------------------
+Ground Truth Answer: 8
+Ground Truth Answer: 8
+Model Answer: 8
+Is Correct: True
+Correct Count: 195/245
+--------------------
+Ground Truth Answer: -13x+3
+Ground Truth Answer: -13x+3
+Model Answer: -9x+5
+Is Correct: False
+Correct Count: 195/246
+--------------------
+Ground Truth Answer: 8
+Ground Truth Answer: 8
+Model Answer: 8
+Is Correct: True
+Correct Count: 196/247
+--------------------
+Ground Truth Answer: \frac{10}{11}
+Ground Truth Answer: \frac{10}{11}
+Model Answer: \frac{10}{11}
+Is Correct: True
+Correct Count: 197/248
+--------------------
+Ground Truth Answer: \begin{pmatrix} -1 & 0 \\ 0 & -1 \end{pmatrix}
+Ground Truth Answer: \begin{pmatrix} -1 & 0 \\ 0 & -1 \end{pmatrix}
+Model Answer: 2
+Is Correct: False
+Correct Count: 197/249
+--------------------
+Ground Truth Answer: 17
+Ground Truth Answer: 17
+Model Answer: 17
+Is Correct: True
+Correct Count: 198/250
+--------------------
+Ground Truth Answer: 13
+Ground Truth Answer: 13
+Model Answer: 13
+Is Correct: True
+Correct Count: 199/251
+--------------------
+Ground Truth Answer: 540
+Ground Truth Answer: 540
+Model Answer: 540
+Is Correct: True
+Correct Count: 200/252
+--------------------
+Ground Truth Answer: 81
+Ground Truth Answer: 81
+Model Answer: 81
+Is Correct: True
+Correct Count: 201/253
+--------------------
+Ground Truth Answer: \frac{1}{8}
+Ground Truth Answer: \frac{1}{8}
+Model Answer: \frac{1}{8}
+Is Correct: True
+Correct Count: 202/254
+--------------------
+Ground Truth Answer: 28
+Ground Truth Answer: 28
+Model Answer: 28
+Is Correct: True
+Correct Count: 203/255
+--------------------
+Ground Truth Answer: \text{(E)}
+Ground Truth Answer: \text{(E)}
+Model Answer: E
+Is Correct: True
+Correct Count: 204/256
+--------------------
+Ground Truth Answer: \frac{8}{21}
+Ground Truth Answer: \frac{8}{21}
+Model Answer: \frac{8}{21}
+Is Correct: True
+Correct Count: 205/257
+--------------------
+Ground Truth Answer: 864 \mbox{ inches}^2
+Ground Truth Answer: 864 \mbox{ inches}^2
+Model Answer: 864
+Is Correct: False
+Correct Count: 205/258
+--------------------
+Ground Truth Answer: 16
+Ground Truth Answer: 16
+Model Answer: 16
+Is Correct: True
+Correct Count: 206/259
+--------------------
+Ground Truth Answer: 22
+Ground Truth Answer: 22
+Model Answer: 22
+Is Correct: True
+Correct Count: 207/260
+--------------------
+Ground Truth Answer: 120^\circ
+Ground Truth Answer: 120^\circ
+Model Answer: 120
+Is Correct: True
+Correct Count: 208/261
+--------------------
+Ground Truth Answer: 76^\circ
+Ground Truth Answer: 76^\circ
+Model Answer: 76
+Is Correct: True
+Correct Count: 209/262
+--------------------
+Ground Truth Answer: 4
+Ground Truth Answer: 4
+Model Answer: 4
+Is Correct: True
+Correct Count: 210/263
+--------------------
+Ground Truth Answer: 15
+Ground Truth Answer: 15
+Model Answer: 15
+Is Correct: True
+Correct Count: 211/264
+--------------------
+Ground Truth Answer: 1\frac{4}{5}
+Ground Truth Answer: 1\frac{4}{5}
+Model Answer: 45
+Is Correct: False
+Correct Count: 211/265
+--------------------
+Ground Truth Answer: 4005
+Ground Truth Answer: 4005
+Model Answer: 4005
+Is Correct: True
+Correct Count: 212/266
+--------------------
+Ground Truth Answer: \dfrac{33}{100}
+Ground Truth Answer: \dfrac{33}{100}
+Model Answer: \frac{33}{100}
+Is Correct: True
+Correct Count: 213/267
+--------------------
+Ground Truth Answer: 180^\circ
+Ground Truth Answer: 180^\circ
+Model Answer: 180
+Is Correct: True
+Correct Count: 214/268
+--------------------
+Ground Truth Answer: 1
+Ground Truth Answer: 1
+Model Answer: 1
+Is Correct: True
+Correct Count: 215/269
+--------------------
+Ground Truth Answer: 6
+Ground Truth Answer: 6
+Model Answer: 6
+Is Correct: True
+Correct Count: 216/270
+--------------------
+Ground Truth Answer: 10
+Ground Truth Answer: 10
+Model Answer: 10
+Is Correct: True
+Correct Count: 217/271
+--------------------
+Ground Truth Answer: 333
+Ground Truth Answer: 333
+Model Answer: 333
+Is Correct: True
+Correct Count: 218/272
+--------------------
+Ground Truth Answer: 1030
+Ground Truth Answer: 1030
+Model Answer: 1030
+Is Correct: True
+Correct Count: 219/273
+--------------------
+Ground Truth Answer: 1250
+Ground Truth Answer: 1250
+Model Answer: 1250
+Is Correct: True
+Correct Count: 220/274
+--------------------
+Ground Truth Answer: 18+2\pi
+Ground Truth Answer: 18+2\pi
+Model Answer: 18+2\pi
+Is Correct: True
+Correct Count: 221/275
+--------------------
+Ground Truth Answer: 7
+Ground Truth Answer: 7
+Model Answer: 7
+Is Correct: True
+Correct Count: 222/276
+--------------------
+Ground Truth Answer: 11
+Ground Truth Answer: 11
+Model Answer: 21
+Is Correct: False
+Correct Count: 222/277
+--------------------
+Ground Truth Answer: \sqrt{53}
+Ground Truth Answer: \sqrt{53}
+Model Answer: \sqrt{53}
+Is Correct: True
+Correct Count: 223/278
+--------------------
+Ground Truth Answer: 255
+Ground Truth Answer: 255
+Model Answer: 255
+Is Correct: True
+Correct Count: 224/279
+--------------------
+Ground Truth Answer: 7\pi
+Ground Truth Answer: 7\pi
+Model Answer: 7\pi
+Is Correct: True
+Correct Count: 225/280
+--------------------
+Ground Truth Answer: 8
+Ground Truth Answer: 8
+Model Answer: 8
+Is Correct: True
+Correct Count: 226/281
+--------------------
+Ground Truth Answer: 36^\circ
+Ground Truth Answer: 36^\circ
+Model Answer: 36
+Is Correct: True
+Correct Count: 227/282
+--------------------
+Ground Truth Answer: 129
+Ground Truth Answer: 129
+Model Answer: 129
+Is Correct: True
+Correct Count: 228/283
+--------------------
+Ground Truth Answer: 1
+Ground Truth Answer: 1
+Model Answer: 1
+Is Correct: True
+Correct Count: 229/284
+--------------------
+Ground Truth Answer: 3 \pm 2 \sqrt{2}
+Ground Truth Answer: 3 \pm 2 \sqrt{2}
+Model Answer: 3-2\sqrt{2}
+Is Correct: False
+Correct Count: 229/285
+--------------------
+Ground Truth Answer: 440
+Ground Truth Answer: 440
+Model Answer: 5
+Is Correct: False
+Correct Count: 229/286
+--------------------
+Ground Truth Answer: \frac{17}{21}
+Ground Truth Answer: \frac{17}{21}
+Model Answer: 1
+Is Correct: False
+Correct Count: 229/287
+--------------------
+Ground Truth Answer: 36
+Ground Truth Answer: 36
+Model Answer: 36
+Is Correct: True
+Correct Count: 230/288
+--------------------
+Ground Truth Answer: 7
+Ground Truth Answer: 7
+Model Answer: \sqrt{89}
+Is Correct: False
+Correct Count: 230/289
+--------------------
+Ground Truth Answer: 16
+Ground Truth Answer: 16
+Model Answer: 16
+Is Correct: True
+Correct Count: 231/290
+--------------------
+Ground Truth Answer: 4
+Ground Truth Answer: 4
+Model Answer: 4
+Is Correct: True
+Correct Count: 232/291
+--------------------
+Ground Truth Answer: 63
+Ground Truth Answer: 63
+Model Answer: 56
+Is Correct: False
+Correct Count: 232/292
+--------------------
+Ground Truth Answer: 898
+Ground Truth Answer: 898
+Model Answer: -1569
+Is Correct: False
+Correct Count: 232/293
+--------------------
+Ground Truth Answer: \left(\frac{3}{5},\frac{8}{3}\right]
+Ground Truth Answer: \left(\frac{3}{5},\frac{8}{3}\right]
+Model Answer: (\frac{3}{5},\frac{8}{3}]
+Is Correct: True
+Correct Count: 233/294
+--------------------
+Ground Truth Answer: 58
+Ground Truth Answer: 58
+Model Answer: 58
+Is Correct: True
+Correct Count: 234/295
+--------------------
+Ground Truth Answer: 11
+Ground Truth Answer: 11
+Model Answer: 4
+Is Correct: False
+Correct Count: 234/296
+--------------------
+Ground Truth Answer: \text{(B)}
+Ground Truth Answer: \text{(B)}
+Model Answer: B
+Is Correct: True
+Correct Count: 235/297
+--------------------
+Ground Truth Answer: 103
+Ground Truth Answer: 103
+Model Answer: 103
+Is Correct: True
+Correct Count: 236/298
+--------------------
+Ground Truth Answer: \begin{pmatrix} -18 \\ -49 \\ 96 \end{pmatrix}
+Ground Truth Answer: \begin{pmatrix} -18 \\ -49 \\ 96 \end{pmatrix}
+Model Answer: \begin{pmatrix}-18\\-49\\96\end{pmatrix}
+Is Correct: True
+Correct Count: 237/299
+--------------------
+Ground Truth Answer: 63
+Ground Truth Answer: 63
+Model Answer: 63
+Is Correct: True
+Correct Count: 238/300
+--------------------
+Ground Truth Answer: 12
+Ground Truth Answer: 12
+Model Answer: 12
+Is Correct: True
+Correct Count: 239/301
+--------------------
+Ground Truth Answer: 5.4 \text{ cents}
+Ground Truth Answer: 5.4 \text{ cents}
+Model Answer: 5.1
+Is Correct: False
+Correct Count: 239/302
+--------------------
+Ground Truth Answer: 5
+Ground Truth Answer: 5
+Model Answer: 5
+Is Correct: True
+Correct Count: 240/303
+--------------------
+Ground Truth Answer: 28
+Ground Truth Answer: 28
+Model Answer: 21
+Is Correct: False
+Correct Count: 240/304
+--------------------
+Ground Truth Answer: 9
+Ground Truth Answer: 9
+Model Answer: 9
+Is Correct: True
+Correct Count: 241/305
+--------------------
+Ground Truth Answer: \frac9{19}
+Ground Truth Answer: \frac9{19}
+Model Answer: \frac{9}{19}
+Is Correct: True
+Correct Count: 242/306
+--------------------
+Ground Truth Answer: 6
+Ground Truth Answer: 6
+Model Answer: 2
+Is Correct: False
+Correct Count: 242/307
+--------------------
+Ground Truth Answer: (-\infty, 0]
+Ground Truth Answer: (-\infty, 0]
+Model Answer: (-\infty,0]
+Is Correct: True
+Correct Count: 243/308
+--------------------
+Ground Truth Answer: 1+2\sqrt{3}
+Ground Truth Answer: 1+2\sqrt{3}
+Model Answer: 6
+Is Correct: False
+Correct Count: 243/309
+--------------------
+Ground Truth Answer: 14
+Ground Truth Answer: 14
+Model Answer: 12
+Is Correct: False
+Correct Count: 243/310
+--------------------
+Ground Truth Answer: 49
+Ground Truth Answer: 49
+Model Answer: 49
+Is Correct: True
+Correct Count: 244/311
+--------------------
+Ground Truth Answer: 3
+Ground Truth Answer: 3
+Model Answer: 3
+Is Correct: True
+Correct Count: 245/312
+--------------------
+Ground Truth Answer: (5,\infty)
+Ground Truth Answer: (5,\infty)
+Model Answer: (5,\infty)
+Is Correct: True
+Correct Count: 246/313
+--------------------
+Ground Truth Answer: 12\pi
+Ground Truth Answer: 12\pi
+Model Answer: 12\pi
+Is Correct: True
+Correct Count: 247/314
+--------------------
+Ground Truth Answer: (2,4)
+Ground Truth Answer: (2,4)
+Model Answer: (2,4)
+Is Correct: True
+Correct Count: 248/315
+--------------------
+Ground Truth Answer: 41
+Ground Truth Answer: 41
+Model Answer: 41
+Is Correct: True
+Correct Count: 249/316
+--------------------
+Ground Truth Answer: 12
+Ground Truth Answer: 12
+Model Answer: 12
+Is Correct: True
+Correct Count: 250/317
+--------------------
+Ground Truth Answer: 0
+Ground Truth Answer: 0
+Model Answer: 2
+Is Correct: False
+Correct Count: 250/318
+--------------------
+Ground Truth Answer: \frac{11+9a}{20}
+Ground Truth Answer: \frac{11+9a}{20}
+Model Answer: \frac{11+9a}{20}
+Is Correct: True
+Correct Count: 251/319
+--------------------
+Ground Truth Answer: -128
+Ground Truth Answer: -128
+Model Answer: -128
+Is Correct: True
+Correct Count: 252/320
+--------------------
+Ground Truth Answer: -\frac{24}{25}
+Ground Truth Answer: -\frac{24}{25}
+Model Answer: -\frac{24}{25}
+Is Correct: True
+Correct Count: 253/321
+--------------------
+Ground Truth Answer: 10
+Ground Truth Answer: 10
+Model Answer: 10
+Is Correct: True
+Correct Count: 254/322
+--------------------
+Ground Truth Answer: -1
+Ground Truth Answer: -1
+Model Answer: -1
+Is Correct: True
+Correct Count: 255/323
+--------------------
+Ground Truth Answer: \frac{1}{3}
+Ground Truth Answer: \frac{1}{3}
+Model Answer: \frac{1}{3}
+Is Correct: True
+Correct Count: 256/324
+--------------------
+Ground Truth Answer: 120
+Ground Truth Answer: 120
+Model Answer: 160
+Is Correct: False
+Correct Count: 256/325
+--------------------
+Ground Truth Answer: 4
+Ground Truth Answer: 4
+Model Answer: 4
+Is Correct: True
+Correct Count: 257/326
+--------------------
+Ground Truth Answer: \frac{9}{100}
+Ground Truth Answer: \frac{9}{100}
+Model Answer: 0.09
+Is Correct: True
+Correct Count: 258/327
+--------------------
+Ground Truth Answer: 15
+Ground Truth Answer: 15
+Model Answer: 4
+Is Correct: False
+Correct Count: 258/328
+--------------------
+Ground Truth Answer: 3
+Ground Truth Answer: 3
+Model Answer: 3
+Is Correct: True
+Correct Count: 259/329
+--------------------
+Ground Truth Answer: 4
+Ground Truth Answer: 4
+Model Answer: 4
+Is Correct: True
+Correct Count: 260/330
+--------------------
+Ground Truth Answer: 1940
+Ground Truth Answer: 1940
+Model Answer: 1940
+Is Correct: True
+Correct Count: 261/331
+--------------------
+Ground Truth Answer: \frac{13}{6}
+Ground Truth Answer: \frac{13}{6}
+Model Answer: \frac{13}{6}
+Is Correct: True
+Correct Count: 262/332
+--------------------
+Ground Truth Answer: 2
+Ground Truth Answer: 2
+Model Answer: 2
+Is Correct: True
+Correct Count: 263/333
+--------------------
+Ground Truth Answer: 3
+Ground Truth Answer: 3
+Model Answer: 3
+Is Correct: True
+Correct Count: 264/334
+--------------------
+Ground Truth Answer: -120
+Ground Truth Answer: -120
+Model Answer: -120
+Is Correct: True
+Correct Count: 265/335
+--------------------
+Ground Truth Answer: 3
+Ground Truth Answer: 3
+Model Answer: 3
+Is Correct: True
+Correct Count: 266/336
+--------------------
+Ground Truth Answer: 26000
+Ground Truth Answer: 26000
+Model Answer: 26000
+Is Correct: True
+Correct Count: 267/337
+--------------------
+Ground Truth Answer: 6
+Ground Truth Answer: 6
+Model Answer: 6
+Is Correct: True
+Correct Count: 268/338
+--------------------
+Ground Truth Answer: 4343_6
+Ground Truth Answer: 4343_6
+Model Answer: 4343
+Is Correct: False
+Correct Count: 268/339
+--------------------
+Ground Truth Answer: 2k
+Ground Truth Answer: 2k
+Model Answer: 2k
+Is Correct: True
+Correct Count: 269/340
+--------------------
+Ground Truth Answer: 55^\circ
+Ground Truth Answer: 55^\circ
+Model Answer: 67
+Is Correct: False
+Correct Count: 269/341
+--------------------
+Ground Truth Answer: -2
+Ground Truth Answer: -2
+Model Answer: -2
+Is Correct: True
+Correct Count: 270/342
+--------------------
+Ground Truth Answer: 2
+Ground Truth Answer: 2
+Model Answer: 2
+Is Correct: True
+Correct Count: 271/343
+--------------------
+Ground Truth Answer: 58,500
+Ground Truth Answer: 58,500
+Model Answer: 58500
+Is Correct: True
+Correct Count: 272/344
+--------------------
+Ground Truth Answer: 5
+Ground Truth Answer: 5
+Model Answer: 5
+Is Correct: True
+Correct Count: 273/345
+--------------------
+Ground Truth Answer: 1
+Ground Truth Answer: 1
+Model Answer: 1
+Is Correct: True
+Correct Count: 274/346
+--------------------
+Ground Truth Answer: 66
+Ground Truth Answer: 66
+Model Answer: 66
+Is Correct: True
+Correct Count: 275/347
+--------------------
+Ground Truth Answer: 6r^2-4r-24
+Ground Truth Answer: 6r^2-4r-24
+Model Answer: 6r^2-4r-24
+Is Correct: True
+Correct Count: 276/348
+--------------------
+Ground Truth Answer: 4495
+Ground Truth Answer: 4495
+Model Answer: 4495
+Is Correct: True
+Correct Count: 277/349
+--------------------
+Ground Truth Answer: 10080
+Ground Truth Answer: 10080
+Model Answer: 5040
+Is Correct: False
+Correct Count: 277/350
+--------------------
+Ground Truth Answer: 4
+Ground Truth Answer: 4
+Model Answer: 4
+Is Correct: True
+Correct Count: 278/351
+--------------------
+Ground Truth Answer: \frac{1}{16}
+Ground Truth Answer: \frac{1}{16}
+Model Answer: \frac{1}{16}
+Is Correct: True
+Correct Count: 279/352
+--------------------
+Ground Truth Answer: 11 \sqrt{5} + 11
+Ground Truth Answer: 11 \sqrt{5} + 11
+Model Answer: 3
+Is Correct: False
+Correct Count: 279/353
+--------------------
+Ground Truth Answer: 480
+Ground Truth Answer: 480
+Model Answer: 480
+Is Correct: True
+Correct Count: 280/354
+--------------------
+Ground Truth Answer: 81
+Ground Truth Answer: 81
+Model Answer: 81
+Is Correct: True
+Correct Count: 281/355
+--------------------
+Ground Truth Answer: 100
+Ground Truth Answer: 100
+Model Answer: 2
+Is Correct: False
+Correct Count: 281/356
+--------------------
+Ground Truth Answer: (-\sqrt{3}, \sqrt{3})
+Ground Truth Answer: (-\sqrt{3}, \sqrt{3})
+Model Answer: (-\sqrt{3},\sqrt{3})
+Is Correct: True
+Correct Count: 282/357
+--------------------
+Ground Truth Answer: 4
+Ground Truth Answer: 4
+Model Answer: 4
+Is Correct: True
+Correct Count: 283/358
+--------------------
+Ground Truth Answer: \text{ellipse}
+Ground Truth Answer: \text{ellipse}
+Model Answer: ellipse
+Is Correct: False
+Correct Count: 283/359
+--------------------
+Ground Truth Answer: 6
+Ground Truth Answer: 6
+Model Answer: -8
+Is Correct: False
+Correct Count: 283/360
+--------------------
+Ground Truth Answer: \frac{7}{4}
+Ground Truth Answer: \frac{7}{4}
+Model Answer: \frac{7}{4}
+Is Correct: True
+Correct Count: 284/361
+--------------------
+Ground Truth Answer: 16 \sqrt{3}
+Ground Truth Answer: 16 \sqrt{3}
+Model Answer: 16\sqrt{3}
+Is Correct: True
+Correct Count: 285/362
+--------------------
+Ground Truth Answer: \frac14
+Ground Truth Answer: \frac14
+Model Answer: \frac{1}{4}
+Is Correct: True
+Correct Count: 286/363
+--------------------
+Ground Truth Answer: 2
+Ground Truth Answer: 2
+Model Answer: 2
+Is Correct: True
+Correct Count: 287/364
+--------------------
+Ground Truth Answer: (1,-16,-4,43)
+Ground Truth Answer: (1,-16,-4,43)
+Model Answer: (1,-16,-4,43)
+Is Correct: True
+Correct Count: 288/365
+--------------------
+Ground Truth Answer: 8
+Ground Truth Answer: 8
+Model Answer: 40
+Is Correct: False
+Correct Count: 288/366
+--------------------
+Ground Truth Answer: 4
+Ground Truth Answer: 4
+Model Answer: 4
+Is Correct: True
+Correct Count: 289/367
+--------------------
+Ground Truth Answer: 1
+Ground Truth Answer: 1
+Model Answer: 1
+Is Correct: True
+Correct Count: 290/368
+--------------------
+Ground Truth Answer: 31
+Ground Truth Answer: 31
+Model Answer: 31
+Is Correct: True
+Correct Count: 291/369
+--------------------
+Ground Truth Answer: 21
+Ground Truth Answer: 21
+Model Answer: 21
+Is Correct: True
+Correct Count: 292/370
+--------------------
+Ground Truth Answer: -41
+Ground Truth Answer: -41
+Model Answer: -41
+Is Correct: True
+Correct Count: 293/371
+--------------------
+Ground Truth Answer: 17
+Ground Truth Answer: 17
+Model Answer: 7
+Is Correct: False
+Correct Count: 293/372
+--------------------
+Ground Truth Answer: 90^\circ
+Ground Truth Answer: 90^\circ
+Model Answer: 55
+Is Correct: False
+Correct Count: 293/373
+--------------------
+Ground Truth Answer: 1+2i
+Ground Truth Answer: 1+2i
+Model Answer: 1+2i
+Is Correct: True
+Correct Count: 294/374
+--------------------
+Ground Truth Answer: 4
+Ground Truth Answer: 4
+Model Answer: 4
+Is Correct: True
+Correct Count: 295/375
+--------------------
+Ground Truth Answer: 25
+Ground Truth Answer: 25
+Model Answer: 25
+Is Correct: True
+Correct Count: 296/376
+--------------------
+Ground Truth Answer: (8,-2)
+Ground Truth Answer: (8,-2)
+Model Answer: (8,-2)
+Is Correct: True
+Correct Count: 297/377
+--------------------
+Ground Truth Answer: 6
+Ground Truth Answer: 6
+Model Answer: 6
+Is Correct: True
+Correct Count: 298/378
+--------------------
+Ground Truth Answer: 3
+Ground Truth Answer: 3
+Model Answer: 3
+Is Correct: True
+Correct Count: 299/379
+--------------------
+Ground Truth Answer: 12
+Ground Truth Answer: 12
+Model Answer: 12^{
+Is Correct: True
+Correct Count: 300/380
+--------------------
+Ground Truth Answer: (0,9) \cup (9,36)
+Ground Truth Answer: (0,9) \cup (9,36)
+Model Answer: (0,9)\cup(9,36)
+Is Correct: True
+Correct Count: 301/381
+--------------------
+Ground Truth Answer: \frac{1}{2}
+Ground Truth Answer: \frac{1}{2}
+Model Answer: 5
+Is Correct: False
+Correct Count: 301/382
+--------------------
+Ground Truth Answer: \frac{20000}{\pi}
+Ground Truth Answer: \frac{20000}{\pi}
+Model Answer: \frac{20000}{\pi}
+Is Correct: True
+Correct Count: 302/383
+--------------------
+Ground Truth Answer: x \in [-2,7]
+Ground Truth Answer: x \in [-2,7]
+Model Answer: [-2,7]
+Is Correct: False
+Correct Count: 302/384
+--------------------
+Ground Truth Answer: 15x - 80
+Ground Truth Answer: 15x - 80
+Model Answer: 15x-80
+Is Correct: True
+Correct Count: 303/385
+--------------------
+Ground Truth Answer: 22
+Ground Truth Answer: 22
+Model Answer: 22
+Is Correct: True
+Correct Count: 304/386
+--------------------
+Ground Truth Answer: 11
+Ground Truth Answer: 11
+Model Answer: 11
+Is Correct: True
+Correct Count: 305/387
+--------------------
+Ground Truth Answer: 18
+Ground Truth Answer: 18
+Model Answer: 18
+Is Correct: True
+Correct Count: 306/388
+--------------------
+Ground Truth Answer: \frac{11}{2}
+Ground Truth Answer: \frac{11}{2}
+Model Answer: \frac{11}{2}
+Is Correct: True
+Correct Count: 307/389
+--------------------
+Ground Truth Answer: \frac{\sqrt{21}}{5}
+Ground Truth Answer: \frac{\sqrt{21}}{5}
+Model Answer: \frac{\sqrt{21}}{5}
+Is Correct: True
+Correct Count: 308/390
+--------------------
+Ground Truth Answer: 12
+Ground Truth Answer: 12
+Model Answer: 12
+Is Correct: True
+Correct Count: 309/391
+--------------------
+Ground Truth Answer: 0
+Ground Truth Answer: 0
+Model Answer: 3.1
+Is Correct: False
+Correct Count: 309/392
+--------------------
+Ground Truth Answer: \sqrt{66}
+Ground Truth Answer: \sqrt{66}
+Model Answer: 6
+Is Correct: False
+Correct Count: 309/393
+--------------------
+Ground Truth Answer: \frac 34
+Ground Truth Answer: \frac 34
+Model Answer: \frac{3}{4}
+Is Correct: True
+Correct Count: 310/394
+--------------------
+Ground Truth Answer: -\frac{3}{8}
+Ground Truth Answer: -\frac{3}{8}
+Model Answer: 6
+Is Correct: False
+Correct Count: 310/395
+--------------------
+Ground Truth Answer: 4
+Ground Truth Answer: 4
+Model Answer: 4
+Is Correct: True
+Correct Count: 311/396
+--------------------
+Ground Truth Answer: 2
+Ground Truth Answer: 2
+Model Answer: 2
+Is Correct: True
+Correct Count: 312/397
+--------------------
+Ground Truth Answer: 23
+Ground Truth Answer: 23
+Model Answer: 23
+Is Correct: True
+Correct Count: 313/398
+--------------------
+Ground Truth Answer: \text{Navin}
+Ground Truth Answer: \text{Navin}
+Model Answer: Navin
+Is Correct: False
+Correct Count: 313/399
+--------------------
+Ground Truth Answer: 326.5
+Ground Truth Answer: 326.5
+Model Answer: 326.5
+Is Correct: True
+Correct Count: 314/400
+--------------------
+Ground Truth Answer: \frac{14}{3}
+Ground Truth Answer: \frac{14}{3}
+Model Answer: 14(\sqrt{2}-1)
+Is Correct: False
+Correct Count: 314/401
+--------------------
+Ground Truth Answer: \frac{13}{4}
+Ground Truth Answer: \frac{13}{4}
+Model Answer: 3
+Is Correct: False
+Correct Count: 314/402
+--------------------
+Ground Truth Answer: 1 - 12i
+Ground Truth Answer: 1 - 12i
+Model Answer: 1-12i
+Is Correct: True
+Correct Count: 315/403
+--------------------
+Ground Truth Answer: 3
+Ground Truth Answer: 3
+Model Answer: 3
+Is Correct: True
+Correct Count: 316/404
+--------------------
+Ground Truth Answer: 3
+Ground Truth Answer: 3
+Model Answer: 3
+Is Correct: True
+Correct Count: 317/405
+--------------------
+Ground Truth Answer: 60
+Ground Truth Answer: 60
+Model Answer: 60
+Is Correct: True
+Correct Count: 318/406
+--------------------
+Ground Truth Answer: 0
+Ground Truth Answer: 0
+Model Answer: 0
+Is Correct: True
+Correct Count: 319/407
+--------------------
+Ground Truth Answer: 9
+Ground Truth Answer: 9
+Model Answer: 9
+Is Correct: True
+Correct Count: 320/408
+--------------------
+Ground Truth Answer: \begin{pmatrix} 1/5 \\ -18/5 \end{pmatrix}
+Ground Truth Answer: \begin{pmatrix} 1/5 \\ -18/5 \end{pmatrix}
+Model Answer: 1
+Is Correct: False
+Correct Count: 320/409
+--------------------
+Ground Truth Answer: 2 \sqrt{5}
+Ground Truth Answer: 2 \sqrt{5}
+Model Answer: 2\sqrt{5}
+Is Correct: True
+Correct Count: 321/410
+--------------------
+Ground Truth Answer: 6
+Ground Truth Answer: 6
+Model Answer: 6
+Is Correct: True
+Correct Count: 322/411
+--------------------
+Ground Truth Answer: 60
+Ground Truth Answer: 60
+Model Answer: 60
+Is Correct: True
+Correct Count: 323/412
+--------------------
+Ground Truth Answer: 406
+Ground Truth Answer: 406
+Model Answer: 11
+Is Correct: False
+Correct Count: 323/413
+--------------------
+Ground Truth Answer: 5r^5
+Ground Truth Answer: 5r^5
+Model Answer: 5r^5
+Is Correct: True
+Correct Count: 324/414
+--------------------
+Ground Truth Answer: 10
+Ground Truth Answer: 10
+Model Answer: 10
+Is Correct: True
+Correct Count: 325/415
+--------------------
+Ground Truth Answer: 9
+Ground Truth Answer: 9
+Model Answer: 9
+Is Correct: True
+Correct Count: 326/416
+--------------------
+Ground Truth Answer: \frac{1}{8}
+Ground Truth Answer: \frac{1}{8}
+Model Answer: \frac{1}{8}
+Is Correct: True
+Correct Count: 327/417
+--------------------
+Ground Truth Answer: -2
+Ground Truth Answer: -2
+Model Answer: -2
+Is Correct: True
+Correct Count: 328/418
+--------------------
+Ground Truth Answer: 2\sqrt{5}
+Ground Truth Answer: 2\sqrt{5}
+Model Answer: 2\sqrt{5}
+Is Correct: True
+Correct Count: 329/419
+--------------------
+Ground Truth Answer: \begin{pmatrix} -7 \\ 16 \\ 5 \end{pmatrix}
+Ground Truth Answer: \begin{pmatrix} -7 \\ 16 \\ 5 \end{pmatrix}
+Model Answer: 900
+Is Correct: False
+Correct Count: 329/420
+--------------------
+Ground Truth Answer: \begin{pmatrix} 16/49 \\ 48/49 \\ 24/49 \end{pmatrix}
+Ground Truth Answer: \begin{pmatrix} 16/49 \\ 48/49 \\ 24/49 \end{pmatrix}
+Model Answer: \begin{pmatrix}\frac{16}{49}\\\frac{48}{49}\\\frac{24}{49}\end{pmatrix}
+Is Correct: True
+Correct Count: 330/421
+--------------------
+Ground Truth Answer: 27
+Ground Truth Answer: 27
+Model Answer: 4
+Is Correct: False
+Correct Count: 330/422
+--------------------
+Ground Truth Answer: \{1\pm\sqrt{5},-2\}
+Ground Truth Answer: \{1\pm\sqrt{5},-2\}
+Model Answer: 3
+Is Correct: False
+Correct Count: 330/423
+--------------------
+Ground Truth Answer: 1440
+Ground Truth Answer: 1440
+Model Answer: 1440
+Is Correct: True
+Correct Count: 331/424
+--------------------
+Ground Truth Answer: 600
+Ground Truth Answer: 600
+Model Answer: 600
+Is Correct: True
+Correct Count: 332/425
+--------------------
+Ground Truth Answer: 3R^2
+Ground Truth Answer: 3R^2
+Model Answer: 3R^2
+Is Correct: True
+Correct Count: 333/426
+--------------------
+Ground Truth Answer: 6\sqrt{2}
+Ground Truth Answer: 6\sqrt{2}
+Model Answer: 6\sqrt{2}
+Is Correct: True
+Correct Count: 334/427
+--------------------
+Ground Truth Answer: 29
+Ground Truth Answer: 29
+Model Answer: 29
+Is Correct: True
+Correct Count: 335/428
+--------------------
+Ground Truth Answer: 64
+Ground Truth Answer: 64
+Model Answer: 64
+Is Correct: True
+Correct Count: 336/429
+--------------------
+Ground Truth Answer: 50
+Ground Truth Answer: 50
+Model Answer: 50
+Is Correct: True
+Correct Count: 337/430
+--------------------
+Ground Truth Answer: 4.5
+Ground Truth Answer: 4.5
+Model Answer: 4.5
+Is Correct: True
+Correct Count: 338/431
+--------------------
+Ground Truth Answer: \left[ \frac{\pi^2}{8}, \frac{5 \pi^2}{4} \right]
+Ground Truth Answer: \left[ \frac{\pi^2}{8}, \frac{5 \pi^2}{4} \right]
+Model Answer: [\frac{\pi^2}{8},\frac{5\pi^2}{4}]
+Is Correct: True
+Correct Count: 339/432
+--------------------
+Ground Truth Answer: 331
+Ground Truth Answer: 331
+Model Answer: 331
+Is Correct: True
+Correct Count: 340/433
+--------------------
+Ground Truth Answer: .35625
+Ground Truth Answer: .35625
+Model Answer: 0.35625
+Is Correct: True
+Correct Count: 341/434
+--------------------
+Ground Truth Answer: 32
+Ground Truth Answer: 32
+Model Answer: 32
+Is Correct: True
+Correct Count: 342/435
+--------------------
+Ground Truth Answer: (-\infty, 2) \cup (3, \infty)
+Ground Truth Answer: (-\infty, 2) \cup (3, \infty)
+Model Answer: (-\infty,2)\cup(3,\infty)
+Is Correct: True
+Correct Count: 343/436
+--------------------
+Ground Truth Answer: 4
+Ground Truth Answer: 4
+Model Answer: 4
+Is Correct: True
+Correct Count: 344/437
+--------------------
+Ground Truth Answer: 3
+Ground Truth Answer: 3
+Model Answer: 3
+Is Correct: True
+Correct Count: 345/438
+--------------------
+Ground Truth Answer: 4
+Ground Truth Answer: 4
+Model Answer: 4
+Is Correct: True
+Correct Count: 346/439
+--------------------
+Ground Truth Answer: x^8 + x^7 + x^6 + x^5 + x^4 + x^3 + x^2 + x + 1
+Ground Truth Answer: x^8 + x^7 + x^6 + x^5 + x^4 + x^3 + x^2 + x + 1
+Model Answer: x^8+x^7+x^6+x^5+x^4+x^3+x^2+x+1
+Is Correct: True
+Correct Count: 347/440
+--------------------
+Ground Truth Answer: 14
+Ground Truth Answer: 14
+Model Answer: 14
+Is Correct: True
+Correct Count: 348/441
+--------------------
+Ground Truth Answer: 550
+Ground Truth Answer: 550
+Model Answer: 550
+Is Correct: True
+Correct Count: 349/442
+--------------------
+Ground Truth Answer: 256
+Ground Truth Answer: 256
+Model Answer: 256
+Is Correct: True
+Correct Count: 350/443
+--------------------
+Ground Truth Answer: 45
+Ground Truth Answer: 45
+Model Answer: 45
+Is Correct: True
+Correct Count: 351/444
+--------------------
+Ground Truth Answer: \frac{1}{2}
+Ground Truth Answer: \frac{1}{2}
+Model Answer: 8
+Is Correct: False
+Correct Count: 351/445
+--------------------
+Ground Truth Answer: 15
+Ground Truth Answer: 15
+Model Answer: -4
+Is Correct: False
+Correct Count: 351/446
+--------------------
+Ground Truth Answer: 8
+Ground Truth Answer: 8
+Model Answer: 8
+Is Correct: True
+Correct Count: 352/447
+--------------------
+Ground Truth Answer: 9
+Ground Truth Answer: 9
+Model Answer: 9
+Is Correct: True
+Correct Count: 353/448
+--------------------
+Ground Truth Answer: 44
+Ground Truth Answer: 44
+Model Answer: 44
+Is Correct: True
+Correct Count: 354/449
+--------------------
+Ground Truth Answer: 47
+Ground Truth Answer: 47
+Model Answer: 47
+Is Correct: True
+Correct Count: 355/450
+--------------------
+Ground Truth Answer: 64
+Ground Truth Answer: 64
+Model Answer: 64
+Is Correct: True
+Correct Count: 356/451
+--------------------
+Ground Truth Answer: \frac{639}{40}
+Ground Truth Answer: \frac{639}{40}
+Model Answer: \frac{639}{40}
+Is Correct: True
+Correct Count: 357/452
+--------------------
+Ground Truth Answer: 143
+Ground Truth Answer: 143
+Model Answer: 143
+Is Correct: True
+Correct Count: 358/453
+--------------------
+Ground Truth Answer: 10
+Ground Truth Answer: 10
+Model Answer: 10
+Is Correct: True
+Correct Count: 359/454
+--------------------
+Ground Truth Answer: y = 2x + 3
+Ground Truth Answer: y = 2x + 3
+Model Answer: 4
+Is Correct: False
+Correct Count: 359/455
+--------------------
+Ground Truth Answer: 6
+Ground Truth Answer: 6
+Model Answer: 6
+Is Correct: True
+Correct Count: 360/456
+--------------------
+Ground Truth Answer: -2,1
+Ground Truth Answer: -2,1
+Model Answer: 1,-2
+Is Correct: False
+Correct Count: 360/457
+--------------------
+Ground Truth Answer: 0
+Ground Truth Answer: 0
+Model Answer: 0
+Is Correct: True
+Correct Count: 361/458
+--------------------
+Ground Truth Answer: 41
+Ground Truth Answer: 41
+Model Answer: 41
+Is Correct: True
+Correct Count: 362/459
+--------------------
+Ground Truth Answer: \$18.90
+Ground Truth Answer: \$18.90
+Model Answer: 18.90
+Is Correct: True
+Correct Count: 363/460
+--------------------
+Ground Truth Answer: 75^\circ
+Ground Truth Answer: 75^\circ
+Model Answer: 105
+Is Correct: False
+Correct Count: 363/461
+--------------------
+Ground Truth Answer: 12
+Ground Truth Answer: 12
+Model Answer: 12
+Is Correct: True
+Correct Count: 364/462
+--------------------
+Ground Truth Answer: 59
+Ground Truth Answer: 59
+Model Answer: 59
+Is Correct: True
+Correct Count: 365/463
+--------------------
+Ground Truth Answer: 2
+Ground Truth Answer: 2
+Model Answer: 2
+Is Correct: True
+Correct Count: 366/464
+--------------------
+Ground Truth Answer: 9
+Ground Truth Answer: 9
+Model Answer: 9
+Is Correct: True
+Correct Count: 367/465
+--------------------
+Ground Truth Answer: 121
+Ground Truth Answer: 121
+Model Answer: 121
+Is Correct: True
+Correct Count: 368/466
+--------------------
+Ground Truth Answer: 8 \pi
+Ground Truth Answer: 8 \pi
+Model Answer: 6\pi
+Is Correct: False
+Correct Count: 368/467
+--------------------
+Ground Truth Answer: 15\mbox{ cm}^2
+Ground Truth Answer: 15\mbox{ cm}^2
+Model Answer: 15
+Is Correct: False
+Correct Count: 368/468
+--------------------
+Ground Truth Answer: 8
+Ground Truth Answer: 8
+Model Answer: 8
+Is Correct: True
+Correct Count: 369/469
+--------------------
+Ground Truth Answer: 25
+Ground Truth Answer: 25
+Model Answer: 25
+Is Correct: True
+Correct Count: 370/470
+--------------------
+Ground Truth Answer: 27648
+Ground Truth Answer: 27648
+Model Answer: 27648
+Is Correct: True
+Correct Count: 371/471
+--------------------
+Ground Truth Answer: 84
+Ground Truth Answer: 84
+Model Answer: 84
+Is Correct: True
+Correct Count: 372/472
+--------------------
+Ground Truth Answer: 137 \frac{1}{2}
+Ground Truth Answer: 137 \frac{1}{2}
+Model Answer: 137\frac{1}{2}
+Is Correct: True
+Correct Count: 373/473
+--------------------
+Ground Truth Answer: 7
+Ground Truth Answer: 7
+Model Answer: 7
+Is Correct: True
+Correct Count: 374/474
+--------------------
+Ground Truth Answer: 3
+Ground Truth Answer: 3
+Model Answer: 3
+Is Correct: True
+Correct Count: 375/475
+--------------------
+Ground Truth Answer: 29
+Ground Truth Answer: 29
+Model Answer: 288
+Is Correct: False
+Correct Count: 375/476
+--------------------
+Ground Truth Answer: 200
+Ground Truth Answer: 200
+Model Answer: 200
+Is Correct: True
+Correct Count: 376/477
+--------------------
+Ground Truth Answer: 2
+Ground Truth Answer: 2
+Model Answer: 2
+Is Correct: True
+Correct Count: 377/478
+--------------------
+Ground Truth Answer: \frac{2}{1005}
+Ground Truth Answer: \frac{2}{1005}
+Model Answer: 9
+Is Correct: False
+Correct Count: 377/479
+--------------------
+Ground Truth Answer: 2
+Ground Truth Answer: 2
+Model Answer: 2
+Is Correct: True
+Correct Count: 378/480
+--------------------
+Ground Truth Answer: 1
+Ground Truth Answer: 1
+Model Answer: 1
+Is Correct: True
+Correct Count: 379/481
+--------------------
+Ground Truth Answer: 8n^2 + 4n + 1
+Ground Truth Answer: 8n^2 + 4n + 1
+Model Answer: 2
+Is Correct: False
+Correct Count: 379/482
+--------------------
+Ground Truth Answer: 202
+Ground Truth Answer: 202
+Model Answer: 202
+Is Correct: True
+Correct Count: 380/483
+--------------------
+Ground Truth Answer: \frac{8}{15}
+Ground Truth Answer: \frac{8}{15}
+Model Answer: -4
+Is Correct: False
+Correct Count: 380/484
+--------------------
+Ground Truth Answer: 10
+Ground Truth Answer: 10
+Model Answer: 10
+Is Correct: True
+Correct Count: 381/485
+--------------------
+Ground Truth Answer: 13
+Ground Truth Answer: 13
+Model Answer: 16
+Is Correct: False
+Correct Count: 381/486
+--------------------
+Ground Truth Answer: 216
+Ground Truth Answer: 216
+Model Answer: 216
+Is Correct: True
+Correct Count: 382/487
+--------------------
+Ground Truth Answer: 2
+Ground Truth Answer: 2
+Model Answer: 2
+Is Correct: True
+Correct Count: 383/488
+--------------------
+Ground Truth Answer: \$36
+Ground Truth Answer: \$36
+Model Answer: 36
+Is Correct: True
+Correct Count: 384/489
+--------------------
+Ground Truth Answer: 15
+Ground Truth Answer: 15
+Model Answer: 15
+Is Correct: True
+Correct Count: 385/490
+--------------------
+Ground Truth Answer: 14
+Ground Truth Answer: 14
+Model Answer: 2
+Is Correct: False
+Correct Count: 385/491
+--------------------
+Ground Truth Answer: 64
+Ground Truth Answer: 64
+Model Answer: 64
+Is Correct: True
+Correct Count: 386/492
+--------------------
+Ground Truth Answer: y = -2x
+Ground Truth Answer: y = -2x
+Model Answer: -2x
+Is Correct: True
+Correct Count: 387/493
+--------------------
+Ground Truth Answer: 20
+Ground Truth Answer: 20
+Model Answer: 20
+Is Correct: True
+Correct Count: 388/494
+--------------------
+Ground Truth Answer: \frac{1}{4}
+Ground Truth Answer: \frac{1}{4}
+Model Answer: 1
+Is Correct: False
+Correct Count: 388/495
+--------------------
+Ground Truth Answer: (2,12) \cup (12,102)
+Ground Truth Answer: (2,12) \cup (12,102)
+Model Answer: (2,12)\cup(12,102)
+Is Correct: True
+Correct Count: 389/496
+--------------------
+Ground Truth Answer: \frac{5}{13}
+Ground Truth Answer: \frac{5}{13}
+Model Answer: \frac{5}{13}
+Is Correct: True
+Correct Count: 390/497
+--------------------
+Ground Truth Answer: \frac{7}{2}
+Ground Truth Answer: \frac{7}{2}
+Model Answer: 2
+Is Correct: False
+Correct Count: 390/498
+--------------------
+Ground Truth Answer: -1
+Ground Truth Answer: -1
+Model Answer: 1
+Is Correct: False
+Correct Count: 390/499
+--------------------
+Ground Truth Answer: 106^\circ
+Ground Truth Answer: 106^\circ
+Model Answer: 106
+Is Correct: True
+Correct Count: 391/500
+--------------------
