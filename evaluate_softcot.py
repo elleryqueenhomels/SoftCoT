@@ -179,7 +179,7 @@ for idx, ins in enumerate(tqdm(ds)):
 
     inputs = preprocess_method(
         ins, base_tokenizer, assistant_tokenizer, num_thought_tokens,
-        add_bot_eot=(num_thought_tokens > 0), split='test',
+        split='test',
         base_special_token=base_special_token,
         assistant_special_token=assistant_special_token,
         add_bot_eot=add_bot_eot,
