@@ -71,10 +71,16 @@ assistant_tokenizer = AutoTokenizer.from_pretrained(assistant_model_id, token=os
 if 'Llama' in base_model_id:
     base_special_token = ['<|end_of_text|>', '<|reserved_special_token_0|>', '<|reserved_special_token_1|>']
     base_backbone = 'llama'
+    add_bot_eot = True
 elif 'Qwen' in base_model_id:
     base_special_token = ['<|endoftext|>', '<|box_start|>', '<|box_end|>']
     # generation_config.pad_token_id = 151643
     base_backbone = 'qwen'
+    add_bot_eot = True
+elif 'Mistral' in base_model_id:
+    base_special_token = ['<unk>', '', '']
+    base_backbone = 'mistral'
+    add_bot_eot = False
 else:
     raise NotImplementedError
 if 'Llama' in assistant_model_id:
@@ -83,6 +89,9 @@ if 'Llama' in assistant_model_id:
 elif 'Qwen' in assistant_model_id:
     assistant_special_token = ['<|endoftext|>', '<|box_start|>', '<|box_end|>']
     assistant_backbone = 'qwen'
+elif 'Mistral' in base_model_id:
+    assistant_special_token = ['<unk>', '', '']
+    assistant_backbone = 'mistral'
 else:
     raise NotImplementedError
 
@@ -137,6 +146,8 @@ if base_backbone in ['llama']:
     generation_config.pad_token_id = 128009
 elif base_backbone in ['qwen']:
     generation_config.pad_token_id = 151643
+elif base_backbone in ['mistral']:
+    generation_config.pad_token_id = base_tokenizer.eos_token_id
 else:
     raise NotImplementedError
 generation_config.top_p = 1.0
@@ -171,6 +182,7 @@ for idx, ins in enumerate(tqdm(ds)):
         add_bot_eot=(num_thought_tokens > 0), split='test',
         base_special_token=base_special_token,
         assistant_special_token=assistant_special_token,
+        add_bot_eot=add_bot_eot,
         base_backbone=base_backbone,
         assistant_backbone=assistant_backbone,
         device=model.device,
