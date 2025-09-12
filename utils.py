@@ -292,7 +292,7 @@ def pre_process_gsm8k(
         },
     ]
 
-    if base_backbone in ['llama', 'qwen']:
+    if base_backbone in ['llama', 'qwen', 'mistral']:
         if split in ['train', 'dev']:
             input_ids = tokenizer.apply_chat_template(target_messages)[: max_len]
             pure_input_length = len(tokenizer.apply_chat_template(input_messages))
