@@ -65,9 +65,15 @@ assistant_tokenizer = AutoTokenizer.from_pretrained(small_model_id, token=os.env
 if 'Llama' in large_model_id:
     base_special_token = ['<|end_of_text|>', '<|reserved_special_token_0|>', '<|reserved_special_token_1|>']
     base_backbone = 'llama'
+    add_bot_eot = True
 elif 'Qwen' in large_model_id:
     base_special_token = ['<|endoftext|>', '<|box_start|>', '<|box_end|>']
     base_backbone = 'qwen'
+    add_bot_eot = True
+elif 'Mistral' in large_model_id:
+    base_special_token = ['<unk>', '', '']
+    base_backbone = 'mistral'
+    add_bot_eot = False
 else:
     raise NotImplementedError
 if 'Llama' in small_model_id:
@@ -76,6 +82,9 @@ if 'Llama' in small_model_id:
 elif 'Qwen' in small_model_id:
     assistant_special_token = ['<|endoftext|>', '<|box_start|>', '<|box_end|>']
     assistant_backbone = 'qwen'
+elif 'Mistral' in small_model_id:
+    assistant_special_token = ['<unk>', '', '']
+    assistant_backbone = 'mistral'
 else:
     raise NotImplementedError
 
@@ -141,6 +150,7 @@ for ins in tqdm(eval_dataset, desc='Preprocess Testing Set'):
             assistant_special_token=assistant_special_token,
             base_backbone=base_backbone,
             assistant_backbone=assistant_backbone,
+            add_bot_eot=add_bot_eot,
         )
     )
 
