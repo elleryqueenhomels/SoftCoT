@@ -145,7 +145,7 @@ for ins in tqdm(eval_dataset, desc='Preprocess Testing Set'):
     eval_rows.append(
         preprocess_method(
             ins, base_tokenizer, assistant_tokenizer, num_thought_tokens,
-            add_bot_eot=True, split='dev',
+            split='dev',
             base_special_token=base_special_token,
             assistant_special_token=assistant_special_token,
             base_backbone=base_backbone,
