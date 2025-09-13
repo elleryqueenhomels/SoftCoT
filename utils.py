@@ -968,7 +968,7 @@ def pre_process_math500(
         },
     ]
 
-    if base_backbone in ['llama', 'qwen']:
+    if base_backbone in ['llama', 'qwen', 'mistral']:
         if split in ['train', 'dev']:
             input_ids = tokenizer.apply_chat_template(target_messages)[: max_len]
             pure_input_length = len(tokenizer.apply_chat_template(input_messages))
@@ -1007,7 +1007,7 @@ def pre_process_math500(
 
     attention_mask = [1] * len(input_ids)
 
-    if assistant_backbone in ['llama']:
+    if assistant_backbone in ['llama', 'mistral']:
         assistant_template = (
             f'You are required to generate {num_thought_tokens} tokens to help another language model '
             f'to solve the following math reasoning task efficiently and clearly. '
@@ -1054,7 +1054,7 @@ def pre_process_math500(
     assistant_ids = assistant_tokenizer.apply_chat_template(assistant_messages)
     assistant_attention_mask = [1] * len(assistant_ids)
 
-    if base_backbone in ['llama', 'qwen', 'qwen3']:
+    if base_backbone in ['llama', 'qwen', 'qwen3', 'mistral']:
         input_thought_start_idx = pure_input_length - 1 - num_thought_tokens
         if add_bot_eot:
             input_thought_start_idx -= 1
@@ -1062,7 +1062,7 @@ def pre_process_math500(
             input_thought_start_idx -= 1
     else:
         raise NotImplementedError
-    if assistant_backbone in ['llama', 'qwen', 'qwen3']:
+    if assistant_backbone in ['llama', 'qwen', 'qwen3', 'mistral']:
         assistant_thought_start_idx = len(assistant_ids) - 1 - num_thought_tokens
         if assistant_backbone in ['qwen', 'qwen3']:
             assistant_thought_start_idx -= 1
