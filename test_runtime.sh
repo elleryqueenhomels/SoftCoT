@@ -54,7 +54,6 @@ assistant_model_name="${assistant_model_id#*/}"
 mkdir -p "${log_dir}"
 
 ######################### GSM8K #########################
-task_name="gsm8k"
 start_time=$(date +%s)
 
 echo ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
