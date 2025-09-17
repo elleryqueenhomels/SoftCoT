@@ -34,6 +34,7 @@ args.add_argument('--print_input', action='store_true', default=False)
 args.add_argument('--print_response', action='store_true', default=False)
 args.add_argument('--test_k', type=int, default=0)
 args.add_argument('--seed', type=int, default=42)
+args.add_argument('--max_new_tokens', type=int, default=1024)
 args.add_argument('--tune_base_model', action='store_true', default=False)
 args.add_argument('--tune_assistant_model', action='store_true', default=False)
 arg = args.parse_args()
@@ -53,6 +54,7 @@ test_k = arg.test_k
 seed = arg.seed
 tune_base_model = arg.tune_base_model
 tune_assistant_model = arg.tune_assistant_model
+max_new_tokens = arg.max_new_tokens
 
 large_model_name = base_model_id.split('/')[-1]
 small_model_name = assistant_model_id.split('/')[-1]
@@ -223,7 +225,7 @@ for idx, ins in enumerate(tqdm(ds)):
     outputs = model.base_model.generate(
         inputs_embeds=inputs_embeds,
         attention_mask=inputs['attention_mask'],
-        max_new_tokens=1024,
+        max_new_tokens=max_new_tokens,
         eos_token_id=terminators,
         do_sample=True,
         generation_config=generation_config,

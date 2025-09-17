@@ -8,6 +8,7 @@ base_model_ckpt="None"
 assistant_model_ckpt="None"
 num_thought_tokens=4
 num_return_sequences=1
+max_new_tokens=4096
 task_name="gsm8k"
 seed=42
 test_k=0
@@ -27,6 +28,7 @@ while [[ $# -gt 0 ]]; do
         --base_model_ckpt) base_model_ckpt="$2"; shift 2 ;;
         --num_thought_tokens) num_thought_tokens="$2"; shift 2 ;;
         --num_return_sequences) num_return_sequences="$2"; shift 2 ;;
+        --max_new_tokens) max_new_tokens="$2"; shift 2 ;;
         --task_name) task_name="$2"; shift 2 ;;
         --seed) seed="$2"; shift 2 ;;
         --test_k) test_k="$2"; shift 2 ;;
@@ -67,6 +69,7 @@ cmd="python evaluate_softcot.py \
 --base_model_ckpt \"${base_model_ckpt}\" \
 --num_thought_tokens ${num_thought_tokens} \
 --num_return_sequences ${num_return_sequences} \
+--max_new_tokens ${max_new_tokens} \
 --task_name \"${task_name}\" \
 --seed ${seed} \
 --test_k ${test_k}"
